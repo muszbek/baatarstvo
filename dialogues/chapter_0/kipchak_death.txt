@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Listen, young prince ...\" * cough cough *",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_1_dying/portrait_kipchak_1_dying_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_1_dying/portrait_kipchak_1_dying_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... This is just the beginning ...\""
+   },
+   {
+      "text":"\"... There is no stopping what comes ...\""
+   },
+   {
+      "text":"\"... Your entire realm will burn ...\""
+   },
+   {
+      "text":"\"... We are not ...\""
+   },
+   {
+      "text":"\"... We ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_1_dying/portrait_kipchak_1_dying_1.png"
+      ],
+   },
+   {
+      "text":"\".........\""
+   }
+]

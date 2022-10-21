@@ -1,0 +1,9 @@
+[
+   {
+      "text":"The training dummy does not talk.",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_training_dummy.png"
+      ],
+      "side":"right"
+   }
+]

@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"You're a good lad, Prince.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Let me give you some extra provisions.\""
+   },
+   {
+      "text":"\"Our best wine from last harvest.\""
+   },
+   {
+      "text":"\"May it lighten your soul.\""
+   },
+   {
+      "text":"\"Normally I need Brother Lev's permission for this ...\""
+   },
+   {
+      "text":"\"... but I have a feeling you have tough days ahead of you.\""
+   },
+   {
+      "text":"\"You'll need it.\""
+   }
+]

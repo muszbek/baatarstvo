@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Sire, have you spoken to the Bishop yet?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You can find him outside the chapel, he is giving a sermon.\""
+   },
+   {
+      "text":"\"The abbot may also be of help to you, while you are at it.\""
+   },
+   {
+      "text":"\"He has been quite hospitable thus far.\""
+   }
+]

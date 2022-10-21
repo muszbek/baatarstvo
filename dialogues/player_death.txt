@@ -1,0 +1,12 @@
+[
+   {
+      "text":"You fell in battle.",
+      "side":"none"
+   },
+   {
+      "text":"Your christian soul is not yet ready to meet the Lord."
+   },
+   {
+      "text":"Press 'E' to start over."
+   }
+]

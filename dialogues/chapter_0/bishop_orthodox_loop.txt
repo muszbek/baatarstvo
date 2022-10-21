@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"*So be strong and courageous! ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... Do not be afraid and do not panic before them. ...*\""
+   },
+   {
+      "text":"\"*... For the Lord your God ...*\""
+   },
+   {
+      "text":"\"*... will personally go ahead of you. ...*\""
+   },
+   {
+      "text":"\"*... He will neither fail you nor abandon you.*\""
+   }
+]

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://characters/MovingChar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/MeleeChar.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 3, 0.5 )
+
+[node name="MeleeChar" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="HitboxPivot" type="Position2D" parent="." index="4"]
+__meta__ = {
+"_gizmo_extents_": 4.0
+}
+
+[node name="MeleeHitbox" type="Area2D" parent="HitboxPivot" index="0"]
+collision_layer = 4
+collision_mask = 4
+
+[node name="HitboxCollision" type="CollisionShape2D" parent="HitboxPivot/MeleeHitbox" index="0"]
+position = Vector2( 0, 8.5 )
+shape = SubResource( 1 )
+disabled = true
+
+[connection signal="animation_finished" from="AnimatedSprite/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

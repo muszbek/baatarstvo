@@ -1,0 +1,14 @@
+[
+   {
+	"target":"aleksandr",
+      "text":"\"There it is, Sire!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We should be able to pass the river here safely.\""
+   }
+]

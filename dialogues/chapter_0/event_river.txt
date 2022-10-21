@@ -1,0 +1,20 @@
+[
+   {
+	"target":"aleksandr",
+      "text":"\"Sire, it appears that we cannot pass the river here ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... because of the spring floods.\""
+   },
+   {
+      "text":"\"I know of a passage further down Southwards ...\""
+   },
+   {
+      "text":"\"... that should still be available.\""
+   }
+]

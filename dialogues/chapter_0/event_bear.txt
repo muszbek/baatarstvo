@@ -1,0 +1,37 @@
+[
+   {
+      "target":"aleksandr",
+      "text":"\"Careful, Sire! Wild beasts are about!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "target":"bear",
+      "text":"\"Roarrrgh!!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_0.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_1.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_2.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_3.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"aleksandr",
+      "text":"\"We are fortunate ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... that its attack animaton is not yet implemented.\""
+   },
+   {
+      "text":"\"Otherwise we would be in grave danger.\""
+   }
+]

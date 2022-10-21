@@ -1,0 +1,14 @@
+[
+   {
+      "text":"\"Hoot hoot!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_0.png",
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_1.png",
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_2.png",
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_3.png",
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_4.png",
+         "res://assets/sprites/portraits/portrait_owl/portrait_owl_5.png"
+      ],
+      "side":"right"
+   }
+]

@@ -1,0 +1,11 @@
+[
+   {
+	"target":"monk_test",
+      "text":"Hey stranger. Come closer.",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_1_talk/monk_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_1_talk/monk_1_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

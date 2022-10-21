@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"Sire, has the bishop given you his leave?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We are to depart at once to the Eastern borders.\""
+   },
+   {
+      "text":"\"It has been decided that you are given a small escort.\""
+   },
+   {
+      "text":"\"A very small one indeed...\""
+   },
+   {
+      "text":"\"The garrison remains here at the monastery...\""
+   },
+   {
+      "text":"\"... and I shall personally accompany and guide you.\""
+   },
+   {
+      "text":"\"You see, Sire, these lads are not yet ready...\""
+   },
+   {
+      "text":"\"But worry not! I know these lands very well.\""
+   },
+   {
+      "text":"\"Let us head out before nightfall.\""
+   }
+]

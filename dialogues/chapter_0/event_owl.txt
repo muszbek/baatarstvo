@@ -1,0 +1,26 @@
+[
+   {
+	"target":"aleksandr",
+      "text":"\"Look, Sire! That bird over there...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\* does the sign of the cross *"
+   },
+   {
+      "text":"\"They say these devilish creatures live ...\""
+   },
+   {
+      "text":"\"... between our world and the spirit world!\""
+   },
+   {
+      "text":"\"If you stare into its eyes it will claim your soul!\""
+   },
+   {
+      "text":"\"Ehh... Not that I believe in such nonsense...\""
+   }
+]

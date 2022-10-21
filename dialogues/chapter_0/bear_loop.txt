@@ -1,0 +1,12 @@
+[
+   {
+      "text":"\"Roarrrgh!!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_0.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_1.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_2.png",
+         "res://assets/sprites/portraits/portrait_bear/portrait_bear_3.png"
+      ],
+      "side":"right"
+   }
+]

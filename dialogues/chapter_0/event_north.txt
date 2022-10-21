@@ -1,0 +1,14 @@
+[
+   {
+	"target":"aleksandr",
+      "text":"\"That path leads back to the city, Sire.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You just came from there.\""
+   }
+]

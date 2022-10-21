@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/RangedChar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/RangedEnemy.gd" type="Script" id=2]
+
+[node name="RangedEnemy" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+disabled = true
+
+[node name="LineOfSight" type="RayCast2D" parent="." index="5"]
+enabled = true
+cast_to = Vector2( 64, 0 )
+collision_mask = 9
+
+[connection signal="animation_finished" from="AnimatedSprite/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

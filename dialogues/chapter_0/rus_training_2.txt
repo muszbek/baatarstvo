@@ -1,0 +1,14 @@
+[
+   {
+      "target": "rus_training",
+      "text":"\"Your arm strikes true, Sire!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"May your enemies fall before you are felled!\""
+   }
+]

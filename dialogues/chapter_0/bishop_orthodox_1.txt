@@ -1,0 +1,62 @@
+[
+   {
+      "text":"\"Ah you made it, my child!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I was sent here by your father, same as yourself.\""
+   },
+   {
+      "text":"\"These rumors from the East... Steppe people, they say.\""
+   },
+   {
+      "text":"\"Understand this, my child, the situation is delicate...\""
+   },
+   {
+      "text":"\"We are not certain what to make of this pagan menace.\""
+   },
+   {
+      "text":"\"We have kept them at bay for decades, praise be the Lord.\""
+   },
+   {
+      "text":"\"It might be a ruse of the border cities ...\""
+   },
+   {
+      "text":"\"... to break away from our influence.\""
+   },
+   {
+      "text":"\"Your mission thereby is to investigate ...\""
+   },
+   {
+      "text":"\"... and excercise the authority of the Grand Prince.\""
+   },
+   {
+      "text":"\"I shall stay behind and follow you later.\""
+   },
+   {
+      "text":"\"These young soldiers are not yet ready and need guidance.\""
+   },
+   {
+      "text":"\"They are fresh levies from the riverlands.\""
+   },
+   {
+      "text":"\"Now before you depart, receive my blessing:\""
+   },
+   {
+      "text":"\"*Therefore, take up the full armor of God ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+      ]
+   },
+   {
+      "text":"\"*... so that you will be able to resist in the evil day ...*\""
+   },
+   {
+      "text":"\"*... and having done everything, to stand firm.*\""
+   }
+]

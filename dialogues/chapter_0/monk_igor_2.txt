@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"I don't mind your soldiers staying with us ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... they are good christian lads.\""
+   },
+   {
+      "text":"\"That bishop though, ordering us around ...\""
+   },
+   {
+      "text":"\"With respect, I hope he goes on to do the Lord's work ...\""
+   },
+   {
+      "text":"\"... at the borders. Rather sooner than later.\""
+   }
+]

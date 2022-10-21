@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Peace be with you, brother.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_2_talk/portrait_monk_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Peace ...\""
+   },
+   {
+      "text":"\"This winter has been unusually easy on us.\""
+   },
+   {
+      "text":"\"The spring wind brings something different ...\""
+   },
+   {
+      "text":"\"... from the East... War. I can feel it.\""
+   },
+   {
+      "text":"\"May the Lord give us all courage for what is coming.\""
+   },
+   {
+      "text":"\"Anyway, I prepared provisions for your departure:\""
+   },
+   {
+      "text":"\"Sour bread, dried meet and cheese. Enjoy.\""
+   }
+]

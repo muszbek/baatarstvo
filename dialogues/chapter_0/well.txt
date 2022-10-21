@@ -1,0 +1,6 @@
+[
+   {
+      "text":"You draw cold water from the well and freshen up.",
+      "side":"none"
+   }
+]

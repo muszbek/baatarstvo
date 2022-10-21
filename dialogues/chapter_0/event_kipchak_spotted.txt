@@ -1,0 +1,35 @@
+[
+   {
+      "script":"kipchak_spotted"
+   },
+   {
+      "target":"aleksandr",
+      "text":"\"Invaders?! This deep within our borders?!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_agitated/portrait_rus_1_agitated_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_agitated/portrait_rus_1_agitated_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"In the name of the ... !\""
+   },
+   {
+      "script":"shoot_aleksandr"
+   },
+   {
+      "target":"kipchak_spear",
+      "text":"\"Stay your hands, you fools!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"This one is royalty! We need him alive!\""
+   },
+   {
+      "script":"become_alert"
+   }
+]

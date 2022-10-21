@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"What are you doing out here? Are you lost?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_hooded_talk/portrait_monk_hooded_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_hooded_talk/portrait_monk_hooded_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

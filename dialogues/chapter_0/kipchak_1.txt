@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"You have a death wish? So be it!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"become_hostile"
+   }
+]

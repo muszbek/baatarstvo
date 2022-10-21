@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"Welcome to our training ground, Sire!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You would not wave your sword around these monks ...\""
+   },
+   {
+      "text":"\"... but this little area and outside of the walls ...\""
+   },
+   {
+      "text":"\"... is combat zone.\""
+   },
+   {
+      "text":"\"Sire, may you give the honor and spar with me?\""
+   },
+   {
+      "text":"\"Press 'SPACE' to attack!\""
+   }
+]

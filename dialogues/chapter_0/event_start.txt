@@ -1,0 +1,44 @@
+[
+   {
+	"target":"aleksandr",
+      "text":"\"Welcome, Sire! We must discuss. Press 'E' to listen.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I am sergeant Aleksandr, at your service.\""
+   },
+   {
+      "text":"\"This monastery is our current staging point out here.\""
+   },
+   {
+      "text":"\"I understand you are on a mission to the South-East ...\""
+   },
+   {
+      "text":"\"... to raise the banners and organize defenses ...\""
+   },
+   {
+      "text":"\"... addressing the troubles brewing at our borders.\""
+   },
+   {
+      "text":"\"I have orders from your Royal Father to assist you.\""
+   },
+   {
+      "text":"\"Bishop Konstantin arrived a few days before ...\""
+   },
+   {
+      "text":"\"... you should discuss with him before we head out.\""
+   },
+   {
+      "text":"\"Use the arrow keys or 'WASD' to move around.\""
+   },
+   {
+      "text":"\"You can find him outside the chapel, he is giving a sermon.\""
+   },
+   {
+      "text":"\"Press 'E' to address him. Or someone else.\""
+   }
+]

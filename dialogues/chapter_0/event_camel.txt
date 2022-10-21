@@ -1,0 +1,40 @@
+[
+   {
+      "target":"aleksandr",
+      "text":"\"That creature over there...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "target":"camel",
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_camel/portrait_camel_0.png",
+         "res://assets/sprites/portraits/portrait_camel/portrait_camel_1.png",
+         "res://assets/sprites/portraits/portrait_camel/portrait_camel_2.png",
+         "res://assets/sprites/portraits/portrait_camel/portrait_camel_3.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"aleksandr",
+      "text":"\"I have never seen the like of it.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"It is not native to these lands.\""
+   },
+   {
+      "text":"\"God knows, in the future ...\""
+   },
+   {
+      "text":"\"... on your journeys you might see such beasts, Sire.\""
+   }
+]

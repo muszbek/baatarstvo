@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"... The Lord is my shepperd; I shall not want ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_pray/portrait_rus_2_pray_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_pray/portrait_rus_2_pray_1.png"
+      ],
+      "side":"right"
+   }
+]

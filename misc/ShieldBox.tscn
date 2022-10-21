@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 6, 0.5 )
+
+[node name="ShieldBox" type="Position2D"]
+__meta__ = {
+"_gizmo_extents_": 4.0
+}
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+collision_layer = 256
+collision_mask = 256
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( 0, 9.5 )
+shape = SubResource( 1 )
