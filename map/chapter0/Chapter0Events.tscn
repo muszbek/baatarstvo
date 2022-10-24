@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://events/Chapter0/StartEvent.tscn" type="PackedScene" id=1]
 [ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=2]
@@ -13,6 +13,11 @@
 [ext_resource path="res://events/Chapter0/KipchakDeathEvent.tscn" type="PackedScene" id=11]
 [ext_resource path="res://events/Chapter0/EndEvent.tscn" type="PackedScene" id=12]
 [ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=13]
+[ext_resource path="res://events/Chapter0/MusicMonasteryEnterEvent.tscn" type="PackedScene" id=14]
+[ext_resource path="res://events/Chapter0/MusicMonasteryReenterEvent.tscn" type="PackedScene" id=15]
+[ext_resource path="res://events/Chapter0/MusicForestEvent.tscn" type="PackedScene" id=16]
+[ext_resource path="res://events/Chapter0/MusicTensionEvent.tscn" type="PackedScene" id=17]
+[ext_resource path="res://events/Chapter0/MusicEndEvent.tscn" type="PackedScene" id=18]
 
 [node name="Chapter0Events" type="Node2D"]
 
@@ -59,4 +64,24 @@ position = Vector2( 1563, 157 )
 position = Vector2( 1666, 298 )
 
 [node name="PlayerStartPos" parent="." instance=ExtResource( 13 )]
-position = Vector2( 175, 86 )
+position = Vector2( 176, 86 )
+
+[node name="MusicMonasteryEnterEvent" parent="." instance=ExtResource( 14 )]
+position = Vector2( 178, 86 )
+TITLE = "res://assets/music/chant_1.mp3"
+
+[node name="MusicMonasteryReenterEvent" parent="." instance=ExtResource( 15 )]
+position = Vector2( 167, 22 )
+TITLE = "res://assets/music/chant_1.mp3"
+
+[node name="MusicForestEvent" parent="." instance=ExtResource( 16 )]
+position = Vector2( 166, -9 )
+TITLE = "res://assets/music/ambient_1.mp3"
+
+[node name="MusicTensionEvent" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1470, 187 )
+TITLE = "res://assets/music/tension_1.mp3"
+
+[node name="MusicEndEvent" parent="." instance=ExtResource( 18 )]
+position = Vector2( 1666, 298 )
+TITLE = "res://assets/music/chant_2.mp3"

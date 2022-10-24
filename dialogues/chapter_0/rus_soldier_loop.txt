@@ -6,5 +6,8 @@
          "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
       ],
       "side":"right"
+   },
+   {
+      "text":"\"Talk to the corporal, he is standing in the middle.\""
    }
 ]

@@ -1,11 +1,12 @@
 extends "res://characters/Follower.gd"
 
-enum states {START, BISHOP_SPOKEN, FOLLOWING, SCRIPT_MOVE, SCRIPT_STOP, DEAD}
+enum states {START, BISHOP_SPOKEN, FOLLOWING, DEBLOCKING, SCRIPT_MOVE, SCRIPT_STOP, DEAD}
 
 const DIALOGUE_FIND_BISHOP = "res://dialogues/chapter_0/aleksandr_1.txt"
 const DIALOGUE_HEAD_OUT_BRIEF = "res://dialogues/chapter_0/aleksandr_2.txt"
 const DIALOGUE_FOLLOW_LOOP = "res://dialogues/chapter_0/aleksandr_loop.txt"
 const SCRIPT_NAME = "kipchak_spotted"
+const SCRIPT_MOVE_TARGET_TOLERANCE = 10
 signal ready_to_leave
 
 onready var script_move_target = get_tree().get_nodes_in_group("kipchak_spotted_pos")[-1]
@@ -21,7 +22,11 @@ func _physics_process(_delta):
 		states.FOLLOWING:
 			follow_with_distance()
 			move()
-			deblock()
+			deblock_self(states.FOLLOWING)
+		states.DEBLOCKING:
+			move_away_to_distance(states.FOLLOWING)
+			move()
+			deblock_self(states.FOLLOWING)
 		states.SCRIPT_MOVE:
 			move()
 			check_script_movement_end()
@@ -41,6 +46,7 @@ func _on_Interactionbox_area_entered(_area):
 		states.FOLLOWING:
 			json_resource = DIALOGUE_FOLLOW_LOOP
 			speak()
+			state = states.DEBLOCKING
 
 func _on_Hurtbox_area_entered(_area):
 	state = states.DEAD
@@ -63,7 +69,9 @@ func kipchak_spotted_scipt():
 	state = states.SCRIPT_MOVE
 
 func check_script_movement_end():
-	if script_move_target.global_position.distance_to(global_position) < 10:
+	var distance_to_target = script_move_target.global_position.distance_to(global_position)
+	
+	if  distance_to_target < SCRIPT_MOVE_TARGET_TOLERANCE:
 		facing = directions.RIGHT
 		stop_pathfinding()
 		state = states.SCRIPT_STOP

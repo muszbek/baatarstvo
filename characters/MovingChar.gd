@@ -44,7 +44,7 @@ func move():
 	adjust_facing_by_movement()
 	move_animate(velocity)
 	return move_and_slide(velocity)
-	
+
 func move_animate(movement_vector: Vector2):
 	if movement_vector.length() > 0:
 		walk_animate()

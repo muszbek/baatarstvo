@@ -102,6 +102,7 @@ pointing/emulate_touch_from_mouse=true
 2d_physics/layer_7="event_boxes"
 2d_physics/layer_8="pacific_area"
 2d_physics/layer_9="shield"
+2d_physics/layer_10="music_event_boxes"
 
 [physics]
 

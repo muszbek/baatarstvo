@@ -1,0 +1,53 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/buttons/button_up.png" type="Texture" id=1]
+[ext_resource path="res://assets/buttons/button_up_pressed.png" type="Texture" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 7.0
+height = 4.0
+
+[node name="ArrowButtonPad" type="Node2D"]
+
+[node name="ButtonUp" type="TouchScreenButton" parent="."]
+position = Vector2( 15, 1 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 1 )
+action = "move_up"
+
+[node name="ButtonRight" type="TouchScreenButton" parent="."]
+position = Vector2( 45, 15 )
+rotation = 1.5708
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 2 )
+action = "move_right"
+
+[node name="ButtonDown" type="TouchScreenButton" parent="."]
+position = Vector2( 31, 45 )
+rotation = 3.14159
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 3 )
+action = "move_down"
+
+[node name="ButtonLeft" type="TouchScreenButton" parent="."]
+position = Vector2( 1, 31 )
+rotation = 4.71239
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 4 )
+action = "move_left"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/chant_2.mp3-6016e3822e38a3fa613acbb0457e496c.mp3str"
+
+[deps]
+
+source_file="res://assets/music/chant_2.mp3"
+dest_files=[ "res://.import/chant_2.mp3-6016e3822e38a3fa613acbb0457e496c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

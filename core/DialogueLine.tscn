@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://core/DialogueLine.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/celtic_bit/font_latin.tres" type="DynamicFont" id=2]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 1.0 ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "show_text"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+
+[node name="DialogueLine" type="Control"]
+margin_right = 160.0
+margin_bottom = 48.0
+script = ExtResource( 1 )
+
+[node name="PortraitBox" type="ColorRect" parent="."]
+margin_left = 120.0
+margin_top = 8.0
+margin_right = 152.0
+margin_bottom = 40.0
+color = Color( 0.301961, 0.301961, 0.301961, 1 )
+
+[node name="PortraitSprite" type="AnimatedSprite" parent="PortraitBox"]
+frames = SubResource( 1 )
+centered = false
+
+[node name="Label" type="Label" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 112.0
+margin_bottom = 40.0
+custom_colors/font_color = Color( 0.301961, 0.301961, 0.301961, 1 )
+custom_fonts/font = ExtResource( 2 )
+align = 1
+valign = 1
+autowrap = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
+anims/RESET = SubResource( 2 )
+anims/show_text = SubResource( 3 )
+
+[connection signal="animation_finished" from="Label/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

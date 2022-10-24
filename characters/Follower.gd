@@ -12,6 +12,18 @@ func follow_with_distance():
 	else:
 		stop_pathfinding()
 
-func deblock():
+func deblock_self(next_state):
 	if global_position.distance_to(navigation_target) > max_distance:
 		set_deferred("global_position", navigation_target - Vector2(20, 0))
+		state = next_state
+
+func move_away_to_distance(next_state):
+	if global_position.distance_to(player.global_position) < distance_to_keep:
+		move_away_from_player()
+	else:
+		velocity = Vector2.ZERO
+		state = next_state
+
+func move_away_from_player():
+	var move_vector = global_position - player.global_position
+	velocity = move_vector.normalized() * speed
