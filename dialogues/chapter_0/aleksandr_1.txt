@@ -14,6 +14,6 @@
       "text":"\"The abbot may also be of help to you, while you are at it.\""
    },
    {
-      "text":"\"He has been quite hospitable thus far.\""
+      "text":"\"He has been most hospitable thus far.\""
    }
 ]

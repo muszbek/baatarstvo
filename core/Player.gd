@@ -106,7 +106,7 @@ func dialogue_finished():
 		states.DIALOGUE:
 			state = states.MOVE
 		states.DEAD:
-			game.emit_signal("restart")
+			game.current_chapter.emit_signal("restart")
 
 func death():
 	state = states.DEAD

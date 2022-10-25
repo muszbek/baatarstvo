@@ -56,8 +56,12 @@ facing = 2
 position = Vector2( 16, 124 )
 facing = 2
 
-[node name="HorseReined" parent="." instance=ExtResource( 4 )]
+[node name="HorseReined" parent="." groups=["character"] instance=ExtResource( 4 )]
 position = Vector2( 104, 56 )
+collision_layer = 3
+collision_mask = 3
+collision/safe_margin = 0.001
+speed = 24
 
 [node name="Horse" parent="." instance=ExtResource( 5 )]
 position = Vector2( 56, 24 )
@@ -66,12 +70,8 @@ position = Vector2( 56, 24 )
 position = Vector2( 39, 32 )
 facing = 3
 
-[node name="Aleksandr" parent="." groups=["aleksandr", "character"] instance=ExtResource( 6 )]
+[node name="Aleksandr" parent="." groups=["aleksandr"] instance=ExtResource( 6 )]
 position = Vector2( 200, 86 )
-collision_layer = 3
-collision_mask = 3
-collision/safe_margin = 0.001
-speed = 24
 
 [node name="MonkAbbot" parent="." instance=ExtResource( 7 )]
 position = Vector2( 217, 96 )

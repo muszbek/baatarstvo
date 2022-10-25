@@ -1,15 +1,12 @@
 extends Node
 
-signal restart
-
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"
 
-var current_chapter_path = "res://map/chapter0/Chapter0.tscn"
+var current_chapter_path = "res://map/chapter0/Chapter0Loader.tscn"
 var current_chapter
 var saved_game: Dictionary = {}
 
 func _ready():
-	var _err = connect("restart", self, "on_restart")
 	load_chapter()
 
 func load_chapter():
@@ -17,10 +14,6 @@ func load_chapter():
 	var chapter_instance = chapter_loaded.instance()
 	add_child(chapter_instance)
 	current_chapter = chapter_instance
-
-func on_restart():
-	current_chapter.queue_free()
-	load_chapter()
 
 func on_chapter_finish():
 	current_chapter.queue_free()

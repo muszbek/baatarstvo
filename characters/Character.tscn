@@ -58,13 +58,13 @@ tracks/0/keys = {
 }
 
 [sub_resource type="RectangleShape2D" id=79]
-extents = Vector2( 8, 8 )
+extents = Vector2( 7, 8 )
 
 [sub_resource type="RectangleShape2D" id=80]
-extents = Vector2( 8, 8 )
+extents = Vector2( 7, 8 )
 
 [sub_resource type="RectangleShape2D" id=81]
-extents = Vector2( 8, 8 )
+extents = Vector2( 7, 8 )
 
 [node name="Character" type="KinematicBody2D" groups=["character"]]
 collision_layer = 3

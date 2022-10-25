@@ -63,6 +63,10 @@ region = Rect2( 0, 160, 16, 16 )
 atlas = ExtResource( 5 )
 region = Rect2( 0, 176, 16, 16 )
 
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 16, 16 )
+
 [sub_resource type="AtlasTexture" id=20]
 atlas = ExtResource( 2 )
 region = Rect2( 0, 0, 16, 16 )
@@ -70,10 +74,6 @@ region = Rect2( 0, 0, 16, 16 )
 [sub_resource type="AtlasTexture" id=21]
 atlas = ExtResource( 2 )
 region = Rect2( 0, 16, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 6 )
-region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=18]
 atlas = ExtResource( 1 )
@@ -95,9 +95,9 @@ animations = [ {
 "name": "death",
 "speed": 6.0
 }, {
-"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"frames": [ SubResource( 16 ) ],
 "loop": true,
-"name": "idle_front",
+"name": "dead",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 20 ), SubResource( 21 ) ],
@@ -105,9 +105,9 @@ animations = [ {
 "name": "praying_right",
 "speed": 1.0
 }, {
-"frames": [ SubResource( 16 ) ],
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
 "loop": true,
-"name": "dead",
+"name": "idle_front",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 18 ), SubResource( 19 ) ],
