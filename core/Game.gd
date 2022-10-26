@@ -1,5 +1,6 @@
 extends Node
 
+const START_SCREEN = "res://screens/StartScreen.tscn"
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"
 
 var current_chapter_path = "res://map/chapter0/Chapter0Loader.tscn"
@@ -7,7 +8,15 @@ var current_chapter
 var saved_game: Dictionary = {}
 
 func _ready():
+	var screen = load_start_screen()
+	yield(screen, "start_screen_finished")
 	load_chapter()
+
+func load_start_screen():
+	var start_screen_loaded = load(START_SCREEN)
+	var start_screen_instance = start_screen_loaded.instance()
+	add_child(start_screen_instance)
+	return start_screen_instance
 
 func load_chapter():
 	var chapter_loaded = load(current_chapter_path)

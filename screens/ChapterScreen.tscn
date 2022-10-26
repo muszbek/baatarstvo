@@ -148,7 +148,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id=14]
 resource_name = "wait"
-length = 4.0
+length = 5.0
 step = 1.0
 
 [node name="ChapterScreen" type="Node2D"]
