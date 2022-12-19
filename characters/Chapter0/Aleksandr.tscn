@@ -9,7 +9,7 @@
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_walk_back.png" type="Texture" id=7]
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_walk_right.png" type="Texture" id=8]
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_walk_left.png" type="Texture" id=9]
-[ext_resource path="res://characters/Chapter0/Aleksandr.gd" type="Script" id=10]
+[ext_resource path="res://characters/chapter0/Aleksandr.gd" type="Script" id=10]
 [ext_resource path="res://assets/sprites/human/human_death.png" type="Texture" id=11]
 [ext_resource path="res://assets/sprites/human/human_dead.png" type="Texture" id=12]
 

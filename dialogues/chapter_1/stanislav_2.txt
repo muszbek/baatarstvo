@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"So now you have full knowledge of the situation.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I have already sent an envoy to report to my liege ...\""
+   },
+   {
+      "text":"\"You should make haste and report to yours.\""
+   },
+   {
+      "text":"\"The Grand Prince needs to know about this.\""
+   },
+   {
+      "text":"\"They shall decide what to do.\""
+   },
+   {
+      "text":"\"Head down to the stables ...\""
+   },
+   {
+      "text":"\"... and take one of the freshly prepared horses.\""
+   },
+   {
+      "text":"\"May the Lord watch on your way.\""
+   }
+]

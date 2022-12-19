@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"The captain has cleared you to step outside ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and enter the steppe people's camp.\""
+   }
+]

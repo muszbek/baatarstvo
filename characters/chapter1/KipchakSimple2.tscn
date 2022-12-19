@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/chapter1/KipchakSpearman.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter1/KipchakSimple2.gd" type="Script" id=2]
+
+[node name="KipchakSimple2" instance=ExtResource( 1 )]
+script = ExtResource( 2 )

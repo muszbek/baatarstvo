@@ -1,6 +1,6 @@
 [
    {
-	"target":"aleksandr",
+      "target":"aleksandr",
       "text":"\"Welcome, Sire! We must discuss. Press 'E' to listen.\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
@@ -30,7 +30,7 @@
       "text":"\"Bishop Konstantin arrived a few days before ...\""
    },
    {
-      "text":"\"... you should discuss with him before we head out.\""
+      "text":"\"... you should consult with him before we head out.\""
    },
    {
       "text":"\"Use the arrow keys or 'WASD' to move around.\""

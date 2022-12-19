@@ -21,7 +21,9 @@ func _physics_process(_delta):
 		states.DEAD:
 			pass
 
-func _on_Hurtbox_area_entered(_area):
+func _on_Hurtbox_area_entered(area):
+	if area.name == "Hurtbox": return
+	
 	state = states.DEAD
 	death()
 

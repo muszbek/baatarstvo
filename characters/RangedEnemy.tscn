@@ -5,9 +5,7 @@
 
 [node name="RangedEnemy" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-
-[node name="CollisionShape2D" parent="." index="1"]
-disabled = true
+behavior = 2
 
 [node name="LineOfSight" type="RayCast2D" parent="." index="5"]
 enabled = true

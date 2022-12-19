@@ -15,7 +15,7 @@
 [ext_resource path="res://assets/sprites/human/kipchak/kipchak_spear_attack_right.png" type="Texture" id=13]
 [ext_resource path="res://assets/sprites/human/human_death.png" type="Texture" id=14]
 [ext_resource path="res://assets/sprites/human/human_dead.png" type="Texture" id=15]
-[ext_resource path="res://characters/Chapter0/KipchakSpear.gd" type="Script" id=16]
+[ext_resource path="res://characters/chapter0/KipchakSpear.gd" type="Script" id=16]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )

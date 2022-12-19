@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Stand down soldier! We're on your side!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"What are you doing out here by yourself?\""
+   },
+   {
+      "text":"\"We shall escort you back to the outpost ...\""
+   },
+   {
+      "text":"\"... you can explain your business to the captain.\""
+   },
+   {
+      "text":"\"Head due East, we shall follow right behind.\""
+   }
+]

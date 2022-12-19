@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://events/EventZone.tscn" type="PackedScene" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 30.5 )
+
+[node name="WrongWayEvent" instance=ExtResource( 1 )]
+DIALOGUE = "res://dialogues/chapter_1/event_wrong_way.txt"
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2( 0, 20.5 )
+shape = SubResource( 1 )

@@ -1,0 +1,47 @@
+[
+   {
+      "target":"bishop_orthodox",
+      "text":"\"We meet again, my child!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"On the battlefield this time.\""
+   },
+   {
+      "text":"\"Your mission at the borders is considered a success ...\""
+   },
+   {
+      "text":"\"... and no harm came to you on the way, praise be the Lord.\""
+   },
+   {
+      "text":"\"Your report has been instrumental ...\""
+   },
+   {
+      "text":"\"... in getting the principalities to rally for defense.\""
+   },
+   {
+      "text":"\"We now face the army of this Eastern empire together ...\""
+   },
+   {
+      "text":"\"... and even the steppe people bordering our realm stand with us.\""
+   },
+   {
+      "text":"\"The enemy has sent an envoy to our camp ...\""
+   },
+   {
+      "text":"\"... doubtless to spy on us and spread deception.\""
+   },
+   {
+      "text":"\"You are to meet them at the Eastern side of the camp.\""
+   },
+   {
+      "text":"\"There shall be no negotiations...\""
+   },
+   {
+      "text":"\"Our orders are clear. Execute them all.\""
+   }
+]

@@ -6,7 +6,7 @@
 extents = Vector2( 4, 22 )
 
 [node name="MusicTensionEvent" instance=ExtResource( 1 )]
-TITLE = "tension_theme"
+TITLE = "res://assets/music/tension_1.mp3"
 
 [node name="CollisionShape2D" parent="." index="0"]
 position = Vector2( 0, 12 )

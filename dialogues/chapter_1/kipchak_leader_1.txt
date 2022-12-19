@@ -1,0 +1,52 @@
+[
+   {
+      "text":"\"We are not your enemy ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_2_talk/portrait_kipchak_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_2_talk/portrait_kipchak_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... The true menace that you are looking for.\""
+   },
+   {
+      "text":"\"The Horde is.\""
+   },
+   {
+      "text":"\"It is them, who are chasing us into your lands.\""
+   },
+   {
+      "text":"\"Do not underestimate them ...\""
+   },
+   {
+      "text":"\"... For their generals are cunning and deceitful.\""
+   },
+   {
+      "text":"\"Their army came from the South.\""
+   },
+   {
+      "text":"\"We faced them alongside with other steppe tribes.\""
+   },
+   {
+      "text":"\"They claimed to have quarrels only with those lesser tribes ...\""
+   },
+   {
+      "text":"\"... and offered us peace.\""
+   },
+   {
+      "text":"\"After they destroyed our allies, they turned on us.\""
+   },
+   {
+      "text":"\"Do not make the same mistake we did!\""
+   },
+   {
+      "text":"\"Our Khan is bound by blood to your leaders.\""
+   },
+   {
+      "text":"\"We come to ask upon this bond and stand united!\""
+   },
+   {
+      "text":"\"Now go back to your captain, I have spoken.\""
+   }
+]

@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 [node name="MusicMonasteryEnterEvent" instance=ExtResource( 1 )]
-TITLE = "monastery_theme"
+TITLE = "res://assets/music/chant_1.mp3"
 
 [node name="CollisionShape2D" parent="." index="0"]
 shape = SubResource( 1 )

@@ -1,0 +1,248 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://characters/chapter1/Bear.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter1/Peasant1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter1/Peasant2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter1/PeasantWoman.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter1/KipchakArcher.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter1/KipchakSpear.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter1/RiderScout.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter1/RusSwordsmanGuardWest.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter1/Stanislav.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter1/RusSwordsmanGuardEast.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter1/PriestOrthodox.tscn" type="PackedScene" id=11]
+[ext_resource path="res://characters/chapter1/Horse.tscn" type="PackedScene" id=12]
+[ext_resource path="res://characters/chapter1/HorseReined.tscn" type="PackedScene" id=13]
+[ext_resource path="res://characters/chapter1/RusSwordsmanSimple1.tscn" type="PackedScene" id=14]
+[ext_resource path="res://characters/chapter1/RusSwordsmanSimple2.tscn" type="PackedScene" id=15]
+[ext_resource path="res://characters/chapter1/RusSwordsmanSimple3.tscn" type="PackedScene" id=16]
+[ext_resource path="res://characters/chapter1/KipchakLeader.tscn" type="PackedScene" id=17]
+[ext_resource path="res://characters/chapter1/KipchakSimple1.tscn" type="PackedScene" id=18]
+[ext_resource path="res://characters/chapter1/KipchakSimple3.tscn" type="PackedScene" id=19]
+[ext_resource path="res://characters/chapter1/KipchakSimple2.tscn" type="PackedScene" id=20]
+
+[node name="Chapter1Chars" type="Node2D"]
+
+[node name="Bear1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 440, 56 )
+
+[node name="Bear2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1112, -312 )
+can_be_saved = false
+
+[node name="Peasant1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 568, -312 )
+
+[node name="Peasant2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 584, -328 )
+
+[node name="PeasantWoman" parent="." instance=ExtResource( 4 )]
+position = Vector2( 552, -328 )
+
+[node name="KipchakArcher1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 872, -152 )
+facing = 2
+can_be_saved = false
+
+[node name="KipchakArcher2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 872, -104 )
+facing = 2
+can_be_saved = false
+
+[node name="KipchakArcher3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1064, -136 )
+facing = 2
+can_be_saved = false
+
+[node name="KipchakSpear1" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1000, -136 )
+facing = 3
+can_be_saved = false
+enemy_group = "bonfire_group"
+
+[node name="KipchakSpear2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1016, -168 )
+can_be_saved = false
+enemy_group = "bonfire_group"
+
+[node name="KipchakSpear3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1048, -168 )
+can_be_saved = false
+enemy_group = "bonfire_group"
+
+[node name="KipchakSpear4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1016, -104 )
+facing = 1
+can_be_saved = false
+enemy_group = "bonfire_group"
+
+[node name="KipchakSpear5" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1048, -104 )
+facing = 1
+can_be_saved = false
+enemy_group = "bonfire_group"
+
+[node name="KipchakSpear6" parent="." instance=ExtResource( 6 )]
+position = Vector2( 904, -136 )
+facing = 2
+can_be_saved = false
+enemy_group = "bridge_group"
+
+[node name="KipchakSpear7" parent="." instance=ExtResource( 6 )]
+position = Vector2( 904, -104 )
+facing = 2
+can_be_saved = false
+enemy_group = "bridge_group"
+
+[node name="RiderScout1" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1560, -120 )
+can_be_saved = false
+
+[node name="RiderScout2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1592, -120 )
+can_be_saved = false
+
+[node name="RusSwordsmanGuardWest1" parent="." instance=ExtResource( 8 )]
+position = Vector2( 2040, 23 )
+speed = 24
+facing = 2
+can_be_saved = false
+open_gate_target_name = "open_gate_pos_west_up"
+
+[node name="RusSwordsmanGuardWest2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 2040, 41 )
+speed = 24
+facing = 2
+can_be_saved = false
+open_gate_target_name = "open_gate_pos_west_down"
+
+[node name="Stanislav" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2120, -54 )
+speed = 24
+can_be_saved = false
+
+[node name="RusSwordsmanGuard1" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2264, 23 )
+speed = 24
+facing = 3
+can_be_saved = false
+open_gate_target_name = "open_gate_pos_east_up"
+
+[node name="RusSwordsmanGuard2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2264, 41 )
+speed = 24
+facing = 3
+can_be_saved = false
+open_gate_target_name = "open_gate_pos_east_down"
+
+[node name="PriestOrthodox" parent="." instance=ExtResource( 11 )]
+position = Vector2( 2200, -87 )
+can_be_saved = false
+
+[node name="Horse1" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2088, 153 )
+can_be_saved = false
+
+[node name="Horse2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2072, 169 )
+can_be_saved = false
+
+[node name="HorseReined" parent="." instance=ExtResource( 13 )]
+position = Vector2( 2072, 135 )
+facing = 3
+can_be_saved = false
+
+[node name="RusSwordsmanSimple1_1" parent="." instance=ExtResource( 14 )]
+position = Vector2( 2152, -10 )
+can_be_saved = false
+
+[node name="RusSwordsmanSimple1_2" parent="." instance=ExtResource( 14 )]
+position = Vector2( 2152, 58 )
+facing = 1
+can_be_saved = false
+
+[node name="RusSwordsmanSimple1_3" parent="." instance=ExtResource( 14 )]
+position = Vector2( 2232, 135 )
+can_be_saved = false
+
+[node name="RusSwordsmanSimple2_1" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2120, 24 )
+speed = 24
+facing = 3
+can_be_saved = false
+
+[node name="RusSwordsmanSimple2_2" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2184, 135 )
+speed = 24
+can_be_saved = false
+
+[node name="RusSwordsmanSimple2_3" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2248, 152 )
+speed = 24
+facing = 2
+can_be_saved = false
+
+[node name="RusSwordsmanSimple3_1" parent="." instance=ExtResource( 16 )]
+position = Vector2( 2184, 24 )
+speed = 24
+facing = 2
+can_be_saved = false
+
+[node name="RusSwordsmanSimple3_2" parent="." instance=ExtResource( 16 )]
+position = Vector2( 2088, 136 )
+speed = 24
+facing = 2
+can_be_saved = false
+
+[node name="Horse3" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2440, -72 )
+can_be_saved = false
+
+[node name="Horse4" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2456, -56 )
+can_be_saved = false
+
+[node name="Horse5" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2536, 56 )
+facing = 3
+can_be_saved = false
+
+[node name="Horse6" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2552, 72 )
+can_be_saved = false
+
+[node name="Horse7" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2504, 104 )
+can_be_saved = false
+
+[node name="Horse8" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2488, 120 )
+can_be_saved = false
+
+[node name="KipchakLeader" parent="." instance=ExtResource( 17 )]
+position = Vector2( 2408, 24 )
+facing = 2
+can_be_saved = false
+
+[node name="KipchakSimple1_1" parent="." instance=ExtResource( 18 )]
+position = Vector2( 2424, -56 )
+can_be_saved = false
+
+[node name="KipchakSimple1_2" parent="." instance=ExtResource( 18 )]
+position = Vector2( 2456, 58 )
+facing = 1
+can_be_saved = false
+
+[node name="KipchakSimple2_1" parent="." instance=ExtResource( 20 )]
+position = Vector2( 2488, 24 )
+facing = 2
+can_be_saved = false
+
+[node name="KipchakSimple2_2" parent="." instance=ExtResource( 20 )]
+position = Vector2( 2472, 103 )
+facing = 3
+can_be_saved = false
+
+[node name="KipchakSimple3" parent="." instance=ExtResource( 19 )]
+position = Vector2( 2456, -10 )
+can_be_saved = false

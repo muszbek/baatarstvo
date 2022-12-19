@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Watch out for bears in the woods!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peasant_2_talk/portrait_peasant_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_peasant_2_talk/portrait_peasant_2_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

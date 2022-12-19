@@ -46,6 +46,7 @@ func death():
 	$CollisionShape2D.set_deferred("disabled", true)
 	get_node("Hurtbox/CollisionShape2D").set_deferred("disabled", true)
 	get_node("Interactionbox/CollisionShape2D").set_deferred("disabled", true)
+	animation_player.stop()
 	sprite.play("death")
 	emit_signal("death")
 

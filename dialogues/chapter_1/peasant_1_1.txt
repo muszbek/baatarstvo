@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Who are you? You don't look like one of them...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peasant_1_talk/portrait_peasant_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_peasant_1_talk/portrait_peasant_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Indeed, you are one of our soldiers, thank God.\""
+   },
+   {
+      "text":"\"The steppe people have taken over our farm ...\""
+   },
+   {
+      "text":"\"... on the East side of the river.\""
+   },
+   {
+      "text":"\"We went into hiding in the woods...\""
+   },
+   {
+      "text":"\"We didn't stick around to find out what they want.\""
+   },
+   {
+      "text":"\"We are not fighters, you see.\""
+   },
+   {
+      "text":"\"You cannot possibly take them on alone, they are many!\""
+   }
+]

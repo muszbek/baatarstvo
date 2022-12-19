@@ -1,5 +1,6 @@
 [
    {
+      "target":"kipchak_spear",
       "text":"\"Listen, young prince ...\" * cough cough *",
       "portrait":[
          "res://assets/sprites/portraits/portrait_kipchak_1_dying/portrait_kipchak_1_dying_0.png",

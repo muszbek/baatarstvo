@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"The steppe people's Khan is bound by marriage ...!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_2_talk/portrait_orthodox_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_2_talk/portrait_orthodox_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to the Western Principality.\""
+   },
+   {
+      "text":"\"This has been the key to our truce for many years.\""
+   },
+   {
+      "text":"\"And now they flock to us for aid like lost sheep.\""
+   },
+   {
+      "text":"\"They may be godless pagans ...\""
+   },
+   {
+      "text":"\"... but bloodshed must be avoided at all costs.\""
+   }
+]

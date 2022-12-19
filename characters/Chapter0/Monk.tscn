@@ -7,13 +7,9 @@
 [ext_resource path="res://assets/sprites/human/human_dead.png" type="Texture" id=6]
 [ext_resource path="res://characters/Character.tscn" type="PackedScene" id=7]
 
-[sub_resource type="AtlasTexture" id=1]
-atlas = ExtResource( 4 )
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 6 )
 region = Rect2( 0, 0, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=2]
-atlas = ExtResource( 4 )
-region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=3]
 atlas = ExtResource( 5 )
@@ -63,16 +59,12 @@ region = Rect2( 0, 160, 16, 16 )
 atlas = ExtResource( 5 )
 region = Rect2( 0, 176, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 6 )
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 4 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=20]
-atlas = ExtResource( 2 )
-region = Rect2( 0, 0, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=21]
-atlas = ExtResource( 2 )
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 4 )
 region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=18]
@@ -83,11 +75,19 @@ region = Rect2( 0, 0, 16, 16 )
 atlas = ExtResource( 1 )
 region = Rect2( 0, 16, 16, 16 )
 
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 16, 16, 16 )
+
 [sub_resource type="SpriteFrames" id=17]
 animations = [ {
-"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"frames": [ SubResource( 16 ) ],
 "loop": true,
-"name": "default",
+"name": "dead",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ) ],
@@ -95,14 +95,9 @@ animations = [ {
 "name": "death",
 "speed": 6.0
 }, {
-"frames": [ SubResource( 16 ) ],
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
 "loop": true,
-"name": "dead",
-"speed": 1.0
-}, {
-"frames": [ SubResource( 20 ), SubResource( 21 ) ],
-"loop": true,
-"name": "praying_right",
+"name": "default",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 1 ), SubResource( 2 ) ],
@@ -113,6 +108,11 @@ animations = [ {
 "frames": [ SubResource( 18 ), SubResource( 19 ) ],
 "loop": true,
 "name": "idle_hooded_front",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 20 ), SubResource( 21 ) ],
+"loop": true,
+"name": "praying_right",
 "speed": 1.0
 } ]
 

@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"*And I will execute great vengeance upon them ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... with furious rebukes ...*\""
+   },
+   {
+      "text":"\"*... and they shall know that I am the LORD ...*\""
+   },
+   {
+      "text":"\"*... when I shall lay my vengeance upon them.*\""
+   }
+]

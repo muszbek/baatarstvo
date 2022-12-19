@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Steppe people never stay in one place for long...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peasant_woman_talk/portrait_peasant_woman_talk_0.png",
+         "res://assets/sprites/portraits/portrait_peasant_woman_talk/portrait_peasant_woman_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We can wait it out here until they leave.\""
+   }
+]
