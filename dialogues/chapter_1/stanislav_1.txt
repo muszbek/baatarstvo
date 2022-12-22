@@ -1,0 +1,76 @@
+[
+   {
+      "text":"\"I am captain Stanislav, responsible for this outpost.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"So you're one of the princes, eh?\""
+   },
+   {
+      "text":"\"You're not one of my soldiers, that is certain.\""
+   },
+   {
+      "text":"\"Brave of you to come all the way here alone, Highness.\""
+   },
+   {
+      "text":"\"What happened to your escort?\""
+   },
+   {
+      "text":"\"Whether you are a prince or not, your coming is fortunate.\""
+   },
+   {
+      "text":"\"You can help take a burden off my shoulders.\""
+   },
+   {
+      "text":"\"You say you have been attacked ...\""
+   },
+   {
+      "text":"\"... by steppe people on your way here?\""
+   },
+   {
+      "text":"\"That further complicates things...\""
+   },
+   {
+      "text":"\"They have set up a camp just outside ...\""
+   },
+   {
+      "text":"\"... on the East side of the river ...\""
+   },
+   {
+      "text":"\"... and approached us peacefully.\""
+   },
+   {
+      "text":"\"Normally here we don't take lightly of border violations...\""
+   },
+   {
+      "text":"\"Too many have slipped right through our lines ...\""
+   },
+   {
+      "text":"\"... God knows how...\""
+   },
+   {
+      "text":"\"But they claim that their leader has family relations ...\""
+   },
+   {
+      "text":"\"... to one of the princes ...\""
+   },
+   {
+      "text":"\"... and Father Basil confirmed the truth of it.\""
+   },
+   {
+      "text":"\"Now I am forced to maintain the peace ...\""
+   },
+   {
+      "text":"\"While atrocities happen right under our noses.\""
+   },
+   {
+      "text":"\"You should head over to their camp ...\""
+   },
+   {
+      "text":"\"... and hear what the steppe people have to say.\""
+   }
+]

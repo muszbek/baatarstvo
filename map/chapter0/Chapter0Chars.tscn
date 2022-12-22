@@ -1,22 +1,22 @@
 [gd_scene load_steps=18 format=2]
 
-[ext_resource path="res://characters/Chapter0/RusSwordsmanSimple.tscn" type="PackedScene" id=1]
-[ext_resource path="res://characters/Chapter0/MonkPraying.tscn" type="PackedScene" id=2]
-[ext_resource path="res://characters/Chapter0/RusSwordsmanPraying.tscn" type="PackedScene" id=3]
-[ext_resource path="res://characters/Chapter0/HorseReined.tscn" type="PackedScene" id=4]
-[ext_resource path="res://characters/Chapter0/Horse.tscn" type="PackedScene" id=5]
-[ext_resource path="res://characters/Chapter0/Aleksandr.tscn" type="PackedScene" id=6]
-[ext_resource path="res://characters/Chapter0/MonkAbbot.tscn" type="PackedScene" id=7]
-[ext_resource path="res://characters/Chapter0/MonkVitaliy.tscn" type="PackedScene" id=8]
-[ext_resource path="res://characters/Chapter0/MonkIgor.tscn" type="PackedScene" id=9]
-[ext_resource path="res://characters/Chapter0/BishopOrthodox.tscn" type="PackedScene" id=10]
-[ext_resource path="res://characters/Chapter0/RusSwordsmanGuard.tscn" type="PackedScene" id=11]
-[ext_resource path="res://characters/Chapter0/RusSwordsmanTraining.tscn" type="PackedScene" id=12]
-[ext_resource path="res://characters/Chapter0/MonkHooded.tscn" type="PackedScene" id=13]
-[ext_resource path="res://characters/Chapter0/Bear.tscn" type="PackedScene" id=14]
-[ext_resource path="res://characters/Chapter0/Camel.tscn" type="PackedScene" id=15]
-[ext_resource path="res://characters/Chapter0/KipchakSpear.tscn" type="PackedScene" id=16]
-[ext_resource path="res://characters/Chapter0/KipchakArcher.tscn" type="PackedScene" id=17]
+[ext_resource path="res://characters/chapter0/RusSwordsmanSimple.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter0/MonkPraying.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter0/RusSwordsmanPraying.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter0/HorseReined.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter0/Horse.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter0/Aleksandr.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter0/MonkAbbot.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter0/MonkVitaliy.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter0/MonkIgor.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter0/BishopOrthodox.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter0/RusSwordsmanGuard.tscn" type="PackedScene" id=11]
+[ext_resource path="res://characters/chapter0/RusSwordsmanTraining.tscn" type="PackedScene" id=12]
+[ext_resource path="res://characters/chapter0/MonkHooded.tscn" type="PackedScene" id=13]
+[ext_resource path="res://characters/chapter0/Bear.tscn" type="PackedScene" id=14]
+[ext_resource path="res://characters/chapter0/Camel.tscn" type="PackedScene" id=15]
+[ext_resource path="res://characters/chapter0/KipchakSpear.tscn" type="PackedScene" id=16]
+[ext_resource path="res://characters/chapter0/KipchakArcher.tscn" type="PackedScene" id=17]
 
 [node name="Chapter0Chars" type="Node2D"]
 
@@ -56,12 +56,8 @@ facing = 2
 position = Vector2( 16, 124 )
 facing = 2
 
-[node name="HorseReined" parent="." groups=["character"] instance=ExtResource( 4 )]
+[node name="HorseReined" parent="." instance=ExtResource( 4 )]
 position = Vector2( 104, 56 )
-collision_layer = 3
-collision_mask = 3
-collision/safe_margin = 0.001
-speed = 24
 
 [node name="Horse" parent="." instance=ExtResource( 5 )]
 position = Vector2( 56, 24 )
@@ -72,6 +68,8 @@ facing = 3
 
 [node name="Aleksandr" parent="." groups=["aleksandr"] instance=ExtResource( 6 )]
 position = Vector2( 200, 86 )
+distance_to_keep = 24
+max_distance = 96
 
 [node name="MonkAbbot" parent="." instance=ExtResource( 7 )]
 position = Vector2( 217, 96 )

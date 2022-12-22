@@ -1,5 +1,6 @@
 [
    {
+      "target":"kipchak_spear",
       "text":"\"You have a death wish? So be it!\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_0.png",

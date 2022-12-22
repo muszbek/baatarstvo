@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"These steppe people have no respect for property!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"They come and go as they please!\""
+   }
+]

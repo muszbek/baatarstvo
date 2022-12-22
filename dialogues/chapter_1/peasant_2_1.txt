@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Are you some kind of nobleman?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peasant_2_talk/portrait_peasant_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_peasant_2_talk/portrait_peasant_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Are you heading to that military outpost to the East?\""
+   },
+   {
+      "text":"\"Maybe you can tell them to chase out these invaders!\""
+   }
+]

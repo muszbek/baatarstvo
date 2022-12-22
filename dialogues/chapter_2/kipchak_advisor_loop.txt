@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"The envoy of the enemy is at the meeting point ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_2_talk/portrait_kipchak_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_2_talk/portrait_kipchak_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... in this camp, just East of here.\""
+   },
+   {
+      "text":"\"Show them no mercy!\""
+   }
+]

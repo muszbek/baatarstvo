@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Head down to the stables ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_3_talk/portrait_rus_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and take one of the freshly prepared horses.\""
+   },
+   {
+      "text":"\"May the Lord watch on your way.\""
+   }
+]

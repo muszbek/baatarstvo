@@ -1,6 +1,6 @@
 [
    {
-	"target":"aleksandr",
+      "target":"aleksandr",
       "text":"\"Look, Sire! That bird over there...\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",

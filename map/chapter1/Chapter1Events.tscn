@@ -1,0 +1,70 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter1/BearEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter1/WrongWayEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter1/KipchakWarnEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter1/FollowStartEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter1/FollowStopEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter1/RidersMeetEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter1/MusicForestEvent.tscn" type="PackedScene" id=9]
+[ext_resource path="res://events/chapter1/MusicTensionEvent.tscn" type="PackedScene" id=10]
+[ext_resource path="res://events/chapter1/MusicCampEvent.tscn" type="PackedScene" id=11]
+
+[node name="Chapter1Events" type="Node2D"]
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, 74 )
+
+[node name="WrongWayEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 101, 60 )
+
+[node name="BearEvent1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 13 )
+
+[node name="BearEvent2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1036, -354 )
+
+[node name="KipchakWarnEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 803, -164 )
+
+[node name="RidersMeetEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1536, -96 )
+rotation = -0.523599
+DIALOGUE = "res://dialogues/chapter_1/event_riders_meet.txt"
+
+[node name="FollowStartEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1543, -100 )
+rotation = -0.523599
+
+[node name="FollowStopEvent1" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1505, -82 )
+
+[node name="FollowStopEvent2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 2017, 13 )
+
+[node name="OpenGatePosWestUp" parent="." groups=["open_gate_pos_west_up"] instance=ExtResource( 8 )]
+position = Vector2( 2040, 8 )
+
+[node name="OpenGatePosWestDown" parent="." groups=["open_gate_pos_west_down"] instance=ExtResource( 8 )]
+position = Vector2( 2040, 56 )
+
+[node name="OpenGatePosEastUp" parent="." groups=["open_gate_pos_east_up"] instance=ExtResource( 8 )]
+position = Vector2( 2264, 8 )
+
+[node name="OpenGatePosEastDown" parent="." groups=["open_gate_pos_east_down"] instance=ExtResource( 8 )]
+position = Vector2( 2264, 56 )
+
+[node name="MusicForestEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( 168, 74 )
+
+[node name="MusicTensionEvent1" parent="." instance=ExtResource( 10 )]
+position = Vector2( 838, -137 )
+
+[node name="MusicTensionEvent2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 785, -349 )
+rotation = -0.785398
+
+[node name="MusicCampEvent" parent="." instance=ExtResource( 11 )]
+position = Vector2( 2028, 24 )

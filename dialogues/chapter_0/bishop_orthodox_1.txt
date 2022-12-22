@@ -44,7 +44,7 @@
       "text":"\"They are fresh levies from the riverlands.\""
    },
    {
-      "text":"\"Now before you depart, receive my blessing:\""
+      "text":"\"Now before you depart with the sergeant, receive my blessing:\""
    },
    {
       "text":"\"*Therefore, take up the full armor of God ...*\"",

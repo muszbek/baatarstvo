@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"*I was hungry and you gave me food ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_2_talk/portrait_orthodox_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_2_talk/portrait_orthodox_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... I was thirsty and you gave me drink ...*\""
+   },
+   {
+      "text":"\"*... I was a stranger and you welcomed me.*\""
+   }
+]

@@ -8,12 +8,19 @@ var stream_loaded
 func on_start_music(title: String):
 	play_soundtrack(title)
 
+func on_stop_music():
+	stop_soundtrack()
+
 func play_soundtrack(path: String):
 	if playing == path:
 		return
 	
 	playing = path
 	stream_loaded = load(path)
+	fadeout_player.play("music_fadeout")
+
+func stop_soundtrack():
+	stream_loaded = null
 	fadeout_player.play("music_fadeout")
 
 func _on_AnimationPlayer_animation_finished(anim_name):

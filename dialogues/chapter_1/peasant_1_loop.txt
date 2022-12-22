@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Try to avoid them, if you can.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peasant_1_talk/portrait_peasant_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_peasant_1_talk/portrait_peasant_1_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

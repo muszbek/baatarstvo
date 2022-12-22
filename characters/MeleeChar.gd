@@ -13,5 +13,9 @@ func attack_animate():
 		directions.RIGHT:
 			animation_player.current_animation = "attack_right"
 
+func death():
+	.death()
+	get_node("HitboxPivot/MeleeHitbox/HitboxCollision").set_deferred("disabled", true)
+
 func _on_AnimationPlayer_animation_finished(_anim_name):
 	pass # Replace with function body.

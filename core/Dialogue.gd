@@ -13,8 +13,10 @@ var line_side
 
 signal dialogue_started
 signal dialogue_finished
+#warning-ignore:unused_signal
 signal dialogue_ping(target)
 signal script(script_name)
+#warning-ignore:unused_signal
 signal next_line
 
 func start():

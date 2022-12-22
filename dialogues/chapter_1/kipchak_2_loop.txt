@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"We would have won, if not for deception!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_kipchak_1_talk/portrait_kipchak_1_talk_1.png"
+      ],
+      "side":"right"
+   }
+]
