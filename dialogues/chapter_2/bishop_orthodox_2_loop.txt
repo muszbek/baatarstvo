@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"*Have I not commanded you? Be strong and courageous! ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... Do not tremble or be dismayed ...*\""
+   },
+   {
+      "text":"\"*... for the LORD your God is with you wherever you go.*\""
+   }
+]

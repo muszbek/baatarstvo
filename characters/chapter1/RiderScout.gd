@@ -23,7 +23,9 @@ func on_start_follow():
 func on_stop_follow():
 	state = states.IDLE
 
-func _on_Interactionbox_area_entered(_area):
+func _on_Interactionbox_area_entered(area):
+	if area.name != "InteractionboxActive": return
+	
 	match state:
 		states.IDLE:
 			json_resource = DIALOGUE_FOLLOW_LOOP

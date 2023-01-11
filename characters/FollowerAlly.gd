@@ -49,7 +49,7 @@ func get_closest_enemy_in_sight():
 		distance_map[distance] = enemy
 		
 	var min_distance = distance_map.keys().min()
-	aggroed_enemy = distance_map[min_distance]
+	aggroed_enemy = distance_map[min_distance] if min_distance else null
 
 func aggro():
 	if not aggroed_enemy: return

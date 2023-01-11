@@ -2,11 +2,15 @@ extends "res://characters/MeleeChar.gd"
 
 enum dialogue_states {ENTER, LOOP}
 
-const DIALOGUE_1 = "res://dialogues/chapter_2/kipchak_advisor_1.txt"
-const DIALOGUE_LOOP = "res://dialogues/chapter_2/kipchak_advisor_loop.txt"
+const DIALOGUE_1 = "res://dialogues/chapter_1/kipchak_leader_1.txt"
+const DIALOGUE_LOOP = "res://dialogues/chapter_1/kipchak_leader_loop.txt"
+
+onready var stanislav = get_tree().get_nodes_in_group("stanislav")[-1]
+
+signal kipchak_spoken
 
 func _ready():
-	character_name = "kipchak_advisor"
+	var _err = connect("kipchak_spoken", stanislav, "on_kipchak_spoken")
 	idle_animate()
 
 func _on_Interactionbox_area_entered(_area):
@@ -15,8 +19,7 @@ func _on_Interactionbox_area_entered(_area):
 			json_resource = DIALOGUE_1
 			speak()
 			dialogue_state = dialogue_states.LOOP
+			emit_signal("kipchak_spoken")
 		dialogue_states.LOOP:
 			json_resource = DIALOGUE_LOOP
 			speak()
-
-func on_envoy_killed(): queue_free()

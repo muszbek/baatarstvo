@@ -16,6 +16,8 @@ behavior = 2
 [node name="HitboxPivot" type="Position2D" parent="." index="5"]
 
 [node name="MeleeHitbox" type="Area2D" parent="HitboxPivot" index="0"]
+collision_layer = 8
+collision_mask = 8
 
 [node name="HitboxCollision" type="CollisionShape2D" parent="HitboxPivot/MeleeHitbox" index="0"]
 position = Vector2( 0, 8.5 )

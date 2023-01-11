@@ -741,16 +741,16 @@ __meta__ = {
 "_gizmo_extents_": 4.0
 }
 
-[node name="Interactionbox" type="Area2D" parent="InteractionboxPivot"]
+[node name="InteractionboxActive" type="Area2D" parent="InteractionboxPivot"]
 collision_layer = 32
 collision_mask = 32
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionboxPivot/Interactionbox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionboxPivot/InteractionboxActive"]
 position = Vector2( 0, 8.5 )
 shape = SubResource( 130 )
 disabled = true
 
-[node name="InteractionPlayer" type="AnimationPlayer" parent="InteractionboxPivot/Interactionbox/CollisionShape2D"]
+[node name="InteractionPlayer" type="AnimationPlayer" parent="InteractionboxPivot/InteractionboxActive/CollisionShape2D"]
 anims/RESET = SubResource( 131 )
 anims/interaction = SubResource( 132 )
 

@@ -1,3 +1,30 @@
-[gd_scene format=2]
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://events/chapter2/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter2/EnterNegotiationEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter2/MongolDeathEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter2/EnterNegotiationZoneEvent.tscn" type="PackedScene" id=6]
 
 [node name="Chapter2Events" type="Node2D"]
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 56 )
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, 56 )
+
+[node name="OpenGatePosCampWest" parent="." groups=["open_gate_pos_camp_west"] instance=ExtResource( 3 )]
+position = Vector2( 24, 118 )
+
+[node name="OpenGatePosCampEast" parent="." groups=["open_gate_pos_camp_east"] instance=ExtResource( 3 )]
+position = Vector2( 72, 118 )
+
+[node name="EnterNegotiationZoneEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( 247, 0 )
+
+[node name="EnterNegotiationEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 271, -13 )
+
+[node name="MongolDeathEvent" parent="." instance=ExtResource( 5 )]

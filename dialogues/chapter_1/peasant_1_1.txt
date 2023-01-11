@@ -27,5 +27,11 @@
    },
    {
       "text":"\"You cannot possibly take them on alone, they are many!\""
+   },
+   {
+      "text":"\"There is a path to get around ...\""
+   },
+   {
+      "text":"\"... if you cross the river directly Eastwards.\""
    }
 ]

@@ -27,7 +27,10 @@
       "text":"\"We now face the army of this Eastern empire together ...\""
    },
    {
-      "text":"\"... and even the steppe people bordering our realm stand with us.\""
+      "text":"\"... and even the steppe people bordering our realm ...\""
+   },
+   {
+      "text":"\"... stand with us.\""
    },
    {
       "text":"\"The enemy has sent an envoy to our camp ...\""

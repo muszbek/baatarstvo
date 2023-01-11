@@ -10,7 +10,6 @@ export var DIALOGUE = ""
 var json_resource: String = ""
 var state = states.ACTIVE
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	var _err = connect("dialogue", dialogue, "do_dialogue")
 	load_on_start()

@@ -33,7 +33,7 @@ animations = [ {
 "speed": 1.0
 } ]
 
-[node name="BishopOrthodox" instance=ExtResource( 3 )]
+[node name="BishopOrthodox" groups=["bishop"] instance=ExtResource( 3 )]
 script = ExtResource( 2 )
 speed = 16
 

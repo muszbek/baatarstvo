@@ -11,10 +11,10 @@
       "text":"\"... as they divided us before.\""
    },
    {
-      "text":"\"Because of our quarrels in the past ...\""
+      "text":"\"Because of our quarrels in the past, there is still mistrust ...\""
    },
    {
-      "text":"\"... there is still mistrust between your people and mine.\""
+      "text":"\"... between your people and mine.\""
    },
    {
       "text":"\"Denying negotiations with the enemy ...\""

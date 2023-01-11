@@ -5,7 +5,7 @@ enum states {MOVE, ATTACK, DIALOGUE, DEAD}
 const DIALOGUE_DEATH = "res://dialogues/player_death.txt"
 
 onready var interaction_pivot = $InteractionboxPivot
-onready var interaction_player = $InteractionboxPivot/Interactionbox/CollisionShape2D/InteractionPlayer
+onready var interaction_player = $InteractionboxPivot/InteractionboxActive/CollisionShape2D/InteractionPlayer
 
 var movement_vector: Vector2 = Vector2.ZERO
 

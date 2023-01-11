@@ -1,3 +1,57 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://objects/Tent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/Flag.tscn" type="PackedScene" id=2]
 
 [node name="Chapter2Objects" type="Node2D"]
+
+[node name="Tent" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="Tent2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, -32 )
+
+[node name="Tent3" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, -32 )
+
+[node name="Tent4" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 32 )
+
+[node name="Tent5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, -32 )
+
+[node name="Tent6" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 96 )
+
+[node name="Tent7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="Tent8" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 160 )
+
+[node name="Tent9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 160 )
+
+[node name="Tent10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, -32 )
+
+[node name="Tent11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, -32 )
+
+[node name="Tent12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="Tent13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="Flag" parent="." instance=ExtResource( 2 )]
+position = Vector2( 232, -24 )
+
+[node name="Flag2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 232, 56 )
+
+[node name="Flag3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, -40 )
+
+[node name="Flag4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, 56 )
