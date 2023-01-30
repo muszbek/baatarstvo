@@ -1,0 +1,74 @@
+[
+   {
+      "target":"cavalry_captain",
+      "text":"\"You are late, hahhah. These savages scattered ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... before the might of our cavalry!\""
+   },
+   {
+      "text":"\"We have even taken their captain captive.\""
+   },
+   {
+      "target":"cavalry_captain",
+      "text":"\"Execute him!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "target":"rus_swordsman_execute",
+      "text":"\"Yes, my liege!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"mongol_captain",
+      "text":"\"The fury of the Great Khan shall sweep you all away ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_1_talk/portrait_mongol_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_1_talk/portrait_mongol_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... like a storm in the desert!\""
+   },
+   {
+      "script":"execute_mongol"
+   },
+   {
+      "target":"cavalry_captain",
+      "text":"\"Now we must make haste ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_4_talk/portrait_rus_4_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and crush the enemy while they flee ...\""
+   },
+   {
+      "text":"\"... so they shall never menace our homeland ever again.\""
+   },
+   {
+      "text":"\"Young prince, go back to the rest of your army ...\""
+   },
+   {
+      "text":"\"... and raise your camp for pursuit.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://EnterNegotiationZoneEvent.gd" type="Script" id=1]
+[ext_resource path="res://events/chapter2/EnterNegotiationZoneEvent.gd" type="Script" id=1]
 [ext_resource path="res://events/EventZone.tscn" type="PackedScene" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]

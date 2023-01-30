@@ -5,4 +5,3 @@
 
 [node name="RusSwordsmanSimple" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-speed = 16

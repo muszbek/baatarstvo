@@ -1,29 +1,34 @@
-extends "res://characters/MeleeShieldChar.gd"
+extends KinematicBody2D
 
+enum directions {FRONT, BACK, LEFT, RIGHT}
 enum states {MOVE, ATTACK, DIALOGUE, DEAD}
 
 const DIALOGUE_DEATH = "res://dialogues/player_death.txt"
 
-onready var interaction_pivot = $InteractionboxPivot
-onready var interaction_player = $InteractionboxPivot/InteractionboxActive/CollisionShape2D/InteractionPlayer
-
+onready var game = get_tree().get_nodes_in_group("game")[-1]
+export var speed: int = 24
+export var facing = directions.FRONT
+export var can_be_saved: bool = true
+var state = states.MOVE
 var movement_vector: Vector2 = Vector2.ZERO
+var state_loaded: bool = false
 
+signal dialogue(json_resource)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var dialogue = get_tree().get_nodes_in_group("dialogue")[-1]
+	var _err = connect("dialogue", dialogue, "do_dialogue")
 	dialogue.connect("dialogue_started", self, "dialogue_started")
 	dialogue.connect("dialogue_finished", self, "dialogue_finished")
-	state = states.MOVE
+	load_on_start()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	match state:
 		states.MOVE:
 			facing_from_input()
-			interactionbox_from_facing()
-			shield_from_facing()
+			apply_facing()
 			attack()
 			move_by_input(delta)
 			interact()
@@ -41,17 +46,9 @@ func facing_from_input():
 		facing = directions.LEFT
 	if Input.is_action_pressed("move_right"):
 		facing = directions.RIGHT
-		
-func interactionbox_from_facing():
-	match facing:
-		directions.FRONT:
-			interaction_pivot.rotation = 0
-		directions.BACK:
-			interaction_pivot.rotation = PI
-		directions.LEFT:
-			interaction_pivot.rotation = PI/2
-		directions.RIGHT:
-			interaction_pivot.rotation = -PI/2
+
+func apply_facing():
+	$PlayerBehavior.apply_facing(facing)
 
 func attack():
 	if Input.is_action_pressed("attack"):
@@ -59,15 +56,14 @@ func attack():
 			return
 		
 		state = states.ATTACK
-		attack_animate()
+		$PlayerBehavior.attack_animate(facing)
 
 func is_pacific():
 	return $Pacificbox.get_overlapping_areas() != []
 
-func _on_AnimationPlayer_animation_finished(anim_name):
-	if anim_name in ATTACK_ANIMATIONS:
-		if state == states.ATTACK:
-			state = states.MOVE
+func attack_finished():
+	if state == states.ATTACK:
+		state = states.MOVE
 
 func move_by_input(delta):
 	var input_velocity = Vector2.ZERO
@@ -81,14 +77,14 @@ func move_by_input(delta):
 		input_velocity.y -= 1
 
 	input_velocity = input_velocity.normalized() * speed
-	move_animate(input_velocity)
+	$PlayerBehavior.move_animate(facing, input_velocity)
 		
 	movement_vector = input_velocity * delta
 	return move_and_collide(movement_vector)
 	
 func interact():
 	if Input.is_action_just_pressed("interact"):
-		interaction_player.play("interaction")
+		$PlayerBehavior.interact_animate()
 
 func _on_Hurtbox_area_entered(_area):
 	death()
@@ -97,7 +93,7 @@ func dialogue_started():
 	match state:
 		states.MOVE, states.ATTACK:
 			state = states.DIALOGUE
-			idle_animate()
+			$PlayerBehavior.idle_animate(facing)
 		states.DEAD:
 			pass
 	
@@ -112,7 +108,27 @@ func death():
 	state = states.DEAD
 	$CollisionShape2D.set_deferred("disabled", true)
 	get_node("Hurtbox/CollisionShape2D").set_deferred("disabled", true)
-	sprite.play("death")
+	$PlayerBehavior.death_animate()
+	emit_signal("dialogue", DIALOGUE_DEATH)
+
+### Saving and loading state
+func save_state():
+	return {
+		"pos": global_position,
+		"facing": facing,
+		"state": state,
+		"dialogue_state": 0
+	}
+
+func load_state(dict):
+	if not dict:
+		return
 	
-	json_resource = DIALOGUE_DEATH
-	emit_signal("dialogue", json_resource)
+	set_deferred("global_position", dict.get("pos"))
+	facing = dict.get("facing")
+	state = dict.get("state")
+	state_loaded = true
+
+func load_on_start():
+	var data = game.saved_game.get(get_name())
+	load_state(data)

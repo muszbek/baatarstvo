@@ -1,0 +1,6 @@
+[
+   {
+      "text":"Do not leave the battlefield!",
+      "side":"none"
+   }
+]

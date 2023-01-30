@@ -5,5 +5,5 @@
 
 [node name="RusSwordsmanGuardCamp" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-speed = 16
 open_gate_target_name = ""
+close_gate_target_name = ""

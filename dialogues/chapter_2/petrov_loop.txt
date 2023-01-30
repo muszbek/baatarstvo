@@ -1,0 +1,17 @@
+[
+   {
+      "target":"petrov",
+      "text":"\"Come find me when the battle is over!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I am certain that by then ...\""
+   },
+   {
+      "text":"\"... I shall have something interesting for you!\""
+   }
+]

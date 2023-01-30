@@ -22,7 +22,6 @@ animations = [ {
 
 [node name="Horse" instance=ExtResource( 1 )]
 script = ExtResource( 3 )
-speed = 16
 
 [node name="AnimatedSprite" parent="." index="0"]
 frames = SubResource( 3 )

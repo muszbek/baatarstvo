@@ -1,7 +1,7 @@
 extends Node2D
 
 onready var anim_player = $AnimationPlayer
-onready var chapter_selector = $Camera2D/ChapterSelecCanvas/ChapterSelector
+onready var chapter_selector = $Camera2D/ChapterSelectCanvas/ChapterSelector
 
 signal start_screen_finished(chapter)
 

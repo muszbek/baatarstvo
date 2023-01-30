@@ -14,7 +14,7 @@ func follow_with_distance():
 
 func deblock_self(next_state):
 	if global_position.distance_to(navigation_target) > max_distance:
-		set_deferred("global_position", navigation_target - Vector2(20, 0))
+		set_deferred("global_position", navigation_target - Vector2(distance_to_keep, 0))
 		state = next_state
 
 func move_away_to_distance(next_state):

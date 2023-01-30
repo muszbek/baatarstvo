@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://events/EventZone.tscn" type="PackedScene" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 53.2822, 4 )
+
+[node name="StablemasterEvent" instance=ExtResource( 1 )]
+DIALOGUE = "res://dialogues/chapter_2/event_stablemaster.txt"
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2( 21.2963, 5.8911 )
+rotation = -0.523599
+shape = SubResource( 1 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=77 format=2]
+[gd_scene load_steps=82 format=2]
 
 [ext_resource path="res://characters/FollowerAlly.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_idle_left.png" type="Texture" id=2]
@@ -13,6 +13,14 @@
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_attack_left.png" type="Texture" id=11]
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_attack_front.png" type="Texture" id=12]
 [ext_resource path="res://assets/sprites/human/rus/rus_sword_attack_right.png" type="Texture" id=13]
+
+[sub_resource type="AtlasTexture" id=62]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=63]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=34]
 atlas = ExtResource( 10 )
@@ -110,11 +118,11 @@ region = Rect2( 0, 64, 16, 16 )
 atlas = ExtResource( 13 )
 region = Rect2( 0, 80, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=62]
+[sub_resource type="AtlasTexture" id=4]
 atlas = ExtResource( 4 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=63]
+[sub_resource type="AtlasTexture" id=5]
 atlas = ExtResource( 4 )
 region = Rect2( 0, 16, 16, 16 )
 
@@ -126,14 +134,6 @@ region = Rect2( 0, 0, 16, 16 )
 atlas = ExtResource( 5 )
 region = Rect2( 0, 16, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=4]
-atlas = ExtResource( 4 )
-region = Rect2( 0, 0, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=5]
-atlas = ExtResource( 4 )
-region = Rect2( 0, 16, 16, 16 )
-
 [sub_resource type="AtlasTexture" id=6]
 atlas = ExtResource( 2 )
 region = Rect2( 0, 0, 16, 16 )
@@ -142,13 +142,29 @@ region = Rect2( 0, 0, 16, 16 )
 atlas = ExtResource( 2 )
 region = Rect2( 0, 16, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=8]
-atlas = ExtResource( 3 )
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 7 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=9]
-atlas = ExtResource( 3 )
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 7 )
 region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 80, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=10]
 atlas = ExtResource( 9 )
@@ -174,29 +190,13 @@ region = Rect2( 0, 64, 16, 16 )
 atlas = ExtResource( 9 )
 region = Rect2( 0, 80, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 7 )
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=17]
-atlas = ExtResource( 7 )
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 3 )
 region = Rect2( 0, 16, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=18]
-atlas = ExtResource( 7 )
-region = Rect2( 0, 32, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=19]
-atlas = ExtResource( 7 )
-region = Rect2( 0, 48, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=20]
-atlas = ExtResource( 7 )
-region = Rect2( 0, 64, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=21]
-atlas = ExtResource( 7 )
-region = Rect2( 0, 80, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=22]
 atlas = ExtResource( 6 )
@@ -248,6 +248,11 @@ region = Rect2( 0, 80, 16, 16 )
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
+"frames": [ SubResource( 62 ), SubResource( 63 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+}, {
 "frames": [ SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ) ],
 "loop": true,
 "name": "attack_back",
@@ -268,9 +273,9 @@ animations = [ {
 "name": "attack_right",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 62 ), SubResource( 63 ) ],
+"frames": [ SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
-"name": "default",
+"name": "idle_front",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 2 ), SubResource( 3 ) ],
@@ -278,30 +283,25 @@ animations = [ {
 "name": "idle_back",
 "speed": 1.0
 }, {
-"frames": [ SubResource( 4 ), SubResource( 5 ) ],
-"loop": true,
-"name": "idle_front",
-"speed": 1.0
-}, {
 "frames": [ SubResource( 6 ), SubResource( 7 ) ],
 "loop": true,
 "name": "idle_left",
 "speed": 1.0
 }, {
-"frames": [ SubResource( 8 ), SubResource( 9 ) ],
+"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
 "loop": true,
-"name": "idle_right",
-"speed": 1.0
+"name": "walk_front",
+"speed": 9.0
 }, {
 "frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
 "loop": true,
 "name": "walk_back",
 "speed": 9.0
 }, {
-"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
+"frames": [ SubResource( 8 ), SubResource( 9 ) ],
 "loop": true,
-"name": "walk_front",
-"speed": 9.0
+"name": "idle_right",
+"speed": 1.0
 }, {
 "frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ) ],
 "loop": true,
@@ -313,6 +313,45 @@ animations = [ {
 "name": "walk_right",
 "speed": 15.0
 } ]
+
+[sub_resource type="Animation" id=77]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("..:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "attack_front" ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0 ]
+}
 
 [sub_resource type="Animation" id=58]
 resource_name = "attack_back"
@@ -526,6 +565,31 @@ tracks/3/keys = {
 "values": [ -90.0 ]
 }
 
+[sub_resource type="Animation" id=78]
+resource_name = "dialogue_ping"
+step = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("..:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false, true, false, true ]
+}
+
+[sub_resource type="RectangleShape2D" id=79]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=80]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=81]
+extents = Vector2( 7, 8 )
+
 [node name="RusSwordsmanAlly" instance=ExtResource( 1 )]
 speed = 24
 
@@ -535,7 +599,18 @@ animation = "attack_front"
 playing = true
 
 [node name="AnimationPlayer" parent="AnimatedSprite" index="0"]
+anims/RESET = SubResource( 77 )
 anims/attack_back = SubResource( 58 )
 anims/attack_front = SubResource( 59 )
 anims/attack_left = SubResource( 60 )
 anims/attack_right = SubResource( 61 )
+anims/dialogue_ping = SubResource( 78 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+shape = SubResource( 79 )
+
+[node name="CollisionShape2D" parent="Hurtbox" index="0"]
+shape = SubResource( 80 )
+
+[node name="CollisionShape2D" parent="Interactionbox" index="0"]
+shape = SubResource( 81 )

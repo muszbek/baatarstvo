@@ -1,3 +1,20 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://map/PacificAreaLarge.tscn" type="PackedScene" id=1]
 
 [node name="Chapter2Pacific" type="Node2D"]
+
+[node name="PacificAreaLarge" parent="." instance=ExtResource( 1 )]
+position = Vector2( -32, -32 )
+
+[node name="PacificAreaLarge2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, -32 )
+
+[node name="PacificAreaLarge3" parent="." instance=ExtResource( 1 )]
+position = Vector2( -32, 96 )
+
+[node name="PacificAreaLarge4" parent="." instance=ExtResource( 1 )]
+position = Vector2( -32, 224 )
+
+[node name="PacificAreaLarge5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 224 )

@@ -1,0 +1,14 @@
+[
+   {
+      "target":"stablemaster",
+      "text":"\"Get in saddle and ride forth Eastwards to meet the enemy!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The cavalrymen shall follow your lead.\""
+   }
+]

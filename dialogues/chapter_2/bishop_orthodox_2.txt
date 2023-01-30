@@ -2,8 +2,8 @@
    {
       "text":"\"And now we shall face the enemy and crush them.\"",
       "portrait":[
-         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
-         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_talk/portrait_orthodox_talk_1.png"
       ],
       "side":"right"
    },
@@ -26,7 +26,7 @@
       "text":"\"... to reinforce them and lead our troops to victory.\""
    },
    {
-      "text":"\"Go to the stables at the South side of the camp ...\""
+      "text":"\"Talk to the stablemaster at the South side of the camp ...\""
    },
    {
       "text":"\"... gather your horse and ride to battle!\""

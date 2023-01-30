@@ -1,0 +1,56 @@
+[
+   {
+      "target":"liliya",
+      "text":"\"Hey handsome soldier, come closer for a kiss before battle!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_liliya_talk/portrait_liliya_talk_0.png",
+         "res://assets/sprites/portraits/portrait_liliya_talk/portrait_liliya_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Who knows ... it might be your last one!\""
+   },
+   {
+      "target":"petrov",
+      "text":"\"Keep silent, Liliya!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Don't you see you're talking to nobility?\""
+   },
+   {
+      "target":"liliya",
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_liliya_silent/portrait_liliya_silent_0.png",
+         "res://assets/sprites/portraits/portrait_liliya_silent/portrait_liliya_silent_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"petrov",
+      "text":"\"Forgive my partner, Sire! We are camp followers.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"May I interest you in a holy charm ...\""
+   },
+   {
+      "text":"\"... that protects you from arrows?\""
+   },
+   {
+      "text":"\"No? Good fortune then!\""
+   },
+   {
+      "text":"\"May you come back in one piece!\""
+   }
+]

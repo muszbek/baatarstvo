@@ -15,7 +15,7 @@ func _physics_process(_delta):
 	match state:
 		states.MOVING:
 			if open_gate_target.global_position.distance_to(global_position) < 1:
-				facing = directions.FRONT
+				facing = directions.RIGHT
 				stop_pathfinding()
 				state = states.OPEN
 			move()

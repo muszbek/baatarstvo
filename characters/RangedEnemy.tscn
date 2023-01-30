@@ -4,8 +4,9 @@
 [ext_resource path="res://characters/RangedEnemy.gd" type="Script" id=2]
 
 [node name="RangedEnemy" instance=ExtResource( 1 )]
+collision_layer = 1027
+collision_mask = 1027
 script = ExtResource( 2 )
-behavior = 2
 
 [node name="LineOfSight" type="RayCast2D" parent="." index="5"]
 enabled = true

@@ -35,6 +35,7 @@ func get_enemies_in_sight():
 	enemies_in_sight = []
 	for enemy in get_tree().get_nodes_in_group("melee_enemy"):
 		los.look_at(enemy.global_position)
+		los.force_raycast_update()
 		var collider = los.get_collider()
 		
 		if not collider: continue

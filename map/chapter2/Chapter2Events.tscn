@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://events/chapter2/StartEvent.tscn" type="PackedScene" id=1]
 [ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=2]
@@ -6,6 +6,15 @@
 [ext_resource path="res://events/chapter2/EnterNegotiationEvent.tscn" type="PackedScene" id=4]
 [ext_resource path="res://events/chapter2/MongolDeathEvent.tscn" type="PackedScene" id=5]
 [ext_resource path="res://events/chapter2/EnterNegotiationZoneEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter2/CampFollowersEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter2/StablemasterEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter2/LeaveCampEvent.tscn" type="PackedScene" id=9]
+[ext_resource path="res://events/chapter2/MusicCampEvent.tscn" type="PackedScene" id=10]
+[ext_resource path="res://events/chapter2/MusicMarchEvent.tscn" type="PackedScene" id=11]
+[ext_resource path="res://events/chapter2/LeaveMapEvent.tscn" type="PackedScene" id=12]
+[ext_resource path="res://events/chapter2/MongolCapturedEvent.tscn" type="PackedScene" id=13]
+[ext_resource path="res://events/chapter2/EndEvent.tscn" type="PackedScene" id=14]
+[ext_resource path="res://events/chapter2/ReachedArmyEvent.tscn" type="PackedScene" id=15]
 
 [node name="Chapter2Events" type="Node2D"]
 
@@ -21,6 +30,12 @@ position = Vector2( 24, 118 )
 [node name="OpenGatePosCampEast" parent="." groups=["open_gate_pos_camp_east"] instance=ExtResource( 3 )]
 position = Vector2( 72, 118 )
 
+[node name="CloseGatePosCampWest" parent="." groups=["close_gate_pos_camp_west"] instance=ExtResource( 3 )]
+position = Vector2( 40, 118 )
+
+[node name="CloseGatePosCampEast" parent="." groups=["close_gate_pos_camp_east"] instance=ExtResource( 3 )]
+position = Vector2( 56, 118 )
+
 [node name="EnterNegotiationZoneEvent" parent="." instance=ExtResource( 6 )]
 position = Vector2( 247, 0 )
 
@@ -28,3 +43,87 @@ position = Vector2( 247, 0 )
 position = Vector2( 271, -13 )
 
 [node name="MongolDeathEvent" parent="." instance=ExtResource( 5 )]
+
+[node name="CampFollowersEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 17, 168 )
+
+[node name="StablemasterEvent" parent="." instance=ExtResource( 8 )]
+position = Vector2( 12, 243 )
+
+[node name="OpenGatePosStableNorth" parent="." groups=["open_gate_pos_stable_north"] instance=ExtResource( 3 )]
+position = Vector2( 168, 263 )
+
+[node name="OpenGatePosStableSouth" parent="." groups=["open_gate_pos_stable_south"] instance=ExtResource( 3 )]
+position = Vector2( 168, 313 )
+
+[node name="CloseGatePosStableNorth" parent="." groups=["close_gate_pos_stable_north"] instance=ExtResource( 3 )]
+position = Vector2( 168, 279 )
+
+[node name="CloseGatePosStableSouth" parent="." groups=["close_gate_pos_stable_south"] instance=ExtResource( 3 )]
+position = Vector2( 168, 297 )
+
+[node name="LeaveCampEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( 355, 270 )
+
+[node name="MusicCampEvent" parent="." instance=ExtResource( 10 )]
+position = Vector2( 72, 56 )
+
+[node name="MusicMarchEvent" parent="." instance=ExtResource( 11 )]
+position = Vector2( 378, 270 )
+
+[node name="LeaveMapEvent" parent="." instance=ExtResource( 12 )]
+position = Vector2( 448, 156 )
+
+[node name="LeaveMapEvent2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 576, 156 )
+
+[node name="LeaveMapEvent3" parent="." instance=ExtResource( 12 )]
+position = Vector2( 704, 156 )
+
+[node name="LeaveMapEvent4" parent="." instance=ExtResource( 12 )]
+position = Vector2( 832, 156 )
+
+[node name="LeaveMapEvent5" parent="." instance=ExtResource( 12 )]
+position = Vector2( 960, 156 )
+
+[node name="LeaveMapEvent6" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1088, 156 )
+
+[node name="LeaveMapEvent7" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1216, 156 )
+
+[node name="LeaveMapEvent8" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1345, 156 )
+
+[node name="LeaveMapEvent9" parent="." instance=ExtResource( 12 )]
+position = Vector2( 448, 420 )
+
+[node name="LeaveMapEvent10" parent="." instance=ExtResource( 12 )]
+position = Vector2( 576, 420 )
+
+[node name="LeaveMapEvent11" parent="." instance=ExtResource( 12 )]
+position = Vector2( 704, 420 )
+
+[node name="LeaveMapEvent12" parent="." instance=ExtResource( 12 )]
+position = Vector2( 832, 420 )
+
+[node name="LeaveMapEvent13" parent="." instance=ExtResource( 12 )]
+position = Vector2( 960, 420 )
+
+[node name="LeaveMapEvent14" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1088, 420 )
+
+[node name="LeaveMapEvent15" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1216, 420 )
+
+[node name="LeaveMapEvent16" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1344, 420 )
+
+[node name="MongolCapturedEvent" parent="." instance=ExtResource( 13 )]
+position = Vector2( 1304, 280 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 14 )]
+position = Vector2( 1368, 264 )
+
+[node name="ReachedArmyEvent" parent="." instance=ExtResource( 15 )]
+position = Vector2( 1240, 202 )

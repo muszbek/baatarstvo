@@ -18,12 +18,12 @@ region = Rect2( 0, 16, 16, 16 )
 animations = [ {
 "frames": [  ],
 "loop": true,
-"name": "default",
+"name": "empty",
 "speed": 1.0
 }, {
 "frames": [  ],
 "loop": true,
-"name": "empty",
+"name": "default",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 2 ), SubResource( 3 ) ],

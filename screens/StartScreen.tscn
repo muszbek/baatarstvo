@@ -168,7 +168,7 @@ tracks/12/keys = {
 "values": [ 0 ]
 }
 tracks/13/type = "value"
-tracks/13/path = NodePath("Camera2D/ChapterSelecCanvas:visible")
+tracks/13/path = NodePath("Camera2D/ChapterSelectCanvas:visible")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/imported = false
@@ -221,7 +221,7 @@ tracks/2/keys = {
 "values": [ 0, 0, 1, 2, 3, 4, 5, 6, 6 ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Camera2D/ChapterSelecCanvas:visible")
+tracks/3/path = NodePath("Camera2D/ChapterSelectCanvas:visible")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -233,7 +233,7 @@ tracks/3/keys = {
 "values": [ false, true ]
 }
 tracks/4/type = "method"
-tracks/4/path = NodePath("Camera2D/ChapterSelecCanvas/ChapterSelector")
+tracks/4/path = NodePath("Camera2D/ChapterSelectCanvas/ChapterSelector")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
@@ -276,7 +276,7 @@ tracks/1/keys = {
 "values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
 }
 tracks/2/type = "method"
-tracks/2/path = NodePath("Camera2D/ChapterSelecCanvas/ChapterSelector")
+tracks/2/path = NodePath("Camera2D/ChapterSelectCanvas/ChapterSelector")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -415,15 +415,15 @@ region = Rect2( 0, 1152, 160, 144 )
 
 [sub_resource type="SpriteFrames" id=19]
 animations = [ {
-"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
-"loop": true,
-"name": "darken_screen",
-"speed": 4.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "default",
 "speed": 1.0
+}, {
+"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
+"loop": true,
+"name": "darken_screen",
+"speed": 4.0
 } ]
 
 [node name="StartScreen" type="Node2D"]
@@ -477,7 +477,7 @@ motion_scale = Vector2( 1, 0 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Camera2D/ParallaxBackground/ParallaxLayer1"]
 frames = SubResource( 7 )
-frame = 1
+frame = 3
 playing = true
 centered = false
 
@@ -497,11 +497,10 @@ frames = SubResource( 19 )
 animation = "darken_screen"
 centered = false
 
-[node name="ChapterSelecCanvas" type="CanvasLayer" parent="Camera2D"]
+[node name="ChapterSelectCanvas" type="CanvasLayer" parent="Camera2D"]
 layer = 3
-visible = false
 
-[node name="ChapterSelector" parent="Camera2D/ChapterSelecCanvas" instance=ExtResource( 8 )]
+[node name="ChapterSelector" parent="Camera2D/ChapterSelectCanvas" instance=ExtResource( 8 )]
 margin_left = 67.0
 margin_top = 63.0
 margin_right = 167.0

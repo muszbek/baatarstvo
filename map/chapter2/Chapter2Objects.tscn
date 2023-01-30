@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://objects/Tent.tscn" type="PackedScene" id=1]
 [ext_resource path="res://objects/Flag.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/Bonfire.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/Owl.tscn" type="PackedScene" id=4]
 
 [node name="Chapter2Objects" type="Node2D"]
 
@@ -55,3 +57,63 @@ position = Vector2( 392, -40 )
 
 [node name="Flag4" parent="." instance=ExtResource( 2 )]
 position = Vector2( 392, 56 )
+
+[node name="Tent14" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 224 )
+
+[node name="Tent15" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 288 )
+
+[node name="Bonfire" parent="." instance=ExtResource( 3 )]
+position = Vector2( -16, 240 )
+
+[node name="Tent16" parent="." instance=ExtResource( 1 )]
+position = Vector2( -64, 352 )
+
+[node name="Tent17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 352 )
+
+[node name="Tent18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 256 )
+
+[node name="Flag5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, 248 )
+
+[node name="Flag6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, 328 )
+
+[node name="Tent19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, -96 )
+
+[node name="Tent20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, -96 )
+
+[node name="Tent21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 160 )
+
+[node name="Tent22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 160 )
+
+[node name="Tent23" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, -32 )
+
+[node name="Tent24" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 32 )
+
+[node name="Tent25" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 96 )
+
+[node name="Tent26" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 160 )
+
+[node name="Tent27" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 224 )
+
+[node name="Tent28" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 288 )
+
+[node name="Tent29" parent="." instance=ExtResource( 1 )]
+position = Vector2( -128, 352 )
+
+[node name="Owl" parent="." instance=ExtResource( 4 )]
+position = Vector2( 440, 248 )

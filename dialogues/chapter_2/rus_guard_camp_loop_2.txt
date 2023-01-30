@@ -1,6 +1,6 @@
 [
    {
-      "text":"\"Head South to the stables to suit up for battle.\"",
+      "text":"\"Head South to the stablemaster to suit up for battle.\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
          "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"

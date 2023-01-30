@@ -1,0 +1,454 @@
+[gd_scene load_steps=67 format=2]
+
+[ext_resource path="res://core/Dialogue.tscn" type="PackedScene" id=1]
+[ext_resource path="res://core/FullScreenAnimation.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_walk_right.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_walk_back.png" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_idle_left.png" type="Texture" id=5]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_idle_right.png" type="Texture" id=6]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_idle_front.png" type="Texture" id=7]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_walk_left.png" type="Texture" id=8]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_idle_back.png" type="Texture" id=9]
+[ext_resource path="res://assets/sprites/human/rider/rider_spear_walk_front.png" type="Texture" id=10]
+[ext_resource path="res://assets/sprites/human/rider/rider_death.png" type="Texture" id=12]
+[ext_resource path="res://assets/sprites/human/rider/rider_dead.png" type="Texture" id=13]
+
+[sub_resource type="GDScript" id=201]
+script/source = "extends \"res://characters/MeleeChar.gd\"
+
+enum states {MOVE, DIALOGUE, DEAD}
+
+const DIALOGUE_DEATH = \"res://dialogues/player_death.txt\"
+
+onready var interaction_pivot = $InteractionboxPivot
+onready var interaction_player = $InteractionboxPivot/InteractionboxActive/CollisionShape2D/InteractionPlayer
+
+var movement_vector: Vector2 = Vector2.ZERO
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	var dialogue = get_tree().get_nodes_in_group(\"dialogue\")[-1]
+	dialogue.connect(\"dialogue_started\", self, \"dialogue_started\")
+	dialogue.connect(\"dialogue_finished\", self, \"dialogue_finished\")
+	state = states.MOVE
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	match state:
+		states.MOVE:
+			facing_from_input()
+			interactionbox_from_facing()
+			move_by_input(delta)
+			interact()
+		states.DIALOGUE:
+			pass
+
+func facing_from_input():
+	if Input.is_action_pressed(\"move_up\"):
+		facing = directions.BACK
+	if Input.is_action_pressed(\"move_down\"):
+		facing = directions.FRONT
+	if Input.is_action_pressed(\"move_left\"):
+		facing = directions.LEFT
+	if Input.is_action_pressed(\"move_right\"):
+		facing = directions.RIGHT
+		
+func interactionbox_from_facing():
+	match facing:
+		directions.FRONT:
+			interaction_pivot.rotation = 0
+		directions.BACK:
+			interaction_pivot.rotation = PI
+		directions.LEFT:
+			interaction_pivot.rotation = PI/2
+		directions.RIGHT:
+			interaction_pivot.rotation = -PI/2
+
+func move_by_input(delta):
+	var input_velocity = Vector2.ZERO
+	if Input.is_action_pressed(\"move_right\"):
+		input_velocity.x += 1
+	if Input.is_action_pressed(\"move_left\"):
+		input_velocity.x -= 1
+	if Input.is_action_pressed(\"move_down\"):
+		input_velocity.y += 1
+	if Input.is_action_pressed(\"move_up\"):
+		input_velocity.y -= 1
+
+	input_velocity = input_velocity.normalized() * speed
+	move_animate(input_velocity)
+		
+	movement_vector = input_velocity * delta
+	return move_and_collide(movement_vector)
+	
+func interact():
+	if Input.is_action_just_pressed(\"interact\"):
+		interaction_player.play(\"interaction\")
+
+func _on_Hurtbox_area_entered(area):
+	if area.name == \"Hurtbox\": return
+	
+	death()
+	
+func dialogue_started():
+	match state:
+		states.MOVE:
+			state = states.DIALOGUE
+			idle_animate()
+		states.DEAD:
+			pass
+	
+func dialogue_finished():
+	match state:
+		states.DIALOGUE:
+			state = states.MOVE
+		states.DEAD:
+			game.current_chapter.emit_signal(\"restart\")
+
+func death():
+	state = states.DEAD
+	$CollisionShape2D.set_deferred(\"disabled\", true)
+	get_node(\"Hurtbox/CollisionShape2D\").set_deferred(\"disabled\", true)
+	sprite.play(\"death\")
+	
+	json_resource = DIALOGUE_DEATH
+	emit_signal(\"dialogue\", json_resource)
+"
+
+[sub_resource type="AtlasTexture" id=200]
+atlas = ExtResource( 13 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=188]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=189]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=190]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=191]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=192]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=193]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 80, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=194]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=195]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=196]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=197]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=198]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 160, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=199]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 176, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=185]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=186]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=177]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=178]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=163]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=164]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=179]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=180]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=169]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=170]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=171]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=172]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=173]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=174]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 80, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=175]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=176]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=155]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=156]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=157]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=158]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=159]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=160]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 80, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=161]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=162]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=165]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=166]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=167]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=168]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=181]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=182]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=183]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=184]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=148]
+animations = [ {
+"frames": [ SubResource( 200 ) ],
+"loop": true,
+"name": "dead",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 188 ), SubResource( 189 ), SubResource( 190 ), SubResource( 191 ), SubResource( 192 ), SubResource( 193 ), SubResource( 194 ), SubResource( 195 ), SubResource( 196 ), SubResource( 197 ), SubResource( 198 ), SubResource( 199 ) ],
+"loop": true,
+"name": "death",
+"speed": 6.0
+}, {
+"frames": [ SubResource( 185 ), SubResource( 186 ) ],
+"loop": true,
+"name": "idle_back",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 177 ), SubResource( 178 ) ],
+"loop": true,
+"name": "idle_front",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 163 ), SubResource( 164 ) ],
+"loop": true,
+"name": "idle_left",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 179 ), SubResource( 180 ) ],
+"loop": true,
+"name": "idle_right",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 169 ), SubResource( 170 ), SubResource( 171 ), SubResource( 172 ), SubResource( 173 ), SubResource( 174 ), SubResource( 175 ), SubResource( 176 ) ],
+"loop": true,
+"name": "walk_back",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 155 ), SubResource( 156 ), SubResource( 157 ), SubResource( 158 ), SubResource( 159 ), SubResource( 160 ), SubResource( 161 ), SubResource( 162 ) ],
+"loop": true,
+"name": "walk_front",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 165 ), SubResource( 166 ), SubResource( 167 ), SubResource( 168 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 12.0
+}, {
+"frames": [ SubResource( 181 ), SubResource( 182 ), SubResource( 183 ), SubResource( 184 ) ],
+"loop": true,
+"name": "walk_right",
+"speed": 12.0
+} ]
+
+[sub_resource type="Animation" id=149]
+length = 0.001
+
+[sub_resource type="RectangleShape2D" id=150]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=151]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=152]
+extents = Vector2( 1, 0.5 )
+
+[sub_resource type="Animation" id=153]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=154]
+resource_name = "interaction"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="RectangleShape2D" id=187]
+extents = Vector2( 7, 8 )
+
+[node name="PlayerRiderPacific" type="KinematicBody2D" groups=["player"]]
+z_index = 1
+collision_layer = 3
+collision_mask = 3
+script = SubResource( 201 )
+speed = 36
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="Dialogue" parent="Camera2D" groups=["dialogue"] instance=ExtResource( 1 )]
+
+[node name="FullScreenAnimation" parent="Camera2D" instance=ExtResource( 2 )]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 148 )
+animation = "idle_right"
+playing = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite"]
+anims/RESET = SubResource( 149 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 150 )
+one_way_collision_margin = 0.0
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource( 151 )
+one_way_collision_margin = 0.0
+
+[node name="InteractionboxPivot" type="Position2D" parent="."]
+__meta__ = {
+"_gizmo_extents_": 4.0
+}
+
+[node name="InteractionboxActive" type="Area2D" parent="InteractionboxPivot"]
+collision_layer = 32
+collision_mask = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionboxPivot/InteractionboxActive"]
+position = Vector2( 0, 8.5 )
+shape = SubResource( 152 )
+disabled = true
+
+[node name="InteractionPlayer" type="AnimationPlayer" parent="InteractionboxPivot/InteractionboxActive/CollisionShape2D"]
+anims/RESET = SubResource( 153 )
+anims/interaction = SubResource( 154 )
+
+[node name="Eventbox" type="Area2D" parent="."]
+collision_layer = 576
+collision_mask = 576
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eventbox"]
+shape = SubResource( 187 )

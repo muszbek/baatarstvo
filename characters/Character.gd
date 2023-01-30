@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 enum directions {FRONT, BACK, LEFT, RIGHT}
 
-export var speed: int = 16
+export var speed: int = 24
 export var facing = directions.FRONT
 export var can_be_saved: bool = true
 signal dialogue(json_resource)
