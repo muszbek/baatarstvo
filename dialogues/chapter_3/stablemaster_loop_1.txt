@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Better make haste now and fulfill your royal father's command.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Take your horse and leave the camp due East.\""
+   },
+   {
+      "text":"\"If you follow the hoofprints on the ground ...\""
+   },
+   {
+      "text":"\"... you will surely find both our cavalry ...\""
+   },
+   {
+      "text":"\"... and the enemy's.\""
+   }
+]

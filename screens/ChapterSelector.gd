@@ -3,6 +3,7 @@ extends Control
 onready var game = get_tree().get_nodes_in_group("game")[-1]
 onready var left_widget = $LeftSprite
 onready var right_widget = $RightSprite
+onready var locked_widget = $LockedSprite
 onready var label = $Label
 
 var current_chapter: int = 0
@@ -31,14 +32,16 @@ func next_chapter():
 
 func display_chapter():
 	if current_chapter == 0:
-		left_widget.animation = "empty"
+		left_widget.set_deferred("visible", false)
 	else:
-		left_widget.animation = "left_arrow"
+		left_widget.set_deferred("visible", true)
 	
 	if current_chapter == max_chapter:
-		right_widget.animation = "locked"
+		right_widget.set_deferred("visible", false)
+		locked_widget.set_deferred("visible", true)
 	else:
-		right_widget.animation = "right_arrow"
+		right_widget.set_deferred("visible", true)
+		locked_widget.set_deferred("visible", false)
 	
 	label.text = "Chapter " + str(current_chapter)
 

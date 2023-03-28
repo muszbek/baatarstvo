@@ -1,0 +1,40 @@
+[
+   {
+      "text":"\"No ... You were late ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk0.png",
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"These are dire tidings indeed.\""
+   },
+   {
+      "text":"\"My worst possible fear has come to pass.\""
+   },
+   {
+      "text":"\"We shall have to defend ourselves in this fortified camp.\""
+   },
+   {
+      "text":"\"Son, I have another mission for you now.\""
+   },
+   {
+      "text":"\"I expect to hold out here in siege for several days.\""
+   },
+   {
+      "text":"\"Ride back Westwards to our borders ...\""
+   },
+   {
+      "text":"\"And swiftly lead a garrison of cavalry to relieve us.\""
+   },
+   {
+      "text":"\"Leave the camp to the West.\""
+   },
+   {
+      "text":"\"Our lives depend on you ...\""
+   },
+   {
+      "text":"\"... may the Lord grant you success.\""
+   }
+]

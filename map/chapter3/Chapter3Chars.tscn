@@ -1,0 +1,179 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://characters/chapter3/Father.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter3/StableMaster.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter3/HorseMount.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter3/RusSwordsmanGuardEast.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter3/Horse.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter0/Horse.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter3/RusSwordsmanSimple.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter3/RusSwordsmanGuardCamp.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter3/HorseReined.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter3/KipchakWounded.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter3/RusSwordsmanGuardWest.tscn" type="PackedScene" id=11]
+[ext_resource path="res://characters/chapter3/Petrov.tscn" type="PackedScene" id=12]
+[ext_resource path="res://characters/chapter3/Liliya.tscn" type="PackedScene" id=13]
+
+[node name="Chapter3Chars" type="Node2D"]
+
+[node name="Father" parent="." instance=ExtResource( 1 )]
+position = Vector2( 40, 44 )
+
+[node name="StableMaster" parent="." instance=ExtResource( 2 )]
+position = Vector2( 152, 40 )
+
+[node name="HorseMount" parent="." instance=ExtResource( 3 )]
+position = Vector2( 184, 56 )
+
+[node name="RusSwordsmanGuardEast" parent="." instance=ExtResource( 4 )]
+position = Vector2( 264, 39 )
+facing = 3
+open_gate_target_name = "open_gate_pos_east_north"
+close_gate_target_name = "close_gate_pos_east_north"
+
+[node name="RusSwordsmanGuardEast2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 264, 57 )
+facing = 3
+open_gate_target_name = "open_gate_pos_east_south"
+close_gate_target_name = "close_gate_pos_east_south"
+
+[node name="Horse" parent="." instance=ExtResource( 5 )]
+position = Vector2( 96, 136 )
+facing = 3
+
+[node name="Horse2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 136, 88 )
+facing = 3
+
+[node name="Horse3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 168, 88 )
+
+[node name="Horse4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 136, 152 )
+facing = 3
+
+[node name="Horse5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 168, 136 )
+
+[node name="Horse6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 210, 120 )
+
+[node name="RusSwordsmanSimple" parent="." instance=ExtResource( 7 )]
+position = Vector2( 236, 128 )
+facing = 3
+
+[node name="RusSwordsmanGuardCamp" parent="." instance=ExtResource( 8 )]
+position = Vector2( 48, 116 )
+facing = 1
+open_gate_target_name = "open_gate_pos_camp_west"
+
+[node name="RusSwordsmanGuardCamp2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 72, 116 )
+facing = 1
+open_gate_target_name = "open_gate_pos_camp_east"
+
+[node name="RusSwordsmanSimple2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 176, -40 )
+facing = 3
+
+[node name="RusSwordsmanSimple3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 226, -48 )
+facing = 2
+
+[node name="RusSwordsmanSimple4" parent="." instance=ExtResource( 7 )]
+position = Vector2( 252, -56 )
+facing = 3
+
+[node name="RusSwordsmanSimple5" parent="." instance=ExtResource( 7 )]
+position = Vector2( 200, -32 )
+facing = 1
+
+[node name="RusSwordsmanSimple6" parent="." instance=ExtResource( 7 )]
+position = Vector2( 48, -17 )
+
+[node name="RusSwordsmanSimple7" parent="." instance=ExtResource( 7 )]
+position = Vector2( 112, -40 )
+
+[node name="HorseReined" parent="." instance=ExtResource( 9 )]
+position = Vector2( 840, 119 )
+
+[node name="KipchakWounded" parent="." instance=ExtResource( 10 )]
+position = Vector2( 824, -8 )
+
+[node name="RusSwordsmanSimple8" parent="." instance=ExtResource( 7 )]
+position = Vector2( -208, 120 )
+facing = 2
+
+[node name="RusSwordsmanSimple9" parent="." instance=ExtResource( 7 )]
+position = Vector2( -144, 97 )
+facing = 2
+
+[node name="RusSwordsmanSimple10" parent="." instance=ExtResource( 7 )]
+position = Vector2( -160, 127 )
+facing = 2
+
+[node name="RusSwordsmanSimple11" parent="." instance=ExtResource( 7 )]
+position = Vector2( -80, 112 )
+
+[node name="RusSwordsmanSimple12" parent="." instance=ExtResource( 7 )]
+position = Vector2( -16, 168 )
+
+[node name="RusSwordsmanSimple13" parent="." instance=ExtResource( 7 )]
+position = Vector2( 112, 176 )
+
+[node name="RusSwordsmanSimple14" parent="." instance=ExtResource( 7 )]
+position = Vector2( 94, 212 )
+facing = 3
+
+[node name="RusSwordsmanSimple15" parent="." instance=ExtResource( 7 )]
+position = Vector2( 120, 240 )
+
+[node name="RusSwordsmanSimple16" parent="." instance=ExtResource( 7 )]
+position = Vector2( 216, 168 )
+facing = 3
+
+[node name="RusSwordsmanSimple17" parent="." instance=ExtResource( 7 )]
+position = Vector2( 152, 200 )
+facing = 2
+
+[node name="RusSwordsmanSimple18" parent="." instance=ExtResource( 7 )]
+position = Vector2( -112, 119 )
+
+[node name="RusSwordsmanSimple19" parent="." instance=ExtResource( 7 )]
+position = Vector2( 48, 249 )
+
+[node name="RusSwordsmanSimple20" parent="." instance=ExtResource( 7 )]
+position = Vector2( 0, 256 )
+
+[node name="RusSwordsmanSimple21" parent="." instance=ExtResource( 7 )]
+position = Vector2( -56, 249 )
+
+[node name="RusSwordsmanSimple22" parent="." instance=ExtResource( 7 )]
+position = Vector2( -112, 240 )
+
+[node name="RusSwordsmanSimple23" parent="." instance=ExtResource( 7 )]
+position = Vector2( -144, 224 )
+
+[node name="RusSwordsmanSimple24" parent="." instance=ExtResource( 7 )]
+position = Vector2( -224, 72 )
+facing = 2
+
+[node name="Petrov" parent="." groups=["petrov"] instance=ExtResource( 12 )]
+position = Vector2( -368, 184 )
+
+[node name="Liliya" parent="." instance=ExtResource( 13 )]
+position = Vector2( -384, 201 )
+
+[node name="RusSwordsmanGuardCamp3" parent="." instance=ExtResource( 11 )]
+position = Vector2( -200, 192 )
+facing = 2
+open_gate_target_name = "open_gate_pos_west"
+close_gate_target_name = "close_gate_pos_west"
+
+[node name="RusSwordsmanSimple25" parent="." instance=ExtResource( 7 )]
+position = Vector2( -240, 24 )
+facing = 2
+
+[node name="RusSwordsmanSimple26" parent="." instance=ExtResource( 7 )]
+position = Vector2( 240, -112 )
+facing = 3

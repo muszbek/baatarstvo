@@ -1,0 +1,12 @@
+[
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_horse_reined/portrait_horse_reined_0.png",
+         "res://assets/sprites/portraits/portrait_horse_reined/portrait_horse_reined_1.png",
+         "res://assets/sprites/portraits/portrait_horse_reined/portrait_horse_reined_2.png",
+         "res://assets/sprites/portraits/portrait_horse_reined/portrait_horse_reined_3.png"
+      ],
+      "side":"right"
+   }
+]

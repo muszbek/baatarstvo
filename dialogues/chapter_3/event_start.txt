@@ -1,0 +1,56 @@
+[
+   {
+      "target":"father",
+      "text":"\"My son, listen to me now.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk0.png",
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"This pursuit has been going on for more than a week.\""
+   },
+   {
+      "text":"\"Our forces are stretched thin, exhausted and vulnerable.\""
+   },
+   {
+      "text":"\"The other princes advanced too far ahead ...\""
+   },
+   {
+      "text":"\"... in their eagerness to fight the enemy.\""
+   },
+   {
+      "text":"\"I commanded them to stay together, but they listen not...\""
+   },
+   {
+      "text":"\"... am I not the Grand Prince?\""
+   },
+   {
+      "text":"\"There is a river ahead of us, that is where I draw the line.\""
+   },
+   {
+      "text":"\"This is the mistake the horde has been waiting ...\""
+   },
+   {
+      "text":"\"... for us to commit.\""
+   },
+   {
+      "text":"\"I ordered our troops to make a fortified camp here.\""
+   },
+   {
+      "text":"\"My heart is suddenly filled with dread.\""
+   },
+   {
+      "text":"\"I need you to ride ahead to our allies ...\""
+   },
+   {
+      "text":"\"... and make them see reason before they cross the river.\""
+   },
+   {
+      "text":"\"Talk to the stablemaster ...\""
+   },
+   {
+      "text":"\"... he should have your horse ready.\""
+   }
+]

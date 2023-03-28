@@ -1,0 +1,17 @@
+[
+   {
+      "target":"father",
+      "text":"\"Talk to the stablemaster ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk0.png",
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... he should have your horse ready.\""
+   },
+   {
+      "text":"\"May the Lord watch over you, my Son!\""
+   }
+]

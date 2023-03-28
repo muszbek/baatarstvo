@@ -1,6 +1,5 @@
 [
    {
-      "target":"liliya",
       "text":"\"Forgive my tone, Sire! I knew not, who I speak to!\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_liliya_talk/portrait_liliya_talk_0.png",

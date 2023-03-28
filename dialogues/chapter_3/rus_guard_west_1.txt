@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Sire, you can exit the camp here.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Make haste and ride forth Westwards ...\""
+   },
+   {
+      "text":"\"We are counting on you!\""
+   }
+]

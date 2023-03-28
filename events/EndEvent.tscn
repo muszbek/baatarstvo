@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/EndEvent.gd" type="Script" id=2]
+
+[node name="EndEvent" instance=ExtResource( 1 )]
+script = ExtResource( 2 )

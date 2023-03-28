@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"We are camp followers, not soldiers.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_liliya_talk/portrait_liliya_talk_0.png",
+         "res://assets/sprites/portraits/portrait_liliya_talk/portrait_liliya_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We do not fight, we do not take sides.\""
+   },
+   {
+      "text":"\"I do hope though that you survive this.\""
+   }
+]

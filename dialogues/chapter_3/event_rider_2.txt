@@ -1,0 +1,8 @@
+[
+   {
+      "script":"rider_passes_south"
+   },
+   {
+      "script":"rider_passes_north"
+   }
+]

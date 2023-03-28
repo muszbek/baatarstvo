@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/army_ambient_2.mp3-4807ebcd1e8196563c31e2f653c9e59c.mp3str"
+
+[deps]
+
+source_file="res://assets/music/army_ambient_2.mp3"
+dest_files=[ "res://.import/army_ambient_2.mp3-4807ebcd1e8196563c31e2f653c9e59c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

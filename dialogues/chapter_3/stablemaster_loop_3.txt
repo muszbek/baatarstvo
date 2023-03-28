@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"This is not good ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_5_talk/portrait_rus_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... your horse is tired as it is!\""
+   }
+]

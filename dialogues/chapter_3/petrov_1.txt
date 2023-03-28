@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"Ah... it is you, the prince!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The trap sprung by the enemy is closing in ...\""
+   },
+   {
+      "text":"\"An advice, if you allow me, Sire ...\""
+   },
+   {
+      "text":"\"Do not reveal to them that you are nobility!\""
+   },
+   {
+      "text":"\"They are mighty furious ...\""
+   },
+   {
+      "text":"\"... for what has been done to their envoy.\""
+   }
+]

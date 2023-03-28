@@ -13,7 +13,7 @@
 [ext_resource path="res://events/chapter2/MusicMarchEvent.tscn" type="PackedScene" id=11]
 [ext_resource path="res://events/chapter2/LeaveMapEvent.tscn" type="PackedScene" id=12]
 [ext_resource path="res://events/chapter2/MongolCapturedEvent.tscn" type="PackedScene" id=13]
-[ext_resource path="res://events/chapter2/EndEvent.tscn" type="PackedScene" id=14]
+[ext_resource path="res://events/EndEvent.tscn" type="PackedScene" id=14]
 [ext_resource path="res://events/chapter2/ReachedArmyEvent.tscn" type="PackedScene" id=15]
 
 [node name="Chapter2Events" type="Node2D"]

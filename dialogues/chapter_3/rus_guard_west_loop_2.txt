@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Sire, I must guard this side of the camp ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_rus_2_talk/portrait_rus_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We need you to bring us reinforcements from West!\""
+   }
+]
