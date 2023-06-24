@@ -1,0 +1,209 @@
+[
+   {
+      "target":"captive_georgian",
+      "text":"\"Listen to me, comrades!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We come from different lands ...\""
+   },
+   {
+      "text":"\"... but we are brothers in captivity.\""
+   },
+   {
+      "text":"\"Our fate is shared now.\""
+   },
+   {
+      "text":"\"I have an escape plan.\""
+   },
+   {
+      "text":"\"The army is moving from West to East.\""
+   },
+   {
+      "text":"\"So to those directions ...\""
+   },
+   {
+      "text":"\"... we would just run into more soldiers.\""
+   },
+   {
+      "text":"\"To the North there is the open steppe ...\""
+   },
+   {
+      "text":"\"... with no place to run or hide.\""
+   },
+   {
+      "text":"\"That leaves us South.\""
+   },
+   {
+      "target":"captive_muslim",
+      "text":"\"There is nothing to the South ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Those lands have been wasted barren ...\""
+   },
+   {
+      "text":"\"... completely destroyed by these hellish horsemen.\""
+   },
+   {
+      "target":"captive_georgian",
+      "text":"\"Exactly.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"They would not follow us to lands ...\""
+   },
+   {
+      "text":"\"... which they have already plundered.\""
+   },
+   {
+      "text":"\"They foraged all the food, took all the cattle ...\""
+   },
+   {
+      "text":"\"... and their horses grazed all the grass.\""
+   },
+   {
+      "text":"\"They cannot sustain a pursue that way.\""
+   },
+   {
+      "text":"\"We have to escape all at the same time ...\""
+   },
+   {
+      "text":"\"... and run in different paths.\""
+   },
+   {
+      "text":"\"That way their attention shall be divided.\""
+   },
+   {
+      "target":"captive_coward",
+      "text":"\"Why escape?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_1_talk/portrait_prisoner_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_1_talk/portrait_prisoner_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"They might let us join their ranks and fight for them.\""
+   },
+   {
+      "target":"captive_muslim",
+      "text":"\"And be driven against your own people as meat-shield?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You are foolish to expect mercy from these demons.\""
+   },
+   {
+      "text":"\"I have seen what they did to my home.\""
+   },
+   {
+      "text":"\"They are a punishment from God for our sins.\""
+   },
+   {
+      "target":"captive_georgian",
+      "text":"\"That is what they want you to believe!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"But I agree.\""
+   },
+   {
+      "text":"\"In the hands of these savages we are certain to perish.\""
+   },
+   {
+      "text":"\"They treat even their own soldiers in the most cruel way.\""
+   },
+   {
+      "text":"\"If we escape, we at least have a chance ...\""
+   },
+   {
+      "text":"\"... that God may deliver us.\""
+   },
+   {
+      "target":"captive_coward",
+      "text":"\"Enough of this madness!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_1_talk/portrait_prisoner_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_1_talk/portrait_prisoner_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"If one of you escapes, they shall execute all of us!\""
+   },
+   {
+      "text":"\"I am going to warn the guard to bind us!\""
+   },
+   {
+      "target":"captive_georgian",
+      "text":"\"... that wretched coward ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"coward_warn"
+   },
+   {
+      "target":"captive_georgian",
+      "text":"\"That's it! I am no slave, but a soldier!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_2_talk/portrait_prisoner_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"georgian_run"
+   },
+   {
+      "target":"mongol_guard_start_chase",
+      "text":"\"The prisoners are escaping!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Division, to the horses! Hunt formation!\""
+   },
+   {
+      "script":"guard_run"
+   },
+   {
+      "target":"captive_muslim",
+      "text":"\"Looks like it is now or never. May God be with us all.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_prisoner_3_talk/portrait_prisoner_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"muslim_run"
+   }
+]

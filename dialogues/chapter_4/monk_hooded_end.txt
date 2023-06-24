@@ -1,0 +1,37 @@
+[
+   {
+      "text":"\"Come closer stranger...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_monk_hooded_talk/portrait_monk_hooded_talk_0.png",
+         "res://assets/sprites/portraits/portrait_monk_hooded_talk/portrait_monk_hooded_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You look like a hunted man.\""
+   },
+   {
+      "text":"\"I offer you to hide with us ...\""
+   },
+   {
+      "text":"\"... for we are brothers in Christ.\""
+   },
+   {
+      "text":"\"You are safe for now.\""
+   },
+   {
+      "text":"\"Alas, you cannot stay with us ...\""
+   },
+   {
+      "text":"\"... for our rations are scarce.\""
+   },
+   {
+      "text":"\"You shall regain your strength ...\""
+   },
+   {
+      "text":"\"... and then continue on your path next nightfall.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

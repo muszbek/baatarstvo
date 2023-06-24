@@ -1,0 +1,23 @@
+[
+   {
+      "target":"petrov",
+      "text":"\"Wait a moment... That armor...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_agitated/portrait_petrov_agitated_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_agitated/portrait_petrov_agitated_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I recognize you now! You are that prince!\""
+   },
+   {
+      "text":"\"And you are fleeing from captivity...\""
+   },
+   {
+      "text":"\"That means you put me in danger...\""
+   },
+   {
+      "text":"\"GUARDS! SOLDIERS! HUNTERS! OVER HERE!\""
+   }
+]

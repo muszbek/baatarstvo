@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Over there! In the water! Get him!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Dismount and enter after him!\""
+   }
+]

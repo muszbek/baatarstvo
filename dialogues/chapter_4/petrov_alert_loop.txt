@@ -1,0 +1,14 @@
+[
+   {
+      "target":"petrov",
+      "text":"\"It is nothing personal, prince!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_agitated/portrait_petrov_agitated_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_agitated/portrait_petrov_agitated_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Every men for themselves in my trade.\""
+   }
+]

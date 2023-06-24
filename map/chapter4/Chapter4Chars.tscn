@@ -1,0 +1,116 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://characters/chapter4/CaptiveGeorgian.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter4/CaptiveMuslim.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter4/CaptiveCoward.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter4/MongolGuardPrisonerKill.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter4/MongolGuardStartChase.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter4/MongolNaginata.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter4/Horse.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter4/Petrov.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter4/MongolNaginataStationary.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter4/Bear.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter4/MonkHooded.tscn" type="PackedScene" id=11]
+
+[node name="Chapter4Chars" type="Node2D"]
+
+[node name="CaptiveGeorgian" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 24 )
+facing = 2
+
+[node name="CaptiveMuslim" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, 24 )
+facing = 3
+
+[node name="CaptiveCoward" parent="." instance=ExtResource( 3 )]
+position = Vector2( 24, 0 )
+
+[node name="MongolGuardPrisonerKill" parent="." instance=ExtResource( 4 )]
+position = Vector2( -40, -8 )
+facing = 1
+behavior = 0
+
+[node name="MongolGuardStartChase" parent="." instance=ExtResource( 5 )]
+position = Vector2( 88, 0 )
+facing = 3
+behavior = 0
+
+[node name="MongolNaginata" parent="." instance=ExtResource( 6 )]
+position = Vector2( -88, 8 )
+facing = 2
+
+[node name="MongolNaginata2" parent="." instance=ExtResource( 6 )]
+position = Vector2( -104, 8 )
+facing = 3
+
+[node name="MongolNaginata3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 136, -9 )
+
+[node name="MongolNaginata4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 136, 9 )
+facing = 1
+
+[node name="MongolNaginata5" parent="." instance=ExtResource( 6 )]
+position = Vector2( -72, -72 )
+facing = 3
+
+[node name="MongolNaginata6" parent="." instance=ExtResource( 6 )]
+position = Vector2( -40, -56 )
+facing = 1
+
+[node name="MongolNaginata7" parent="." instance=ExtResource( 6 )]
+position = Vector2( -8, -72 )
+facing = 2
+
+[node name="MongolNaginata8" parent="." instance=ExtResource( 6 )]
+position = Vector2( 40, -71 )
+
+[node name="MongolNaginata9" parent="." instance=ExtResource( 6 )]
+position = Vector2( 104, -55 )
+
+[node name="MongolNaginata10" parent="." instance=ExtResource( 6 )]
+position = Vector2( -104, 72 )
+facing = 3
+
+[node name="MongolNaginata11" parent="." instance=ExtResource( 6 )]
+position = Vector2( 152, 72 )
+facing = 3
+
+[node name="Horse" parent="." instance=ExtResource( 7 )]
+position = Vector2( 192, 23 )
+facing = 3
+
+[node name="Horse2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 217, 23 )
+
+[node name="Horse3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 120, -104 )
+
+[node name="Horse4" parent="." instance=ExtResource( 7 )]
+position = Vector2( 96, -104 )
+facing = 3
+
+[node name="Horse5" parent="." instance=ExtResource( 7 )]
+position = Vector2( -104, -72 )
+facing = 3
+
+[node name="Petrov" parent="." instance=ExtResource( 8 )]
+position = Vector2( -40, 327 )
+
+[node name="MongolNaginataStationary" parent="." instance=ExtResource( 9 )]
+position = Vector2( -40, 632 )
+facing = 1
+
+[node name="MongolNaginataStationary2" parent="." instance=ExtResource( 9 )]
+position = Vector2( -16, 640 )
+facing = 1
+
+[node name="MongolNaginataStationary3" parent="." instance=ExtResource( 9 )]
+position = Vector2( -32, 672 )
+facing = 1
+
+[node name="Bear" parent="." instance=ExtResource( 10 )]
+position = Vector2( 8, 760 )
+
+[node name="MonkHooded" parent="." instance=ExtResource( 11 )]
+position = Vector2( 88, 952 )

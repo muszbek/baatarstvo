@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://events/MusicEvent.tscn" type="PackedScene" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 127.5, 10 )
+
+[node name="MusicEscapeEvent" instance=ExtResource( 1 )]
+TITLE = "res://assets/music/escape_tension.mp3"
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2( 117.5, 0 )
+shape = SubResource( 1 )

@@ -42,17 +42,27 @@ func idle_animate():
 	if facing == directions.RIGHT:
 		sprite.animation = "idle_right"
 
-func death():
+func disable_collisions():
 	$CollisionShape2D.set_deferred("disabled", true)
 	get_node("Hurtbox/CollisionShape2D").set_deferred("disabled", true)
 	get_node("Interactionbox/CollisionShape2D").set_deferred("disabled", true)
+
+func death():
+	disable_collisions()
 	animation_player.stop()
 	sprite.play("death")
 	emit_signal("death")
 
+func dead_animate(): sprite.play("dead")
+
+func remove():
+	disable_collisions()
+	animation_player.stop()
+	sprite.set_deferred("visible", false)
+
 func _on_AnimatedSprite_animation_finished():
 	if sprite.animation == "death":
-		sprite.play("dead")
+		dead_animate()
 		
 func speak():
 	emit_signal("dialogue", json_resource)

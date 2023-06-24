@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/escape_ambient.mp3-66dcb0439b5b396b6634b35530731347.mp3str"
+
+[deps]
+
+source_file="res://assets/music/escape_ambient.mp3"
+dest_files=[ "res://.import/escape_ambient.mp3-66dcb0439b5b396b6634b35530731347.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

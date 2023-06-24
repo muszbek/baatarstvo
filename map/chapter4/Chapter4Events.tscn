@@ -1,0 +1,52 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://events/chapter4/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter4/PlayerStartBehaviorEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter4/PetrovSpottedEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter4/HuntersSpottedEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter4/BearEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter4/MusicStartEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter4/MusicEscapeEvent.tscn" type="PackedScene" id=9]
+[ext_resource path="res://events/EndEvent.tscn" type="PackedScene" id=10]
+
+[node name="Chapter4Events" type="Node2D"]
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 24 )
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( 24, 24 )
+
+[node name="PlayerStartBehaviorEvent" parent="." instance=ExtResource( 3 )]
+
+[node name="PrisonerCowardKillPos" parent="." groups=["prisoner_coward_run_pos"] instance=ExtResource( 4 )]
+position = Vector2( -24, -8 )
+
+[node name="PrisonerGeorgianRunPos" parent="." groups=["prisoner_georgian_run_pos"] instance=ExtResource( 4 )]
+position = Vector2( 72, 72 )
+
+[node name="MongolGuardRunPos" parent="." groups=["mongol_guard_run_pos"] instance=ExtResource( 4 )]
+position = Vector2( -8, 72 )
+
+[node name="PrisonerMuslimRunPos" parent="." groups=["prisoner_muslim_run_pos"] instance=ExtResource( 4 )]
+position = Vector2( -24, 88 )
+
+[node name="PetrovSpotted" parent="." instance=ExtResource( 5 )]
+position = Vector2( -47, 304 )
+
+[node name="HuntersSpottedEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( -36, 508 )
+
+[node name="BearEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( -40, 692 )
+
+[node name="MusicStartEvent" parent="." instance=ExtResource( 8 )]
+position = Vector2( 24, 24 )
+
+[node name="MusicEscapeEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( -80, 51 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 10 )]
+position = Vector2( 168, 952 )

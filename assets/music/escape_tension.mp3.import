@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/escape_tension.mp3-c8d1de0899da865689833555362bc5be.mp3str"
+
+[deps]
+
+source_file="res://assets/music/escape_tension.mp3"
+dest_files=[ "res://.import/escape_tension.mp3-c8d1de0899da865689833555362bc5be.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

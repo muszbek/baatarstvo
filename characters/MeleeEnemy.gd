@@ -1,6 +1,6 @@
 extends "res://characters/MeleeChar.gd"
 
-enum states {IDLE, TRACKING, ABANDON, ATTACK, DEAD}
+enum states {IDLE, TRACKING, ABANDON, ATTACK, DEAD, REMOVED}
 enum hostility {PEACEFUL, ALERT, HOSTILE}
 
 export var behavior = hostility.HOSTILE
@@ -10,6 +10,11 @@ onready var los = $LineOfSight
 onready var player = get_tree().get_nodes_in_group("player")[-1]
 var player_angle: float = PI/2
 var collision: KinematicCollision2D
+
+func _ready():
+	match state:
+		states.DEAD: dead_animate()
+		states.REMOVED: remove()
 
 func _physics_process(_delta):
 	match state:

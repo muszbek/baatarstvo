@@ -1,0 +1,17 @@
+[
+   {
+      "target":"petrov",
+      "text":"\"Come, take a look inside my vagon and see my wares!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_0.png",
+         "res://assets/sprites/portraits/portrait_petrov_talk/portrait_petrov_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Surely you have some trinkets that we can trade...\""
+   },
+   {
+      "text":"\"I am trying to get rid of my bulky loot, you see.\""
+   }
+]
