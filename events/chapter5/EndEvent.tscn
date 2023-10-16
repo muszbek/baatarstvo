@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://events/EventZone.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter5/EndEvent.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 28.3367 )
+
+[node name="EndEvent" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2( -2.71294, 17.2129 )
+rotation = 0.785398
+scale = Vector2( 1, 1 )
+shape = SubResource( 1 )

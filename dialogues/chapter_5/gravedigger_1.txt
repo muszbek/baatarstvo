@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"Stranger, what brings you to these desolate lands?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_0.png",
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You shall find nothing here but destruction ...\""
+   },
+   {
+      "text":"\"... and vultures that prey on travelers ...\""
+   },
+   {
+      "text":"\"... such as yourself.\""
+   },
+   {
+      "text":"\"Perhaps your destination is ...\""
+   },
+   {
+      "text":"\"... the city that has been spared, to the South-East.\""
+   }
+]

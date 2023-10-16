@@ -1,0 +1,6 @@
+[
+   {
+      "text":"That way is where you came from.",
+      "side":"none"
+   }
+]

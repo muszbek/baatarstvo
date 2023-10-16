@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Leave this dead country ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_0.png",
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... continue your path to the South-East ...\""
+   },
+   {
+      "text":"\"... and find the city that was spared.\""
+   }
+]

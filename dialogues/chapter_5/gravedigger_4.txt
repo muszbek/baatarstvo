@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"These brigands started coming afterwards ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_0.png",
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to hold up refugees and fugitives.\""
+   },
+   {
+      "text":"\"They leave me be ...\""
+   },
+   {
+      "text":"\"... for there is nothing left to take...\""
+   },
+   {
+      "text":"\"... I am but an old keeper of the land.\""
+   },
+   {
+      "text":"\"I heard them speak of a city ...\""
+   },
+   {
+      "text":"\"... that still stands, far to the South-East ...\""
+   },
+   {
+      "text":"\"That is the only place where you can go.\""
+   }
+]

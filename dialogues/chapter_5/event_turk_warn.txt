@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Look Ahmad, a traveller from the North!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_turk_1_talk/portrait_turk_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_turk_1_talk/portrait_turk_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Traveller, what a shiny armor you have!\""
+   },
+   {
+      "text":"\"Hand it over now slowly...\""
+   },
+   {
+      "text":"\"... or we shall pierce you with arrows!\""
+   }
+]

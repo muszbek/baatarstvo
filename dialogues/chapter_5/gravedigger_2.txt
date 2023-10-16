@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"I am the only one to survive the horsemen ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_0.png",
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... by ill fate, to bury all the others.\""
+   },
+   {
+      "text":"\"Here I tend to the cemetery ...\""
+   },
+   {
+      "text":"\"... and wait for my sons ...\""
+   },
+   {
+      "text":"\"... who have been called to fight for God...\""
+   },
+   {
+      "text":"\"Maybe they come back one day.\""
+   }
+]

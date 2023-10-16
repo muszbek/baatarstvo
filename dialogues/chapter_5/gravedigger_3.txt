@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Our king was raising an army ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_0.png",
+         "res://assets/sprites/portraits/portrait_gravedigger_talk/portrait_gravedigger_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to wage war on the Holy Land ...\""
+   },
+   {
+      "text":"\"... but suddenly by some twisted ruse of the Devil ...\""
+   },
+   {
+      "text":"\"... the horse people fell upon us ...\""
+   },
+   {
+      "text":"\"... and destroyed Christians and Muhammadans alike.\""
+   }
+]

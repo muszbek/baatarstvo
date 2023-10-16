@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://characters/chapter5/TurkArcher.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter5/TurkSaberStationary.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter5/Gravedigger.tscn" type="PackedScene" id=3]
+
+[node name="Chapter5Chars" type="Node2D"]
+
+[node name="TurkArcher" parent="." instance=ExtResource( 1 )]
+position = Vector2( 296, 199 )
+facing = 2
+
+[node name="TurkArcher2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 296, 233 )
+facing = 2
+
+[node name="TurkSaberStationary" parent="." instance=ExtResource( 2 )]
+position = Vector2( 424, 264 )
+facing = 3
+
+[node name="TurkSaberStationary2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 456, 280 )
+facing = 2
+
+[node name="Gravedigger" parent="." instance=ExtResource( 3 )]
+position = Vector2( 776, 376 )
+
+[node name="TurkArcher3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1104, 471 )
+can_be_saved = false
+
+[node name="TurkArcher4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1176, 471 )
+can_be_saved = false
+
+[node name="TurkSaberStationary3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1016, 536 )
+facing = 3
+can_be_saved = false
+
+[node name="TurkSaberStationary4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1048, 552 )
+facing = 2
+can_be_saved = false
+
+[node name="TurkSaberStationary5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1160, 536 )
+can_be_saved = false
+
+[node name="TurkSaberStationary6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1144, 568 )
+facing = 1
+can_be_saved = false
+
+[node name="TurkSaberStationary7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1224, 552 )
+facing = 3
+can_be_saved = false
+
+[node name="TurkArcher5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1320, 600 )
+facing = 3
+can_be_saved = false

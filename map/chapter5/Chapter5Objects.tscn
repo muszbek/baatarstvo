@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://objects/CottageBurnt1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/CottageBurnt2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/CottageBurnt3.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/CarcassBird.tscn" type="PackedScene" id=4]
+[ext_resource path="res://objects/Carcass.tscn" type="PackedScene" id=5]
+[ext_resource path="res://objects/Owl.tscn" type="PackedScene" id=6]
+[ext_resource path="res://objects/Waterfall.tscn" type="PackedScene" id=7]
+[ext_resource path="res://objects/GranaryBurnt.tscn" type="PackedScene" id=8]
+[ext_resource path="res://objects/Bonfire.tscn" type="PackedScene" id=9]
+
+[node name="Chapter5Objects" type="Node2D"]
+
+[node name="CottageBurnt1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 208, 176 )
+
+[node name="CottageBurnt2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 400, 240 )
+
+[node name="CottageBurnt3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 464, 256 )
+
+[node name="CottageBurnt4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 688, 416 )
+
+[node name="CarcassBird" parent="." instance=ExtResource( 4 )]
+position = Vector2( 24, 200 )
+
+[node name="Carcass" parent="." instance=ExtResource( 5 )]
+position = Vector2( 520, 296 )
+
+[node name="Owl" parent="." instance=ExtResource( 6 )]
+position = Vector2( 952, 440 )
+
+[node name="Waterfall" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1264, 496 )
+
+[node name="CottageBurnt5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1024, 496 )
+
+[node name="GranaryBurnt" parent="." instance=ExtResource( 8 )]
+position = Vector2( 1072, 624 )
+
+[node name="CottageBurnt6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1136, 624 )
+
+[node name="Bonfire" parent="." instance=ExtResource( 9 )]
+position = Vector2( 1112, 536 )
+
+[node name="Carcass2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1064, 616 )
+
+[node name="Carcass3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1352, 664 )
+
+[node name="CarcassBird2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1432, 632 )
+
+[node name="CottageBurnt7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1344, 560 )
+
+[node name="Carcass4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1000, 568 )
