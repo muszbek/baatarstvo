@@ -1,0 +1,9 @@
+[
+   {
+      "text":"Round flat soft pieces of bread are offered on the table.",
+      "side":"none"
+   },
+   {
+      "text":"You take one and eat it with appetite."
+   }
+]

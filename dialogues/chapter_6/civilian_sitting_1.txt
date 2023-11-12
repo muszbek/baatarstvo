@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Assalamu alaykum, my friend.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We are living in turbulent times.\""
+   },
+   {
+      "text":"\"A new empire of horsemen has risen ...\""
+   },
+   {
+      "text":"\"... on the steppes far to the North-East.\""
+   },
+   {
+      "text":"\"We had many conflicts ...\""
+   },
+   {
+      "text":"\"... with the christians to our West ...\""
+   },
+   {
+      "text":"\"... and the shah to our East ...\""
+   },
+   {
+      "text":"\"... but this is something different.\""
+   }
+]

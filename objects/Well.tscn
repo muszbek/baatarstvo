@@ -16,8 +16,7 @@ animations = [ {
 } ]
 
 [node name="Well" instance=ExtResource( 1 )]
-DIALOGUE_LOOP = "res://dialogues/chapter_0/well.txt"
-json_resource = "res://dialogues/chapter_0/well.txt"
+DIALOGUE_LOOP = "res://dialogues/well.txt"
 
 [node name="AnimatedSprite" parent="." index="0"]
 frames = SubResource( 2 )

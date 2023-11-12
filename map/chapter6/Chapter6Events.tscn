@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter6/StartEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter6/CivilianInviteEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter6/AtabegEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter6/KidHelpEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter6/EndEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter6/CityAmbientMusicEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter6/CityTensionMusicEvent.tscn" type="PackedScene" id=9]
+
+[node name="Chapter6Events" type="Node2D"]
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 1 )]
+position = Vector2( 40, 40 )
+
+[node name="StartEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, 40 )
+
+[node name="CivilianInviteEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 83, 53 )
+
+[node name="OpenGatePosNorth" parent="." groups=["open_gate_pos_north"] instance=ExtResource( 4 )]
+position = Vector2( 631, 16 )
+
+[node name="OpenGatePosSouth" parent="." groups=["open_gate_pos_south"] instance=ExtResource( 4 )]
+position = Vector2( 631, 80 )
+
+[node name="AtabegEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 938, 13 )
+
+[node name="AtabegExitPos" parent="." groups=["atabeg_exit_pos"] instance=ExtResource( 4 )]
+position = Vector2( 1000, 48 )
+
+[node name="GateGuardPosNorth" parent="." groups=["gate_guard_pos_north"] instance=ExtResource( 4 )]
+position = Vector2( 664, 24 )
+
+[node name="GateGuardPosSouth" parent="." groups=["gate_guard_pos_south"] instance=ExtResource( 4 )]
+position = Vector2( 664, 72 )
+
+[node name="BlockPos" parent="." groups=["block_pos"] instance=ExtResource( 4 )]
+position = Vector2( 568, 48 )
+
+[node name="KidHelpPos" parent="." groups=["kid_help_pos"] instance=ExtResource( 4 )]
+position = Vector2( 608, 87 )
+
+[node name="KidHelpEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( 606, 55 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 608, -96 )
+
+[node name="CityAmbientMusicEvent" parent="." instance=ExtResource( 8 )]
+position = Vector2( 40, 40 )
+
+[node name="CityTensionMusicEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( 920, 3 )

@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"This is a strange war...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_civilian_3_talk/portrait_persian_civilian_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_civilian_3_talk/portrait_persian_civilian_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The political situation changes ...\""
+   },
+   {
+      "text":"\"... more rapidly and intensely than ever before.\""
+   },
+   {
+      "text":"\"The empire to our East had been menacing us ...\""
+   },
+   {
+      "text":"\"... but now they are completely destroyed by the horsemen.\""
+   },
+   {
+      "text":"\"The shah is probably dead.\""
+   },
+   {
+      "text":"\"I suspect we shall have new overlords soon.\""
+   }
+]

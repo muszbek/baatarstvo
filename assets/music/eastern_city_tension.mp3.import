@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/eastern_city_tension.mp3-ec427b4a051b1545c5d9e725ca5b3e22.mp3str"
+
+[deps]
+
+source_file="res://assets/music/eastern_city_tension.mp3"
+dest_files=[ "res://.import/eastern_city_tension.mp3-ec427b4a051b1545c5d9e725ca5b3e22.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

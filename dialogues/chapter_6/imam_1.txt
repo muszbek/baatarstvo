@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Assalamu alaykum, my child.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_0.png",
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You do not share our faith ...\""
+   },
+   {
+      "text":"\"... but you are welcome here nevertheless ...\""
+   },
+   {
+      "text":"\"... for in the eyes of Allah all guests are sacred.\""
+   },
+   {
+      "text":"\"Help yourself to some bread and sate your hunger.\""
+   }
+]

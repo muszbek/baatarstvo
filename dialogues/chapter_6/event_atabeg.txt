@@ -1,0 +1,52 @@
+[
+   {
+      "target":"atabeg",
+      "text":"\"So you are the foreign visitor everyone is talking about.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_governor_talk/portrait_persian_governor_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_governor_talk/portrait_persian_governor_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You have come here to ask for military aid?\""
+   },
+   {
+      "text":"\"We both know the destructive force of the horde...\""
+   },
+   {
+      "text":"\"Naturally, that would make us allies.\""
+   },
+   {
+      "text":"\"However...\""
+   },
+   {
+      "text":"\"We paid too heavy of a price for peace ...\""
+   },
+   {
+      "text":"\"... and I cannot allow you to bring war to us.\""
+   },
+   {
+      "text":"\"Guards! This spy shall never leave this city ...\""
+   },
+   {
+      "text":"\"... to plant the seeds of conflict.\""
+   },
+   {
+      "text":"\"In fact, he has never come here ...\""
+   },
+   {
+      "text":"\"... nobody has seen or heard him. Understood?\""
+   },
+   {
+      "text":"\"Yes, my liege!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"atabeg_exit"
+   }
+]

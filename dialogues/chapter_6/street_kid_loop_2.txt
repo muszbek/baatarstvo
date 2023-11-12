@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Go and escape the guards through the canal!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_0.png",
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Continue straigth to the North!\""
+   }
+]

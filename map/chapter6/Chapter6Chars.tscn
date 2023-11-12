@@ -1,0 +1,205 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://characters/chapter6/StreetKid.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter6/Camel.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter6/Imam.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter6/MuslimCivilianSitting.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter6/PersianGuard.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter6/MuslimCivilian3.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter6/MuslimCivilian4.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter6/MuslimCivilianFemale.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter6/MuslimCivilian2.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter6/MuslimCivilian1.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter6/Horse.tscn" type="PackedScene" id=11]
+[ext_resource path="res://characters/chapter6/PersianConstable.tscn" type="PackedScene" id=12]
+[ext_resource path="res://characters/chapter6/PersianGateGuard.tscn" type="PackedScene" id=13]
+[ext_resource path="res://characters/chapter6/Atabeg.tscn" type="PackedScene" id=14]
+[ext_resource path="res://characters/chapter6/CamelBlocking.tscn" type="PackedScene" id=15]
+
+[node name="Chapter6Chars" type="Node2D"]
+
+[node name="StreetKid" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 28 )
+facing = 2
+can_be_saved = false
+
+[node name="Camel" parent="." instance=ExtResource( 2 )]
+position = Vector2( 31, 120 )
+facing = 3
+
+[node name="MuslimCivilianSitting" parent="." instance=ExtResource( 4 )]
+position = Vector2( 120, 104 )
+
+[node name="PersianGuard" parent="." instance=ExtResource( 5 )]
+position = Vector2( 64, 103 )
+facing = 1
+
+[node name="PersianGuard2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, 152 )
+facing = 1
+
+[node name="PersianGuard3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, -72 )
+
+[node name="Imam" parent="." instance=ExtResource( 3 )]
+position = Vector2( 176, -49 )
+
+[node name="Camel2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, 127 )
+
+[node name="MuslimCivilian3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 200, 40 )
+
+[node name="Camel3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320, -16 )
+facing = 3
+
+[node name="PersianGuard4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 320, 104 )
+facing = 1
+
+[node name="Camel4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 248, 55 )
+facing = 3
+
+[node name="MuslimCivilian4" parent="." instance=ExtResource( 7 )]
+position = Vector2( 264, 55 )
+
+[node name="MuslimCivilianFemale" parent="." instance=ExtResource( 8 )]
+position = Vector2( 344, 25 )
+
+[node name="MuslimCivilianFemale2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 360, 16 )
+
+[node name="MuslimCivilianFemale3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 360, 33 )
+
+[node name="MuslimCivilian2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 408, 64 )
+
+[node name="MuslimCivilianFemale4" parent="." instance=ExtResource( 8 )]
+position = Vector2( 424, 64 )
+
+[node name="MuslimCivilian1" parent="." instance=ExtResource( 10 )]
+position = Vector2( 304, 16 )
+
+[node name="Horse" parent="." instance=ExtResource( 11 )]
+position = Vector2( 448, -16 )
+facing = 3
+
+[node name="PersianConstable" parent="." instance=ExtResource( 12 )]
+position = Vector2( 488, 0 )
+
+[node name="PersianGuard5" parent="." instance=ExtResource( 5 )]
+position = Vector2( -8, 56 )
+facing = 2
+
+[node name="PersianGuard6" parent="." instance=ExtResource( 5 )]
+position = Vector2( -8, 24 )
+facing = 2
+
+[node name="Camel5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -112 )
+facing = 3
+
+[node name="Camel6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 296, -40 )
+facing = 3
+
+[node name="MuslimCivilian5" parent="." instance=ExtResource( 10 )]
+position = Vector2( 96, -80 )
+
+[node name="MuslimCivilian6" parent="." instance=ExtResource( 9 )]
+position = Vector2( 256, -64 )
+
+[node name="PersianGuard7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 448, -48 )
+
+[node name="MuslimCivilian7" parent="." instance=ExtResource( 9 )]
+position = Vector2( 224, -88 )
+
+[node name="MuslimCivilian8" parent="." instance=ExtResource( 6 )]
+position = Vector2( 96, 192 )
+
+[node name="MuslimCivilianFemale5" parent="." instance=ExtResource( 8 )]
+position = Vector2( 191, 168 )
+
+[node name="MuslimCivilianFemale6" parent="." instance=ExtResource( 8 )]
+position = Vector2( 209, 168 )
+
+[node name="MuslimCivilian9" parent="." instance=ExtResource( 9 )]
+position = Vector2( 226, 127 )
+
+[node name="MuslimCivilian10" parent="." instance=ExtResource( 9 )]
+position = Vector2( 248, 127 )
+
+[node name="Camel7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 280, 152 )
+facing = 3
+
+[node name="PersianGuard8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 416, 104 )
+facing = 1
+
+[node name="MuslimCivilian11" parent="." instance=ExtResource( 10 )]
+position = Vector2( 392, 136 )
+
+[node name="MuslimCivilianFemale7" parent="." instance=ExtResource( 8 )]
+position = Vector2( 376, 136 )
+
+[node name="PersianGuard9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 472, 71 )
+facing = 1
+
+[node name="Horse2" parent="." instance=ExtResource( 11 )]
+position = Vector2( 512, 144 )
+facing = 3
+
+[node name="PersianGateGuard" parent="." instance=ExtResource( 13 )]
+position = Vector2( 631, 39 )
+facing = 2
+can_be_saved = false
+enemy_group = "gate_guards"
+open_gate_target_name = "open_gate_pos_north"
+fight_pos_target_name = "gate_guard_pos_north"
+
+[node name="PersianGateGuard2" parent="." instance=ExtResource( 13 )]
+position = Vector2( 631, 57 )
+facing = 2
+can_be_saved = false
+enemy_group = "gate_guards"
+open_gate_target_name = "open_gate_pos_south"
+fight_pos_target_name = "gate_guard_pos_south"
+
+[node name="PersianGuard10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 888, 8 )
+facing = 3
+can_be_saved = false
+enemy_group = "royal_guard"
+
+[node name="PersianGuard11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 888, 88 )
+facing = 3
+can_be_saved = false
+enemy_group = "royal_guard"
+
+[node name="PersianGuard12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 968, 8 )
+facing = 2
+can_be_saved = false
+enemy_group = "royal_guard"
+
+[node name="PersianGuard13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 968, 88 )
+facing = 2
+can_be_saved = false
+enemy_group = "royal_guard"
+
+[node name="Atabeg" parent="." instance=ExtResource( 14 )]
+position = Vector2( 968, 48 )
+can_be_saved = false
+
+[node name="CamelBlocking" parent="." instance=ExtResource( 15 )]
+position = Vector2( 608, -17 )
+facing = 3
+can_be_saved = false

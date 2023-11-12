@@ -1,0 +1,26 @@
+[
+   {
+      "target":"street_kid",
+      "text":"\"Hey, soldier! Do you come from the North?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_0.png",
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Do you come from far away?\""
+   },
+   {
+      "text":"\"It is good that you have come here ...\""
+   },
+   {
+      "text":"\"... because there is nowhere else to go now.\""
+   },
+   {
+      "text":"\"You should meet Imam Hamdullah.\""
+   },
+   {
+      "text":"\"I send all the newcomers to him, he is a kind old man.\""
+   }
+]

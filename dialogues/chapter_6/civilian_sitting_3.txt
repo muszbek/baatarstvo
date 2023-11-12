@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"The army of the horsemen passed by here ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... bringing destruction.\""
+   },
+   {
+      "text":"\"Since we are not subjects of the Shah ...\""
+   },
+   {
+      "text":"\"... the horsemen were merciful with us ...\""
+   },
+   {
+      "text":"\"... and they offered to spare us in exchange for a ransom ...\""
+   },
+   {
+      "text":"\"... if we do not resist.\""
+   },
+   {
+      "text":"\"Our atabeg judged ...\""
+   },
+   {
+      "text":"\"... that this is our only chance for survival ...\""
+   },
+   {
+      "text":"\"... and so we paid.\""
+   }
+]

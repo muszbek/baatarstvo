@@ -1,0 +1,9 @@
+[
+   {
+      "text":"You deeply inhale from the hookah ...",
+      "side":"none"
+   },
+   {
+      "text":"... a warm sweet fruity aroma fills your lungs."
+   }
+]

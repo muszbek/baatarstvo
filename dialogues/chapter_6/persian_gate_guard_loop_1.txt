@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"No one enters the castle ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... without the permission of the constable!\""
+   }
+]

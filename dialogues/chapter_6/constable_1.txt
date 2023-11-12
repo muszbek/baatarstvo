@@ -1,0 +1,40 @@
+[
+   {
+      "text":"\"Peace be with you stranger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_2_talk/portrait_persian_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_2_talk/portrait_persian_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I am constable Hakim ...\""
+   },
+   {
+      "text":"\"I decide where to place each refugee.\""
+   },
+   {
+      "text":"\"You are different though...\""
+   },
+   {
+      "text":"\"... you are not here to settle.\""
+   },
+   {
+      "text":"\"I see you come from a far away country ...\""
+   },
+   {
+      "text":"\"... fleeing from the horde.\""
+   },
+   {
+      "text":"\"If your mission is political in nature ...\""
+   },
+   {
+      "text":"\"... it is best you talk directly to the Atabeg.\""
+   },
+   {
+      "text":"\"The guards will let you through ...\""
+   },
+   {
+      "text":"\"... to the castle to the West accross the canal.\""
+   }
+]

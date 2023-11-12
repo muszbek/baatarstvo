@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/eastern_city_ambient.mp3-c3ab98209f7ec6e447658b098a9f8954.mp3str"
+
+[deps]
+
+source_file="res://assets/music/eastern_city_ambient.mp3"
+dest_files=[ "res://.import/eastern_city_ambient.mp3-c3ab98209f7ec6e447658b098a9f8954.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Go speak with Imam Hamdullah.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_0.png",
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You can find him in front of the mosque.\""
+   }
+]

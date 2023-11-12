@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"When you are ready, go talk to Constable Hakim.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_0.png",
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The guards orient all refugees ...\""
+   },
+   {
+      "text":"\"... and give them work on the fields.\""
+   },
+   {
+      "text":"\"I see that you are no ordinary refugee ...\""
+   },
+   {
+      "text":"\"... but you still need to talk to the constable.\""
+   },
+   {
+      "text":"\"He is the one to help you ...\""
+   },
+   {
+      "text":"\"... with whatever you came here for.\""
+   },
+   {
+      "text":"\"You can find him East of here at the barracks ...\""
+   },
+   {
+      "text":"\"... after crossing the Bazaar.\""
+   }
+]

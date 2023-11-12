@@ -17,10 +17,12 @@ facing = 2
 [node name="TurkSaberStationary" parent="." instance=ExtResource( 2 )]
 position = Vector2( 424, 264 )
 facing = 3
+enemy_group = "outskirts"
 
 [node name="TurkSaberStationary2" parent="." instance=ExtResource( 2 )]
 position = Vector2( 456, 280 )
 facing = 2
+enemy_group = "outskirts"
 
 [node name="Gravedigger" parent="." instance=ExtResource( 3 )]
 position = Vector2( 776, 376 )
@@ -37,25 +39,30 @@ can_be_saved = false
 position = Vector2( 1016, 536 )
 facing = 3
 can_be_saved = false
+enemy_group = "camp_1"
 
 [node name="TurkSaberStationary4" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1048, 552 )
 facing = 2
 can_be_saved = false
+enemy_group = "camp_1"
 
 [node name="TurkSaberStationary5" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1160, 536 )
 can_be_saved = false
+enemy_group = "camp_2"
 
 [node name="TurkSaberStationary6" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1144, 568 )
 facing = 1
 can_be_saved = false
+enemy_group = "camp_2"
 
 [node name="TurkSaberStationary7" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1224, 552 )
 facing = 3
 can_be_saved = false
+enemy_group = "camp_2"
 
 [node name="TurkArcher5" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1320, 600 )

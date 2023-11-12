@@ -38,43 +38,54 @@ behavior = 0
 [node name="MongolNaginata" parent="." instance=ExtResource( 6 )]
 position = Vector2( -88, 8 )
 facing = 2
+enemy_group = "guards_west"
 
 [node name="MongolNaginata2" parent="." instance=ExtResource( 6 )]
 position = Vector2( -104, 8 )
 facing = 3
+enemy_group = "guards_west"
 
 [node name="MongolNaginata3" parent="." instance=ExtResource( 6 )]
 position = Vector2( 136, -9 )
+enemy_group = "guards_east"
 
 [node name="MongolNaginata4" parent="." instance=ExtResource( 6 )]
 position = Vector2( 136, 9 )
 facing = 1
+enemy_group = "guards_east"
 
 [node name="MongolNaginata5" parent="." instance=ExtResource( 6 )]
 position = Vector2( -72, -72 )
 facing = 3
+enemy_group = "guards_northwest"
 
 [node name="MongolNaginata6" parent="." instance=ExtResource( 6 )]
 position = Vector2( -40, -56 )
 facing = 1
+enemy_group = "guards_northwest"
 
 [node name="MongolNaginata7" parent="." instance=ExtResource( 6 )]
 position = Vector2( -8, -72 )
 facing = 2
+enemy_group = "guards_northwest"
 
 [node name="MongolNaginata8" parent="." instance=ExtResource( 6 )]
 position = Vector2( 40, -71 )
+enemy_group = "guards_northeast"
 
 [node name="MongolNaginata9" parent="." instance=ExtResource( 6 )]
 position = Vector2( 104, -55 )
+enemy_group = "guards_northeast"
 
 [node name="MongolNaginata10" parent="." instance=ExtResource( 6 )]
 position = Vector2( -104, 72 )
 facing = 3
+enemy_group = "guards_west"
 
 [node name="MongolNaginata11" parent="." instance=ExtResource( 6 )]
 position = Vector2( 152, 72 )
 facing = 3
+enemy_group = "guards_east"
 
 [node name="Horse" parent="." instance=ExtResource( 7 )]
 position = Vector2( 192, 23 )
@@ -100,14 +111,17 @@ position = Vector2( -40, 327 )
 [node name="MongolNaginataStationary" parent="." instance=ExtResource( 9 )]
 position = Vector2( -40, 632 )
 facing = 1
+enemy_group = "hunters"
 
 [node name="MongolNaginataStationary2" parent="." instance=ExtResource( 9 )]
 position = Vector2( -16, 640 )
 facing = 1
+enemy_group = "hunters"
 
 [node name="MongolNaginataStationary3" parent="." instance=ExtResource( 9 )]
 position = Vector2( -32, 672 )
 facing = 1
+enemy_group = "hunters"
 
 [node name="Bear" parent="." instance=ExtResource( 10 )]
 position = Vector2( 8, 760 )

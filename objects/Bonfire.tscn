@@ -28,7 +28,7 @@ animations = [ {
 } ]
 
 [node name="Bonfire" instance=ExtResource( 1 )]
-DIALOGUE_LOOP = "res://dialogues/chapter_0/bonfire.txt"
+DIALOGUE_LOOP = "res://dialogues/bonfire.txt"
 
 [node name="AnimatedSprite" parent="." index="0"]
 frames = SubResource( 5 )

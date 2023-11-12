@@ -1,0 +1,9 @@
+[
+   {
+      "text":"On display different dried fruits ...",
+      "side":"none"
+   },
+   {
+      "text":"... that you have never seen before, with sweet odor."
+   }
+]

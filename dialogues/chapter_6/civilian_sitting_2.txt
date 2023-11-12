@@ -1,0 +1,43 @@
+[
+   {
+      "text":"\"They say that the Great Khan ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_civilian_5_talk/portrait_persian_civilian_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... did not want to bring war here in the beginning.\""
+   },
+   {
+      "text":"\"He extended his friendly hand to the Shah ...\""
+   },
+   {
+      "text":"\"... but the Shah foolishly slayed his envoys.\""
+   },
+   {
+      "text":"\"This offended the Khan so, his anger was such ...\""
+   },
+   {
+      "text":"\"... that he unleashed his armies on the Shah ...\""
+   },
+   {
+      "text":"\"... and toppled an entire empire.\""
+   },
+   {
+      "text":"\"Few have survived his fury.\""
+   },
+   {
+      "text":"\"Now even after his enemies are no more ...\""
+   },
+   {
+      "text":"\"... he gained momentum in conquest ...\""
+   },
+   {
+      "text":"\"... there is no stopping of his rampage ...\""
+   },
+   {
+      "text":"\"... and all countries in his way suffer for it.\""
+   }
+]

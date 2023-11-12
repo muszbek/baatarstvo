@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"When you are ready, go talk to Constable Hakim.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_0.png",
+         "res://assets/sprites/portraits/portrait_imam_talk/portrait_imam_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You can find him East of here at the barracks ...\""
+   },
+   {
+      "text":"\"... after crossing the Bazaar.\""
+   }
+]

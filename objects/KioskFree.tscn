@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://objects/KioskEmpty.tscn" type="PackedScene" id=1]
+
+[node name="KioskFree" instance=ExtResource( 1 )]
+DIALOGUE_LOOP = "res://dialogues/kiosk_free.txt"

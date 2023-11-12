@@ -1,0 +1,26 @@
+[
+   {
+      "target":"street_kid",
+      "text":"\"Soldier from the North!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_0.png",
+         "res://assets/sprites/portraits/portrait_muslim_kid_talk/portrait_muslim_kid_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I saw the guards attacking you!\""
+   },
+   {
+      "text":"\"Are you in trouble? Did you steal from the Atabeg?\""
+   },
+   {
+      "text":"\"It is no longer safe for you to remain in the city!\""
+   },
+   {
+      "text":"\"I know of a quick escape route to the North ...\""
+   },
+   {
+      "text":"\"... just keep following the canal!\""
+   }
+]

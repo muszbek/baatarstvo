@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"The constable has given you permission ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... you may enter.\""
+   }
+]
