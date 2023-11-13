@@ -20,7 +20,7 @@
       "text":"\"... but now they are completely destroyed by the horsemen.\""
    },
    {
-      "text":"\"The shah is probably dead.\""
+      "text":"\"The Shah is probably dead.\""
    },
    {
       "text":"\"I suspect we shall have new overlords soon.\""

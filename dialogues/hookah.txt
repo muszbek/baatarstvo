@@ -1,6 +1,6 @@
 [
    {
-      "text":"You deeply inhale from the hookah ...",
+      "text":"You inhale deeply from the hookah ...",
       "side":"none"
    },
    {

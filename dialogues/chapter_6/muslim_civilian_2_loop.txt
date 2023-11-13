@@ -1,6 +1,6 @@
 [
    {
-      "text":"\"Our atabeg was wise to pay ransom to the horsemen.\"",
+      "text":"\"Our Atabeg was wise to pay ransom to the horsemen.\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_persian_civilian_2_talk/portrait_persian_civilian_2_talk_0.png",
          "res://assets/sprites/portraits/portrait_persian_civilian_2_talk/portrait_persian_civilian_2_talk_1.png"

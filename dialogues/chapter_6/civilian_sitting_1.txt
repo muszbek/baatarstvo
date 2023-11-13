@@ -23,7 +23,7 @@
       "text":"\"... with the christians to our West ...\""
    },
    {
-      "text":"\"... and the shah to our East ...\""
+      "text":"\"... and the Shah to our East ...\""
    },
    {
       "text":"\"... but this is something different.\""

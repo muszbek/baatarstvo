@@ -23,7 +23,7 @@
       "text":"\"... if we do not resist.\""
    },
    {
-      "text":"\"Our atabeg judged ...\""
+      "text":"\"Our Atabeg judged ...\""
    },
    {
       "text":"\"... that this is our only chance for survival ...\""
