@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://objects/EasternHouseRuin.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/EasternHouse2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/WellDry.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/Carcass.tscn" type="PackedScene" id=4]
+[ext_resource path="res://objects/Well.tscn" type="PackedScene" id=5]
+
+[node name="Chapter7Objects" type="Node2D"]
+
+[node name="EasternHouseRuin" parent="." instance=ExtResource( 1 )]
+position = Vector2( 624, -112 )
+
+[node name="EasternHouseRuin2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 672, -32 )
+
+[node name="EasternHouse2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 736, -48 )
+
+[node name="WellDry" parent="." instance=ExtResource( 3 )]
+position = Vector2( 696, -104 )
+
+[node name="Carcass" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1400, -72 )
+
+[node name="Carcass2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1368, -56 )
+
+[node name="Carcass3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1400, -8 )
+
+[node name="Carcass4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1384, 8 )
+
+[node name="Carcass5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1352, -8 )
+
+[node name="EasternHouseRuin3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2096, -32 )
+
+[node name="EasternHouse3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2144, 80 )
+
+[node name="Well" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2152, 8 )

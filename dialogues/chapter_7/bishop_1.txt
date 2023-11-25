@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"*My God, my God, why have you abandoned me? ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_0.png",
+         "res://assets/sprites/portraits/portrait_orthodox_chant/portrait_orthodox_chant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... Why are you so far away when I groan for help? ...*\""
+   },
+   {
+      "text":"\"*... Every day I call to you, my God ...*\""
+   },
+   {
+      "text":"\"*... but you do not answer. ...*\""
+   },
+   {
+      "text":"\"*... Every night I lift my voice ...*\""
+   },
+   {
+      "text":"\"*... but I find no relief.*\""
+   },
+   {
+      "script":"disappear_bishop"
+   }
+]

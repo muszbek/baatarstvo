@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://characters/chapter7/MirageFather.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter7/MirageBishop.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter7/MirageMonkIgor.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter7/MuslimCivilianDesert.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter7/Camel.tscn" type="PackedScene" id=5]
+
+[node name="Chapter7Chars" type="Node2D"]
+
+[node name="MirageFather" parent="." instance=ExtResource( 1 )]
+position = Vector2( 376, -88 )
+
+[node name="MirageBishop" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1112, -40 )
+
+[node name="MirageMonkIgor" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1768, 24 )
+
+[node name="MuslimCivilian4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2216, -40 )
+
+[node name="Camel" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2232, -40 )

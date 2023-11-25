@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/desert_ambient.mp3-01cf10f2e444483e288702f6cefae2c3.mp3str"
+
+[deps]
+
+source_file="res://assets/music/desert_ambient.mp3"
+dest_files=[ "res://.import/desert_ambient.mp3-01cf10f2e444483e288702f6cefae2c3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

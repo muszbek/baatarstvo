@@ -1,0 +1,9 @@
+[
+   {
+      "text":"This well has caved in due to lack of maintenance.",
+      "side":"none"
+   },
+   {
+      "text":"\"You are unable to draw any water.\""
+   }
+]

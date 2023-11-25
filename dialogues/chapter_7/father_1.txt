@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"That battle at the river ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk0.png",
+         "res://assets/sprites/portraits/portrait_father_talk/portrait_father_talk1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... when the enemy cornered us ...\""
+   },
+   {
+      "text":"\"... in our improvised fort ...\""
+   },
+   {
+      "text":"\"... we took our last stand.\""
+   },
+   {
+      "text":"\"We placed our last hope in you, my son ...\""
+   },
+   {
+      "text":"\"... alas, reinforcements never came.\""
+   },
+   {
+      "script":"disappear_father"
+   }
+]

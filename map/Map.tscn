@@ -1,4 +1,4 @@
-[gd_scene load_steps=195 format=2]
+[gd_scene load_steps=213 format=2]
 
 [ext_resource path="res://assets/sprites/tiles/fish_in_water.tres" type="Texture" id=1]
 [ext_resource path="res://assets/sprites/tiles/cultivated.png" type="Texture" id=2]
@@ -25,6 +25,9 @@
 [ext_resource path="res://assets/sprites/tiles/water_city_tileset.tres" type="Texture" id=23]
 [ext_resource path="res://assets/sprites/tiles/bridge_city_tileset.tres" type="Texture" id=24]
 [ext_resource path="res://assets/sprites/tiles/carpet.png" type="Texture" id=25]
+[ext_resource path="res://assets/sprites/tiles/sand_atlas.tres" type="Texture" id=26]
+[ext_resource path="res://assets/sprites/tiles/cactus_atlas.png" type="Texture" id=27]
+[ext_resource path="res://assets/sprites/tiles/tree_desert_atlas.png" type="Texture" id=28]
 
 [sub_resource type="ConvexPolygonShape2D" id=90]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -184,6 +187,69 @@ outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
 vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
 outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=195]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=196]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=197]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=198]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=199]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=200]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=201]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=202]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=203]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="ConvexPolygonShape2D" id=204]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=205]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=206]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=207]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=208]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=209]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="NavigationPolygon" id=187]
 vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -961,6 +1027,107 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 19/shape_one_way_margin = 0.0
 19/shapes = [  ]
 19/z_index = 0
+20/name = "sand_atlas.tres 20"
+20/texture = ExtResource( 26 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 0, 0, 48, 48 )
+20/tile_mode = 2
+20/autotile/icon_coordinate = Vector2( 2, 0 )
+20/autotile/tile_size = Vector2( 16, 16 )
+20/autotile/spacing = 0
+20/autotile/occluder_map = [  ]
+20/autotile/navpoly_map = [ Vector2( 0, 0 ), SubResource( 195 ), Vector2( 0, 1 ), SubResource( 196 ), Vector2( 0, 2 ), SubResource( 197 ), Vector2( 1, 0 ), SubResource( 198 ), Vector2( 1, 1 ), SubResource( 199 ), Vector2( 1, 2 ), SubResource( 200 ), Vector2( 2, 0 ), SubResource( 201 ), Vector2( 2, 1 ), SubResource( 202 ), Vector2( 2, 2 ), SubResource( 203 ) ]
+20/autotile/priority_map = [ Vector3( 0, 2, 10 ), Vector3( 1, 2, 15 ), Vector3( 2, 0, 5 ), Vector3( 2, 1, 5 ), Vector3( 2, 2, 15 ) ]
+20/autotile/z_index_map = [  ]
+20/occluder_offset = Vector2( 0, 0 )
+20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, 0 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+20/shape_one_way = false
+20/shape_one_way_margin = 0.0
+20/shapes = [  ]
+20/z_index = 0
+21/name = "cactus_atlas.png 21"
+21/texture = ExtResource( 27 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 0, 0, 32, 16 )
+21/tile_mode = 2
+21/autotile/icon_coordinate = Vector2( 0, 0 )
+21/autotile/tile_size = Vector2( 16, 16 )
+21/autotile/spacing = 0
+21/autotile/occluder_map = [  ]
+21/autotile/navpoly_map = [  ]
+21/autotile/priority_map = [  ]
+21/autotile/z_index_map = [  ]
+21/occluder_offset = Vector2( 0, 0 )
+21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, 0 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape = SubResource( 204 )
+21/shape_one_way = false
+21/shape_one_way_margin = 1.0
+21/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 204 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 205 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+21/z_index = 0
+22/name = "tree_desert_atlas.png 22"
+22/texture = ExtResource( 28 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 0, 0, 32, 32 )
+22/tile_mode = 2
+22/autotile/icon_coordinate = Vector2( 0, 0 )
+22/autotile/tile_size = Vector2( 16, 16 )
+22/autotile/spacing = 0
+22/autotile/occluder_map = [  ]
+22/autotile/navpoly_map = [  ]
+22/autotile/priority_map = [  ]
+22/autotile/z_index_map = [  ]
+22/occluder_offset = Vector2( 0, 0 )
+22/navigation_offset = Vector2( 0, 0 )
+22/shape_offset = Vector2( 0, 0 )
+22/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+22/shape = SubResource( 206 )
+22/shape_one_way = false
+22/shape_one_way_margin = 1.0
+22/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 206 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 207 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 208 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 209 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+22/z_index = 0
 
 [sub_resource type="NavigationPolygon" id=7]
 vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
