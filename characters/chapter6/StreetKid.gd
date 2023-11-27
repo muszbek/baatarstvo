@@ -25,6 +25,6 @@ func _on_Interactionbox_area_entered(_area):
 
 func go_to_help_pos():
 	set_deferred("global_position", kid_help_pos_target.global_position)
-	facing = directions.BACK
+	facing = directions.FRONT
 	idle_animate()
 	dialogue_state = dialogue_states.HELP_ESCAPE

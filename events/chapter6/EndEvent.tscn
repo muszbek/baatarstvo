@@ -4,11 +4,11 @@
 [ext_resource path="res://events/chapter6/EndEvent.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 13.3565, 5.5619 )
+extents = Vector2( 22.8565, 5.5619 )
 
 [node name="EndEvent" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" parent="." index="0"]
-position = Vector2( 0.64353, -5.5619 )
+position = Vector2( 10.1435, -5.5619 )
 shape = SubResource( 1 )

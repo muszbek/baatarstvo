@@ -18,7 +18,7 @@
       "text":"\"It is no longer safe for you to remain in the city!\""
    },
    {
-      "text":"\"I know of a quick escape route to the North ...\""
+      "text":"\"I know of a quick escape route to the South ...\""
    },
    {
       "text":"\"... just keep following the canal!\""

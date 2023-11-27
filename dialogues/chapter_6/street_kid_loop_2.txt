@@ -8,6 +8,6 @@
       "side":"right"
    },
    {
-      "text":"\"Continue straigth to the North!\""
+      "text":"\"Continue straigth to the South!\""
    }
 ]

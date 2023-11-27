@@ -12,7 +12,6 @@ DIALOGUE = "res://dialogues/chapter_6/event_kid_help.txt"
 
 [node name="CollisionShape2D" parent="." index="0"]
 position = Vector2( 9.24848, 13.7485 )
-rotation = -0.785398
-scale = Vector2( 1, 1 )
+rotation = 0.785398
 shape = SubResource( 1 )
 disabled = true

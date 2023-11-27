@@ -200,6 +200,6 @@ position = Vector2( 968, 48 )
 can_be_saved = false
 
 [node name="CamelBlocking" parent="." instance=ExtResource( 15 )]
-position = Vector2( 608, -17 )
+position = Vector2( 608, 112 )
 facing = 3
 can_be_saved = false
