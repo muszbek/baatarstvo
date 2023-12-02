@@ -1,0 +1,67 @@
+[
+   {
+      "text":"\"Assalamu alaykum, fellow traveler!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_trader_talk/portrait_mongol_trader_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_trader_talk/portrait_mongol_trader_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"My name is Azamat ...\""
+   },
+   {
+      "text":"\"... and I trade grape wine ...\""
+   },
+   {
+      "text":"\"... from the mountains of the South-West.\""
+   },
+   {
+      "text":"\"I myself do not indulge in the liquid pleasures ...\""
+   },
+   {
+      "text":"\"... but steppe dwellers have great love for it.\""
+   },
+   {
+      "text":"\"The army of the Great Khan is gathering ...\""
+   },
+   {
+      "text":"\"... at the old capital.\""
+   },
+   {
+      "text":"\"They are preparing for campaign ...\""
+   },
+   {
+      "text":"\"... so disciplinary measures are tight ...\""
+   },
+   {
+      "text":"\"... but a soldier is a soldier.\""
+   },
+   {
+      "text":"\"They never say no to my wares, hehe!\""
+   },
+   {
+      "text":"\"I see you are also going to the old capital.\""
+   },
+   {
+      "text":"\"I have no need for bodyguards on the way ...\""
+   },
+   {
+      "text":"\"... for all traders are protected ...\""
+   },
+   {
+      "text":"\"... by the law of the Great Khan ...\""
+   },
+   {
+      "text":"\"... but it gets mighty monotonous ...\""
+   },
+   {
+      "text":"\"... and I could use a travelling companion.\""
+   },
+   {
+      "text":"\"What say you we go together?\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

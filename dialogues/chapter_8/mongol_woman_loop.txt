@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Are you heading to the old capital, my dear?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_woman_talk/portrait_mongol_old_woman_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_woman_talk/portrait_mongol_old_woman_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Just continue towards the North-East.\""
+   },
+   {
+      "text":"\"There was a trader passing by here recently ...\""
+   },
+   {
+      "text":"\"... you might be able to catch up with him.\""
+   }
+]

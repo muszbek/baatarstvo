@@ -1,3 +1,61 @@
-[gd_scene format=2]
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://characters/chapter8/MongolHorseMaster.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter8/Horse.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter8/MongolOldWoman.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter8/MongolGuard1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter8/MongolGuard2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter8/Herd.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter8/Ox.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter8/MongolTrader.tscn" type="PackedScene" id=8]
 
 [node name="Chapter8Chars" type="Node2D"]
+
+[node name="MongolHorseMaster" parent="." instance=ExtResource( 1 )]
+position = Vector2( 712, -24 )
+
+[node name="Horse" parent="." instance=ExtResource( 2 )]
+position = Vector2( 704, -49 )
+facing = 3
+
+[node name="Horse2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 696, -72 )
+facing = 3
+
+[node name="Horse3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 728, -80 )
+
+[node name="MongolOldWoman" parent="." instance=ExtResource( 3 )]
+position = Vector2( 840, 24 )
+
+[node name="MongolGuard1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 776, -40 )
+
+[node name="MongolGuard2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 744, 48 )
+
+[node name="Herd" parent="." instance=ExtResource( 6 )]
+position = Vector2( 824, 72 )
+
+[node name="Herd2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 840, -24 )
+
+[node name="Herd3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 840, 57 )
+
+[node name="Herd4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 824, -40 )
+
+[node name="Herd5" parent="." instance=ExtResource( 6 )]
+position = Vector2( 800, 48 )
+
+[node name="Ox" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1208, -191 )
+facing = 3
+
+[node name="Ox2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1208, -209 )
+facing = 3
+
+[node name="MongolTrader" parent="." instance=ExtResource( 8 )]
+position = Vector2( 1192, -167 )

@@ -1,3 +1,23 @@
-[gd_scene format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://objects/BonfireExpired.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/StablesHorse.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/Well.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/Yurt.tscn" type="PackedScene" id=4]
 
 [node name="Chapter8Objects" type="Node2D"]
+
+[node name="BonfireExpired" parent="." instance=ExtResource( 1 )]
+position = Vector2( 8, 8 )
+
+[node name="StablesHorse" parent="." instance=ExtResource( 2 )]
+position = Vector2( 720, -32 )
+
+[node name="Well" parent="." instance=ExtResource( 3 )]
+position = Vector2( 760, 8 )
+
+[node name="Yurt" parent="." instance=ExtResource( 4 )]
+position = Vector2( 848, -32 )
+
+[node name="Yurt2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 864, 48 )

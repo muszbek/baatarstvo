@@ -1,4 +1,4 @@
-[gd_scene load_steps=213 format=2]
+[gd_scene load_steps=220 format=2]
 
 [ext_resource path="res://assets/sprites/tiles/fish_in_water.tres" type="Texture" id=1]
 [ext_resource path="res://assets/sprites/tiles/cultivated.png" type="Texture" id=2]
@@ -28,6 +28,7 @@
 [ext_resource path="res://assets/sprites/tiles/sand_atlas.tres" type="Texture" id=26]
 [ext_resource path="res://assets/sprites/tiles/cactus_atlas.png" type="Texture" id=27]
 [ext_resource path="res://assets/sprites/tiles/tree_desert_atlas.png" type="Texture" id=28]
+[ext_resource path="res://assets/sprites/tiles/steppe_atlas.tres" type="Texture" id=29]
 
 [sub_resource type="ConvexPolygonShape2D" id=90]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -250,6 +251,36 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=209]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="NavigationPolygon" id=210]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=211]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=212]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=213]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=214]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
+
+[sub_resource type="NavigationPolygon" id=215]
+vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
+outlines = [ PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 ) ]
 
 [sub_resource type="NavigationPolygon" id=187]
 vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -1128,6 +1159,27 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 22/z_index = 0
+23/name = "steppe_atlas.tres 23"
+23/texture = ExtResource( 29 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 0, 0, 48, 32 )
+23/tile_mode = 2
+23/autotile/icon_coordinate = Vector2( 0, 0 )
+23/autotile/tile_size = Vector2( 16, 16 )
+23/autotile/spacing = 0
+23/autotile/occluder_map = [  ]
+23/autotile/navpoly_map = [ Vector2( 0, 0 ), SubResource( 210 ), Vector2( 0, 1 ), SubResource( 211 ), Vector2( 1, 0 ), SubResource( 212 ), Vector2( 1, 1 ), SubResource( 213 ), Vector2( 2, 0 ), SubResource( 214 ), Vector2( 2, 1 ), SubResource( 215 ) ]
+23/autotile/priority_map = [ Vector3( 2, 1, 15 ) ]
+23/autotile/z_index_map = [  ]
+23/occluder_offset = Vector2( 0, 0 )
+23/navigation_offset = Vector2( 0, 0 )
+23/shape_offset = Vector2( 0, 0 )
+23/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+23/shape_one_way = false
+23/shape_one_way_margin = 0.0
+23/shapes = [  ]
+23/z_index = 0
 
 [sub_resource type="NavigationPolygon" id=7]
 vertices = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )

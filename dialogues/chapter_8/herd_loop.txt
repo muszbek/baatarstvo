@@ -1,0 +1,12 @@
+[
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sheep/portrait_sheep_0.png",
+         "res://assets/sprites/portraits/portrait_sheep/portrait_sheep_1.png",
+         "res://assets/sprites/portraits/portrait_sheep/portrait_sheep_2.png",
+         "res://assets/sprites/portraits/portrait_sheep/portrait_sheep_3.png"
+      ],
+      "side":"right"
+   }
+]

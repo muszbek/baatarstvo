@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/steppe_ambient.mp3-a230bd92f90686ceb4f27b00e2784ba7.mp3str"
+
+[deps]
+
+source_file="res://assets/music/steppe_ambient.mp3"
+dest_files=[ "res://.import/steppe_ambient.mp3-a230bd92f90686ceb4f27b00e2784ba7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

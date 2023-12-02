@@ -1,0 +1,37 @@
+[
+   {
+      "text":"\"Hail, traveler!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_5_talk/portrait_mongol_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_5_talk/portrait_mongol_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You have come all the way from the deserts ...\""
+   },
+   {
+      "text":"\"... on your feet?!\""
+   },
+   {
+      "text":"\"Unfortunately, you have to continue like that ...\""
+   },
+   {
+      "text":"\"... for these horses are reserved ...\""
+   },
+   {
+      "text":"\"... for messengers of the Horde.\""
+   },
+   {
+      "text":"\"We are a relay station ...\""
+   },
+   {
+      "text":"\"... that aids covering large distances.\""
+   },
+   {
+      "text":"\"However the old capital is not far from here ...\""
+   },
+   {
+      "text":"\"... you can surely buy a horse there.\""
+   }
+]

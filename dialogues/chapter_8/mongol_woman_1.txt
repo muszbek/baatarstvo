@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"Welcome to our station, my dear!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_woman_talk/portrait_mongol_old_woman_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_woman_talk/portrait_mongol_old_woman_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We installed here not very long ago ...\""
+   },
+   {
+      "text":"\"... during the conquests.\""
+   },
+   {
+      "text":"\"Looks like you covered a long way ...\""
+   },
+   {
+      "text":"\"... let me offer you some mutton and cheese.\""
+   },
+   {
+      "text":"\"Are you heading to the old capital?\""
+   },
+   {
+      "text":"\"Just continue towards the North-East.\""
+   },
+   {
+      "text":"\"There was a trader passing by here recently ...\""
+   },
+   {
+      "text":"\"... you might be able to catch up with him.\""
+   }
+]

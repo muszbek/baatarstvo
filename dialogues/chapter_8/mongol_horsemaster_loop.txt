@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"If you are hungry ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_5_talk/portrait_mongol_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_5_talk/portrait_mongol_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... you shall not be denied food.\""
+   },
+   {
+      "text":"\"Go ask Aunt Khulan, by the yurts.\""
+   }
+]

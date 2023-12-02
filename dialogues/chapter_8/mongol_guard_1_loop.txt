@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"I hate this place!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I have been exiled to serve on this station ...\""
+   },
+   {
+      "text":"\"... for my past crimes, and now I am stuck here ...\""
+   },
+   {
+      "text":"\"... while the army is preparing ...\""
+   },
+   {
+      "text":"\"... for a glorious campaign!\""
+   }
+]

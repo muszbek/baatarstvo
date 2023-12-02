@@ -4,6 +4,6 @@
       "side":"none"
    },
    {
-      "text":"\"You are unable to draw any water.\""
+      "text":"You are unable to draw any water."
    }
 ]
