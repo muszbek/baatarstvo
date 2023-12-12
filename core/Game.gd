@@ -1,6 +1,6 @@
 extends Node
 
-const LAST_IMPLEMENTED_CHAPTER = 8
+const LAST_IMPLEMENTED_CHAPTER = 9
 
 const START_SCREEN = "res://screens/StartScreen.tscn"
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"

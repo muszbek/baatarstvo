@@ -1,0 +1,52 @@
+[
+   {
+      "text":"\"Who are you, soldier?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_noyan_talk/portrait_mongol_noyan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_noyan_talk/portrait_mongol_noyan_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Where have you come from?\""
+   },
+   {
+      "text":"\"You have came here to stop ...\""
+   },
+   {
+      "text":"\"... the invasion to the West?!\""
+   },
+   {
+      "text":"\"On your own behalf?!\""
+   },
+   {
+      "text":"\"Do you realize how absurd it is?!\""
+   },
+   {
+      "text":"\"The will of the Great Khan is already in motion!\""
+   },
+   {
+      "text":"\"The heavens support our every step!\""
+   },
+   {
+      "text":"\"What you do here today will be of no consequence.\""
+   },
+   {
+      "text":"\"Even if we did falter, we are but a single tumen ...\""
+   },
+   {
+      "text":"\"... of the wide empire of the Horde.\""
+   },
+   {
+      "text":"\"Bah! I have no time for this nonesense.\""
+   },
+   {
+      "text":"\"Give the order to break camp!\""
+   },
+   {
+      "text":"\"We move out at noon!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

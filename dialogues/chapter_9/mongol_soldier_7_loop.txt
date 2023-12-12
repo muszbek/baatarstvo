@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"State your business to the Noyan quickly ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and then leave us.\""
+   },
+   {
+      "text":"\"We have a camp to pack up!\""
+   }
+]

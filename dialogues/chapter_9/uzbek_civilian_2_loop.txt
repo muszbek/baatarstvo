@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"We settled here recently ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_uzbek_civilian_2_talk/portrait_uzbek_civilian_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_uzbek_civilian_2_talk/portrait_uzbek_civilian_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... after the Great Khan took the city.\""
+   },
+   {
+      "text":"\"We do not talk much about ...\""
+   },
+   {
+      "text":"\"... what happened to the original population.\""
+   }
+]

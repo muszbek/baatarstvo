@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"We were all called here ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... from the neighboring pastures ...\""
+   },
+   {
+      "text":"\"... under the banner of our Noyan.\""
+   },
+   {
+      "text":"\"A great campaign is preparing ...\""
+   },
+   {
+      "text":"\"... to foreign lands to the West.\""
+   }
+]

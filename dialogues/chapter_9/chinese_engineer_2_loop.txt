@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"We are engineers from the Empire of the East ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_chinese_2_talk/portrait_chinese_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_chinese_2_talk/portrait_chinese_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... now belonging to the Great Khan.\""
+   },
+   {
+      "text":"\"Our trade is to bring down walls ...\""
+   },
+   {
+      "text":"\"... breach fortresses and build bridges.\""
+   }
+]

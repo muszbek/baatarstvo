@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"When we were made to participate ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... in the nerge, the great hunt ...\""
+   },
+   {
+      "text":"\"... I understood that origins and creeds ...\""
+   },
+   {
+      "text":"\"... mean little to the Great Khan.\""
+   },
+   {
+      "text":"\"We are all part of the Horde now.\""
+   },
+   {
+      "text":"\"Even womenfolk are expected to fight.\""
+   }
+]

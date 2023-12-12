@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"The Noyan is very busy.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Whatever you want from him, make it brief!\""
+   }
+]

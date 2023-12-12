@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"If you want something ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... discuss it with the Noyan.\""
+   },
+   {
+      "text":"\"You can find him North of here ...\""
+   },
+   {
+      "text":"\"... inside the citadel.\""
+   }
+]

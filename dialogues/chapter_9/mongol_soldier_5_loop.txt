@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Our enemies can hide all they want ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... but their walls do not stop us!\""
+   },
+   {
+      "text":"\"Their armies are no match for our riders!\""
+   },
+   {
+      "text":"\"We live and die on horseback ...\""
+   },
+   {
+      "text":"\"... our skills are far superior!\""
+   }
+]

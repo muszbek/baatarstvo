@@ -1,0 +1,35 @@
+[
+   {
+      "target":"mongol_trader",
+      "text":"\"We have arrived to the old capital.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_trader_talk/portrait_mongol_trader_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_trader_talk/portrait_mongol_trader_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It is a strange city.\""
+   },
+   {
+      "text":"\"On the ruins of stone walls ...\""
+   },
+   {
+      "text":"\"... an orda of steppe dwellers have settled.\""
+   },
+   {
+      "text":"\"It is like a symbol of the Great Khan ...\""
+   },
+   {
+      "text":"\"... bringing the new world order.\""
+   },
+   {
+      "text":"\"I understand you have some kind of mission here.\""
+   },
+   {
+      "text":"\"Go and talk to the soldiers ...\""
+   },
+   {
+      "text":"\"... see if you can find their leader.\""
+   }
+]

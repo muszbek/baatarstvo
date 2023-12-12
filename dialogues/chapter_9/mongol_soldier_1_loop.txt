@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"Praise to our two generals ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... no one can match their military skill!\""
+   },
+   {
+      "text":"\"They returned from the far West ...\""
+   },
+   {
+      "text":"\"... with stories of rich lands ...\""
+   },
+   {
+      "text":"\"... to take for the Great Khan ...\""
+   },
+   {
+      "text":"\"... and now they shall lead us to more victories!\""
+   }
+]

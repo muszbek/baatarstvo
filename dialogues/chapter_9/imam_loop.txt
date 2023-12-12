@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"I humbly ask you to respect the souls ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_imam_2_talk/portrait_imam_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_imam_2_talk/portrait_imam_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... of the original people of this city ...\""
+   },
+   {
+      "text":"\"... and keep away from this mosque.\""
+   }
+]

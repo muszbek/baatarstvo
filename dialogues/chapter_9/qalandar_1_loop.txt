@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"We wander accross the lands ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_qalandar_1_talk/portrait_qalandar_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_qalandar_1_talk/portrait_qalandar_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and show all these hypocrites ...\""
+   },
+   {
+      "text":"\"... how to practice true Islam.\""
+   },
+   {
+      "text":"\"Erm... can you spare some money?\""
+   }
+]

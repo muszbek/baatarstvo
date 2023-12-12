@@ -1,0 +1,15 @@
+[
+   {
+      "text":"You see inside and around the fire ...",
+      "side":"none"
+   },
+   {
+      "text":"... various bones and other animal remains."
+   },
+   {
+      "text":"It does not appear that they were thrown there ..."
+   },
+   {
+      "text":"... for the purpose of eating."
+   }
+]

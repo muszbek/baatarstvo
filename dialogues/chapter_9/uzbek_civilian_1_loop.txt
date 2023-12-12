@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"We come from many different places.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_uzbek_civilian_1_talk/portaid_uzbek_civilian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_uzbek_civilian_1_talk/portaid_uzbek_civilian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Some of us willingly, some as slaves.\""
+   }
+]

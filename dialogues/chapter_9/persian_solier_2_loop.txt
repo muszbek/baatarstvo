@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"At first I thought we are being punished ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... as enemies of the Great Khan ...\""
+   },
+   {
+      "text":"\"... but soldiers from the steppe ...\""
+   },
+   {
+      "text":"\"... face the same discipline as us.\""
+   }
+]

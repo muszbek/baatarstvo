@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"The reconnaissance mission of our two generals ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... was a great success.\""
+   },
+   {
+      "text":"\"They broke our enemies.\""
+   },
+   {
+      "text":"\"Now we shall go back to those lands ...\""
+   },
+   {
+      "text":"\"... and conquer them for the Great Khan!\""
+   }
+]

@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"We do not follow the army by our own will ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_chinese_1_talk/portrait_chinese_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_chinese_1_talk/portrait_chinese_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... though we are treated better ...\""
+   },
+   {
+      "text":"\"... than ordinary conscripts ...\""
+   },
+   {
+      "text":"\"... for our skills are valuable.\""
+   }
+]

@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"The shaman stays outside of the city walls ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... for walls are unnatural constructs ...\""
+   },
+   {
+      "text":"\"... of the non-believers.\""
+   },
+   {
+      "text":"\"Out here he hears the call of Tengri more clearly.\""
+   }
+]

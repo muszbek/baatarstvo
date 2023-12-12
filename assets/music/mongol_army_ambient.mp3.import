@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mongol_army_ambient.mp3-bf78a7e6a10836f0fcf6ea5f3f9b6fbc.mp3str"
+
+[deps]
+
+source_file="res://assets/music/mongol_army_ambient.mp3"
+dest_files=[ "res://.import/mongol_army_ambient.mp3-bf78a7e6a10836f0fcf6ea5f3f9b6fbc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

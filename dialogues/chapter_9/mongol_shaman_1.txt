@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_shaman_1_talk/portrait_mongol_shaman_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_shaman_1_talk/portrait_mongol_shaman_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"mongol_shaman_guard",
+      "text":"\"The shaman just finished communing with Tengri ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... and asking for the blessings of heavens.\""
+   },
+   {
+      "text":"\"Our departure is imminent.\""
+   },
+   {
+      "text":"\"Leave him alone ...\""
+   },
+   {
+      "text":"\"... and talk with the Noyan, up in the citadel ...\""
+   },
+   {
+      "text":"\"... if you have any business.\""
+   }
+]

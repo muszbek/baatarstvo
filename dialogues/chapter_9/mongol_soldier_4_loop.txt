@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"Our two generals were sent ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to hunt down the Shah ...\""
+   },
+   {
+      "text":"\"... and on their way they kept beating ...\""
+   },
+   {
+      "text":"\"... enemies after enemies, wherever they went.\""
+   },
+   {
+      "text":"\"The Great Khan must be overjoyed ...\""
+   },
+   {
+      "text":"\"... to have such talents under his allegience!\""
+   }
+]

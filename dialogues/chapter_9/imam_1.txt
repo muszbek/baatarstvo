@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"Nobody may enter the mosque, I appologize.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_imam_2_talk/portrait_imam_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_imam_2_talk/portrait_imam_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"When the Great Khan attacked the city ...\""
+   },
+   {
+      "text":"\"... he gave free passage to the clergy ...\""
+   },
+   {
+      "text":"\"... but not to the people ...\""
+   },
+   {
+      "text":"\"... who sought refuge in the mosque.\""
+   },
+   {
+      "text":"\"Their blood still stains the tiles ...\""
+   },
+   {
+      "text":"\"... and so we worship outside.\""
+   }
+]

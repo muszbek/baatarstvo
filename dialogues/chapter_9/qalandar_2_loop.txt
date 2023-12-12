@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"The believers in this city ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_qalandar_2_talk/portrait_qalandar_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_qalandar_2_talk/portrait_qalandar_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... no longer go to the mosque.\""
+   },
+   {
+      "text":"\"Finally they realized ...\""
+   },
+   {
+      "text":"\"... that God cares not for their stone palaces.\""
+   }
+]

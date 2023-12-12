@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"This city used to be a jewel of the Shah.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_persian_1_talk/portrait_persian_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Doubtless, the grandsons of the grandsons ...\""
+   },
+   {
+      "text":"\"... of the Great Khan will one day ...\""
+   },
+   {
+      "text":"\"... realize its worth ...\""
+   },
+   {
+      "text":"\"... and restore it to its former beauty.\""
+   }
+]
