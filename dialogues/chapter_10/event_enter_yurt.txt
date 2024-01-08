@@ -1,0 +1,15 @@
+[
+   {
+      "text":"Light, music and delicious odors ...",
+      "side":"none"
+   },
+   {
+      "text":"... waft through the yurt entrance."
+   },
+   {
+      "text":"You open the door and step inside."
+   },
+   {
+      "script":"enter_yurt"
+   }
+]

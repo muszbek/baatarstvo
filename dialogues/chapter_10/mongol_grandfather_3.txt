@@ -1,0 +1,88 @@
+[
+   {
+      "text":"\"Once there was a young man ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... whose family was slain by a rival tribe.\""
+   },
+   {
+      "text":"\"The boy fled to the moutnains and swore vengeance.\""
+   },
+   {
+      "text":"\"He did not have the power to face his enemies ...\""
+   },
+   {
+      "text":"\"... so he asked the creatures of the mountain for aid.\""
+   },
+   {
+      "text":"\"The wolf, the goat and the eagle said to him:\""
+   },
+   {
+      "text":"\"We, the creatures of the mountain ...\""
+   },
+   {
+      "text":"\"... have one common enemy - the tiger.\""
+   },
+   {
+      "text":"\"Slay him, and we shall bestow our power upon you.\""
+   },
+   {
+      "text":"\"And so the boy slayed the tiger.\""
+   },
+   {
+      "text":"\"And the animals gave him a cloak ...\""
+   },
+   {
+      "text":"\"... and each animal ...\""
+   },
+   {
+      "text":"\"... imprinted their own blood on it ...\""
+   },
+   {
+      "text":"\"... to mark their gift:\""
+   },
+   {
+      "text":"\"The wolf his ferocity ...\""
+   },
+   {
+      "text":"\"... the goat his wisdom ...\""
+   },
+   {
+      "text":"\"... and the eagle his sight and senses.\""
+   },
+   {
+      "text":"\"And so the boy took the cloak ...\""
+   },
+   {
+      "text":"\"... and called a great kuriltai.\""
+   },
+   {
+      "text":"\"And the noble people came and recognized ...\""
+   },
+   {
+      "text":"\"... that he bears the blessings of the mountain.\""
+   },
+   {
+      "text":"\"And they rallied behind him ...\""
+   },
+   {
+      "text":"\"... and the man became a powerful khan.\""
+   },
+   {
+      "text":"\"He then took his armies and conquered his enemies ...\""
+   },
+   {
+      "text":"\"... and his vengeance was fulfilled.\""
+   },
+   {
+      "text":"\"And when he died, his cloak was passed on ...\""
+   },
+   {
+      "text":"\"... and brought power to a long lineage of khans after him.\""
+   }
+]

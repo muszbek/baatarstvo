@@ -1,0 +1,9 @@
+[
+   {
+      "text":"The meat appears partially still raw ...",
+      "side":"none"
+   },
+   {
+      "text":"... yet it is tender and juicy."
+   }
+]

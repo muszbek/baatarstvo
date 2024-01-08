@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_singing/portrait_mongol_old_singing_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_singing/portrait_mongol_old_singing_1.png"
+      ],
+      "side":"right"
+   }
+]

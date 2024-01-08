@@ -1,0 +1,71 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://characters/chapter10/Horse.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter10/Herd.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter10/MongolGuitar.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter10/MongolViolin.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter10/MongolGrandfather.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter10/MongolFather.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter10/MongolYoungMother.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter10/MongolSister.tscn" type="PackedScene" id=8]
+
+[node name="Chapter10Chars" type="Node2D"]
+
+[node name="Horse" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, -280 )
+
+[node name="Horse2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, -328 )
+facing = 3
+
+[node name="Horse3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 200, -296 )
+
+[node name="Horse4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 152, -313 )
+facing = 3
+
+[node name="Herd" parent="." instance=ExtResource( 2 )]
+position = Vector2( -24, -297 )
+facing = 3
+
+[node name="Herd2" parent="." instance=ExtResource( 2 )]
+position = Vector2( -40, -264 )
+
+[node name="Herd3" parent="." instance=ExtResource( 2 )]
+position = Vector2( -56, -313 )
+facing = 3
+
+[node name="Herd4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -8, -312 )
+
+[node name="Herd5" parent="." instance=ExtResource( 2 )]
+position = Vector2( -8, -329 )
+
+[node name="Horse5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 184, -247 )
+
+[node name="Horse6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 200, -329 )
+
+[node name="Horse7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 136, -248 )
+facing = 3
+
+[node name="MongolGuitar" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 217 )
+
+[node name="MongolViolin" parent="." instance=ExtResource( 4 )]
+position = Vector2( 496, 217 )
+
+[node name="MongolGrandfather" parent="." instance=ExtResource( 5 )]
+position = Vector2( 448, 231 )
+
+[node name="MongolFather" parent="." instance=ExtResource( 6 )]
+position = Vector2( 432, 264 )
+
+[node name="MongolYoungMother" parent="." instance=ExtResource( 7 )]
+position = Vector2( 528, 231 )
+
+[node name="MongolSister" parent="." instance=ExtResource( 8 )]
+position = Vector2( 544, 264 )

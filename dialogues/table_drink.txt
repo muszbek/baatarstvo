@@ -1,0 +1,12 @@
+[
+   {
+      "text":"You take a swig from the white opaque drink.",
+      "side":"none"
+   },
+   {
+      "text":"First it has a foul, strong sour taste with a little buzz ..."
+   },
+   {
+      "text":"... and a moment later you feel like drinking more."
+   }
+]

@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"He shall be a great warrior when he grows up!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_female_1_talk/portrait_mongol_female_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_female_1_talk/portrait_mongol_female_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I can picture him riding on the plains ...\""
+   },
+   {
+      "text":"\"... as the morning wind flutters his hair...\""
+   }
+]

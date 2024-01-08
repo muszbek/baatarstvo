@@ -1,0 +1,23 @@
+[
+   {
+      "target":"mongol_father",
+      "text":"\"Who are you, lone stranger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_1_talk/portrait_mongol_old_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_1_talk/portrait_mongol_old_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to enter our home in the middle of the night?\""
+   },
+   {
+      "text":"\"Great is our mirth today ...\""
+   },
+   {
+      "text":"\"... for the heavens have bleesed me with a grandson!\""
+   },
+   {
+      "text":"\"Come, sit with us and join our merrymaking!\""
+   }
+]

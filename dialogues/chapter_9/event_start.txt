@@ -15,7 +15,7 @@
       "text":"\"On the ruins of stone walls ...\""
    },
    {
-      "text":"\"... an orda of steppe dwellers have settled.\""
+      "text":"\"... an ordu of steppe dwellers have settled.\""
    },
    {
       "text":"\"It is like a symbol of the Great Khan ...\""

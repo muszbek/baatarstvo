@@ -1,0 +1,37 @@
+[
+   {
+      "text":"\"Ahh, the old man told you about the Cloak of Conquest?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_1_talk/portrait_mongol_old_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_1_talk/portrait_mongol_old_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I see you have taken great interest!\""
+   },
+   {
+      "text":"\"It is a tale from the mountains of the East.\""
+   },
+   {
+      "text":"\"If you are so determined...\""
+   },
+   {
+      "text":"\"I suppose going after old tales ...\""
+   },
+   {
+      "text":"\"... is as good a destination as any ...\""
+   },
+   {
+      "text":"\"... for a lonesome wanderer.\""
+   },
+   {
+      "text":"\"Tomorrow I shall show you how to get there.\""
+   },
+   {
+      "text":"\"But for now, enjoy and rest well in our home.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

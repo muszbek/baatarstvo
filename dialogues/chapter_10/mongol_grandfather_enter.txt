@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Ahh, a mysterious visitor in the night!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

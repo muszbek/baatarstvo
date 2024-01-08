@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Come closer, young man ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... your eyes tell a story of a weary soldier ...\""
+   },
+   {
+      "text":"\"... drifting in the winds of time ...\""
+   },
+   {
+      "text":"\"... hungry for purpose and nothing left to lose.\""
+   }
+]

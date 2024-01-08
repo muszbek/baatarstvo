@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Here we like to sing many songs of khans ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_old_2_talk/portrait_mongol_old_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and baatars of glorious days.\""
+   },
+   {
+      "text":"\"Who is a baatar? ...\""
+   },
+   {
+      "text":"\"A great hero who controls his own fate ...\""
+   },
+   {
+      "text":"\"... and the fate of others ...\""
+   },
+   {
+      "text":"\"... and inspires courage in the hearts of his people.\""
+   },
+   {
+      "text":"\"Now let me tell you a tale, my favorite ...\""
+   },
+   {
+      "text":"\"... about the Cloak of Conquest.\""
+   }
+]

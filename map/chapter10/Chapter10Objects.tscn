@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://objects/Yurt.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/Flag.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/Bonfire.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/TableFish.tscn" type="PackedScene" id=4]
+[ext_resource path="res://objects/TableDrink.tscn" type="PackedScene" id=5]
+[ext_resource path="res://objects/TableMeat.tscn" type="PackedScene" id=6]
+[ext_resource path="res://objects/Chest.tscn" type="PackedScene" id=7]
+[ext_resource path="res://objects/MilkSkin.tscn" type="PackedScene" id=8]
+[ext_resource path="res://objects/GrainBag.tscn" type="PackedScene" id=9]
+
+[node name="Chapter10Objects" type="Node2D"]
+
+[node name="Yurt" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, -272 )
+
+[node name="Flag" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, -264 )
+
+[node name="Flag2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, -264 )
+
+[node name="Bonfire" parent="." instance=ExtResource( 3 )]
+position = Vector2( 488, 264 )
+
+[node name="TableMeat" parent="." instance=ExtResource( 6 )]
+position = Vector2( 472, 264 )
+
+[node name="TableFish" parent="." instance=ExtResource( 4 )]
+position = Vector2( 488, 281 )
+
+[node name="TableDrink" parent="." instance=ExtResource( 5 )]
+position = Vector2( 504, 264 )
+
+[node name="Chest" parent="." instance=ExtResource( 7 )]
+position = Vector2( 456, 214 )
+
+[node name="Chest2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 520, 214 )
+
+[node name="MilkSkin" parent="." instance=ExtResource( 8 )]
+position = Vector2( 552, 247 )
+
+[node name="MilkSkin2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 552, 281 )
+
+[node name="MilkSkin3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 536, 296 )
+
+[node name="GrainBag" parent="." instance=ExtResource( 9 )]
+position = Vector2( 440, 296 )
+
+[node name="GrainBag2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 456, 312 )

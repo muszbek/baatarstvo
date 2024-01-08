@@ -4,12 +4,17 @@ onready var music = $AudioStreamPlayer
 onready var fadeout_player = $AnimationPlayer
 var playing
 var stream_loaded
+var default_volume = -10.0
 
 func on_start_music(title: String):
 	play_soundtrack(title)
 
 func on_stop_music():
 	stop_soundtrack()
+
+func on_set_volume(volume: float):
+	default_volume = volume
+	music.volume_db = default_volume
 
 func play_soundtrack(path: String):
 	if playing == path:
@@ -26,7 +31,7 @@ func stop_soundtrack():
 func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == "music_fadeout":
 		music.stream = stream_loaded
-		music.volume_db = -10.0
+		music.volume_db = default_volume
 		music.play()
 
 func mute(is_mute: bool):

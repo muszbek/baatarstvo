@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Please help yourself to some qumiss and mare loin ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_female_2_talk/portrait_mongol_female_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_female_2_talk/portrait_mongol_female_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and enjoy the celebration!\""
+   }
+]
