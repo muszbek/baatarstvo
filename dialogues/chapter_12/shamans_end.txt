@@ -1,0 +1,56 @@
+[
+   {
+      "target":"shaman_eagle",
+      "text":"\"The Khatun is no more!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You have served us well, pilgrim!\""
+   },
+   {
+      "target":"shaman_goat",
+      "text":"\"Hereby we, the Keepers of the Temple ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... bestow upon you the Cloak of Conquest.\""
+   },
+   {
+      "target":"shaman_wolf",
+      "text":"\"You are now the rightful leader of these people.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"shaman_eagle",
+      "text":"\"Go now, with the blessings of the Heavens.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"shaman_goat",
+      "text":"\"And remember where your authority comes from.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

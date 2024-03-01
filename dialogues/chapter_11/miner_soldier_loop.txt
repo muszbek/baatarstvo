@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"You have to talk to Father Anatoly ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_3_talk/portrait_slave_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_3_talk/portrait_slave_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... our spiritual leader ...\""
+   },
+   {
+      "text":"\"... and tell him who you are!\""
+   },
+   {
+      "text":"\"You can find him East of here, picking rocks like myself.\""
+   }
+]

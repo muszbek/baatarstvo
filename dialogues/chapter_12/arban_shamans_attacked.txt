@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"Hahhah, my friend, you surprise me with your choice!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The sacred cloak has been consumed by the flames.\""
+   },
+   {
+      "text":"\"Worry not, it makes no difference.\""
+   },
+   {
+      "text":"\"The cloak is but a story. A legend.\""
+   },
+   {
+      "text":"\"And now you are its rightful wielder.\""
+   },
+   {
+      "text":"\"Take any drape or blanket you find ...\""
+   },
+   {
+      "text":"\"... and bear it as the Cloak of Conquest.\""
+   },
+   {
+      "text":"\"Now go speak with the Khatun.\""
+   }
+]

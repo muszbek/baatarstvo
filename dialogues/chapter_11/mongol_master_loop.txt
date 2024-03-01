@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Arban from the mountains is staying here at the moment ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... this story about the Cloak originates from his home.\""
+   },
+   {
+      "text":"\"You shall find him inside the compound.\""
+   },
+   {
+      "text":"\"Have a talk with our artisans as well ...\""
+   },
+   {
+      "text":"\"... you might find some wares that interest you!\""
+   }
+]

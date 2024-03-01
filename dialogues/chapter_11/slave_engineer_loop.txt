@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Talk to Father Anatoly by the quarry ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_6_talk/portrait_slave_6_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_6_talk/portrait_slave_6_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... if you have something for us.\""
+   }
+]

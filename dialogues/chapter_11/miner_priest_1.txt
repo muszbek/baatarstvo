@@ -1,0 +1,64 @@
+[
+   {
+      "text":"\"The Lord be with you, son.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_2_talk/portrait_slave_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_2_talk/portrait_slave_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Here they call me Father Anatoly.\""
+   },
+   {
+      "text":"\"Though I am not actually a man of the cloth ...\""
+   },
+   {
+      "text":"\"... I am merely literate ...\""
+   },
+   {
+      "text":"\"... so I took it upon myself to give guidance to our flock.\""
+   },
+   {
+      "text":"\"You are a christian yourself.\""
+   },
+   {
+      "text":"\"Your armor ... your face ...\""
+   },
+   {
+      "text":"\"... you are one of us.\""
+   },
+   {
+      "text":"\"Though there is something about your gait ...\""
+   },
+   {
+      "text":"\"... that reminds of them.\""
+   },
+   {
+      "text":"\"You carry it within yourself ...\""
+   },
+   {
+      "text":"\"... you walk freely on these lands ...\""
+   },
+   {
+      "text":"\"... it is transforming you.\""
+   },
+   {
+      "text":"\"Now what are you really doing here?\""
+   },
+   {
+      "text":"\"Came to liberate us? Hehe...\""
+   },
+   {
+      "text":"\"Oh, searching for a powerful relic of authority?\""
+   },
+   {
+      "text":"\"Speak with Arban here, he is well versed in such things.\""
+   },
+   {
+      "text":"\"You can find him South of here by the smithy.\""
+   },
+   {
+      "text":"\"May the Lord aid you in your search!\""
+   }
+]

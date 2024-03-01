@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"My friend, you can reach the mountain temple ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... by following the trail to the North.\""
+   }
+]

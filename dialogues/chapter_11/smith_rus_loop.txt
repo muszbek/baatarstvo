@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"That is a fine set of armor you are wearing, my friend!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_1_talk/portrait_slave_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_1_talk/portrait_slave_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I recognize it as of the style of my homeland ...\""
+   },
+   {
+      "text":"\"... yet it is no work of mine.\""
+   }
+]

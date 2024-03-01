@@ -1,0 +1,48 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://objects/Structure48x48.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/sprites/objects/building_mountain_temple.png" type="Texture" id=2]
+[ext_resource path="res://assets/sprites/objects/building_mountain_temple_burning.png" type="Texture" id=3]
+[ext_resource path="res://objects/MountainTemple.gd" type="Script" id=4]
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 64, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 128, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 192, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ) ],
+"loop": true,
+"name": "burning",
+"speed": 2.0
+}, {
+"frames": [ SubResource( 1 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[node name="MountainTemple" instance=ExtResource( 1 )]
+script = ExtResource( 4 )
+
+[node name="AnimatedSprite" parent="." index="0"]
+position = Vector2( 32, -32 )
+frames = SubResource( 2 )
+animation = "burning"
+playing = true

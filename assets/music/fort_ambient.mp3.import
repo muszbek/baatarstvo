@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fort_ambient.mp3-42007968e3c0dc64f3a686253bd6dafc.mp3str"
+
+[deps]
+
+source_file="res://assets/music/fort_ambient.mp3"
+dest_files=[ "res://.import/fort_ambient.mp3-42007968e3c0dc64f3a686253bd6dafc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

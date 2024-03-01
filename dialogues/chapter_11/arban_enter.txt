@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"That equipment you are wearing!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"My khatun bid me to have her made just like that ...\""
+   },
+   {
+      "text":"\"... before she joins the war effort.\""
+   },
+   {
+      "text":"\"She wishes to know and use the steel of the enemy.\""
+   }
+]

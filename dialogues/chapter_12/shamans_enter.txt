@@ -1,0 +1,101 @@
+[
+   {
+      "target":"shaman_eagle",
+      "text":"\"Come closer, pilgrim!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"shaman_wolf",
+      "text":"\"We are the Keepers of the Temple.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"shaman_goat",
+      "text":"\"Have you come before us to seek ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... the Cloak of Conquest?\""
+   },
+   {
+      "target":"shaman_eagle",
+      "text":"\"It is us, on behalf of the Heavens ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... that decide who is worthy to wield it.\""
+   },
+   {
+      "target":"shaman_wolf",
+      "text":"\"We have one task for you, pilgrim.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"shaman_goat",
+      "text":"\"The Khatun has been challenging our authority ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... a real nuisance.\""
+   },
+   {
+      "target":"shaman_eagle",
+      "text":"\"Insolance in the face of the Heavens.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Now she threatens to take our people away for war.\""
+   },
+   {
+      "target":"shaman_wolf",
+      "text":"\"Slay her, in the name of the Heavens.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_1_talk/portrait_mountain_shaman_1_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Such is the command of the Keepers of the Temple!\""
+   },
+   {
+      "target":"shaman_goat",
+      "text":"\"Obey us, and the Cloak of Conquest shall be yours!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_3_talk/portrait_mountain_shaman_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"shamans_talked"
+   }
+]

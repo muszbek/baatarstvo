@@ -1,0 +1,49 @@
+[
+   {
+      "text":"\"Welcome to our establishment, my friend!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Strange... you are clad in armor ...\""
+   },
+   {
+      "text":"\"... as if you had had it made by our tradesmen ...\""
+   },
+   {
+      "text":"\"... yet I do not recall doing business with you.\""
+   },
+   {
+      "text":"\"In any case, you have a fine taste in steel!\""
+   },
+   {
+      "text":"\"So what search you here? More weapons?\""
+   },
+   {
+      "text":"\"... The Cloak of Conquest? ...\""
+   },
+   {
+      "text":"\"Indeed, if you have come here tracking old tales ...\""
+   },
+   {
+      "text":"\"... we might be able to help you with that as well.\""
+   },
+   {
+      "text":"\"Arban from the mountains is staying here at the moment ...\""
+   },
+   {
+      "text":"\"... this story about the Cloak originates from his home.\""
+   },
+   {
+      "text":"\"You shall find him inside the compound.\""
+   },
+   {
+      "text":"\"Have a talk with our artisans as well ...\""
+   },
+   {
+      "text":"\"... you might find some wares that interest you!\""
+   }
+]

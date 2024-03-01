@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Welcome to the Iron Fort!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_4_talk/portrait_mongol_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_4_talk/portrait_mongol_4_talk_0.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Head inside the fort and talk to ...\""
+   },
+   {
+      "text":"\"... Master Batbayar in the courtyard.\""
+   },
+   {
+      "text":"\"He shall orient you further.\""
+   }
+]

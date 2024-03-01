@@ -58,7 +58,7 @@ func on_sight_action():
 func tracking_action():
 	match behavior:
 		hostility.PEACEFUL:
-			pass
+			state = states.IDLE
 		hostility.ALERT:
 			look_at_player()
 		hostility.HOSTILE:

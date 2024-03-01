@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"I see you made your choice.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You take the place of my Khatun ...\""
+   },
+   {
+      "text":"\"... and you rightfully wield the Cloak of Conquest.\""
+   },
+   {
+      "text":"\"I recognize you as my new liege.\""
+   },
+   {
+      "text":"\"Now go back to the shamans and claim your prize.\""
+   }
+]

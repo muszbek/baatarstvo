@@ -1,0 +1,44 @@
+[
+   {
+      "target":"mongol_gatekeeper",
+      "text":"\"Welcome to the Iron Fort!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_4_talk/portrait_mongol_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_4_talk/portrait_mongol_4_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Here we produce wares of steel ...\""
+   },
+   {
+      "text":"\"... by artisans from over the wide empire.\""
+   },
+   {
+      "text":"\"Though as I lay my eyes upon your equipment ...\""
+   },
+   {
+      "text":"\"... you must be a regular here.\""
+   },
+   {
+      "text":"\"You are looking for a certain ...\""
+   },
+   {
+      "text":"\"... cloak of conquest?\""
+   },
+   {
+      "text":"\"Erm... our tradesmen are capable of ... \""
+   },
+   {
+      "text":"\"... making any kind of cloak to your liking.\""
+   },
+   {
+      "text":"\"Head inside the fort and talk to ...\""
+   },
+   {
+      "text":"\"... Master Batbayar in the courtyard.\""
+   },
+   {
+      "text":"\"He shall orient you further.\""
+   }
+]

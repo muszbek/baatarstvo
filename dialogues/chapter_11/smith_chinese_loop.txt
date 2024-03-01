@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Leave me to my work...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_5_talk/portrait_slave_5_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_5_talk/portrait_slave_5_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... I see you are in no need of new steel!\""
+   }
+]

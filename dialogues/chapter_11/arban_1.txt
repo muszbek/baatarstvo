@@ -1,0 +1,37 @@
+[
+   {
+      "text":"\"Welcome, friend in the fine steel!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I hear you are mighty interested ...\""
+   },
+   {
+      "text":"\"... in the Cloak of Conquest.\""
+   },
+   {
+      "text":"\"Yes indeed, I know a lot of it ...\""
+   },
+   {
+      "text":"\"... it is in my homeland, kept in the Mountain Temple.\""
+   },
+   {
+      "text":"\"Soon I shall return there to bring to my Khatun ...\""
+   },
+   {
+      "text":"\"... the steel that she commissioned.\""
+   },
+   {
+      "text":"\"Accompany me, if you wish ...\""
+   },
+   {
+      "text":"\"... and speak with the shamans of the temple.\""
+   },
+   {
+      "text":"\"Address me again when you are ready to leave.\""
+   }
+]

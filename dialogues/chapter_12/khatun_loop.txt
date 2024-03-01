@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Those shamans think they can control me ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_0.png",
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... by sending me new husbands ...\""
+   },
+   {
+      "text":"\"... they seduce with their fairy tales!\""
+   }
+]

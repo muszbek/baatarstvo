@@ -1,0 +1,46 @@
+[
+   {
+      "text":"\"Hah... So you have ended the shamans!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_0.png",
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I salute your bold move, a mark of a true conquerer!\""
+   },
+   {
+      "text":"\"I shall leave now to wherever the war takes me.\""
+   },
+   {
+      "text":"\"We have no more business with each other.\""
+   },
+   {
+      "text":"\"I take my chosen soldiers with me ...\""
+   },
+   {
+      "text":"\"... but the rest of the people here ...\""
+   },
+   {
+      "text":"\"... are yours to command. They are your ordu now.\""
+   },
+   {
+      "text":"\"You bear the Cloak of Conquest, after all.\""
+   },
+   {
+      "text":"\"I suggest you do not linger here for long either ...\""
+   },
+   {
+      "text":"\"... the Great Khan does not look lightly ...\""
+   },
+   {
+      "text":"\"... on such ambitious uprisings.\""
+   },
+   {
+      "text":"\"May the Heavens aid your path, bold one!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

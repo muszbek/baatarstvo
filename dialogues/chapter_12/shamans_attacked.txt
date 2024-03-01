@@ -1,0 +1,20 @@
+[
+   {
+      "target":"shaman_eagle",
+      "text":"\"Ahh... he dares attack us...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mountain_shaman_2_talk/portrait_mountain_shaman_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Quickly... destroy the cloak!\""
+   },
+   {
+      "text":"\"He shall not have it!\""
+   },
+   {
+      "script":"shamans_attacked"
+   }
+]

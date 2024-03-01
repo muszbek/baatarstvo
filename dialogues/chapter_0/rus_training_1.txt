@@ -20,6 +20,6 @@
       "text":"\"Sire, may you give the honor and spar with me?\""
    },
    {
-      "text":"\"Press 'SPACE' to attack!\""
+      "text":"\"Press 'SPACE' (or 'B') to attack!\""
    }
 ]

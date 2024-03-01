@@ -1,0 +1,28 @@
+[
+   {
+      "text":"\"I am a mining engineer and I was captured for my skills.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_6_talk/portrait_slave_6_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_6_talk/portrait_slave_6_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Former soldiers are doing the muscle-work.\""
+   },
+   {
+      "text":"\"We were brought here to do industries ...\""
+   },
+   {
+      "text":"\"... that the horsemen are unable to do themselves.\""
+   },
+   {
+      "text":"\"They like to keep us healthy and well-fed ...\""
+   },
+   {
+      "text":"\"... life is not too hard so long we are doing our trade.\""
+   },
+   {
+      "text":"\"Alas... I miss my home.\""
+   }
+]

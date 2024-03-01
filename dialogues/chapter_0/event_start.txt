@@ -1,7 +1,7 @@
 [
    {
       "target":"aleksandr",
-      "text":"\"Welcome, Sire! We must discuss. Press 'E' to listen.\"",
+      "text":"\"Welcome, Sire! We must discuss. Press 'E' (or 'A') to listen.\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_0.png",
          "res://assets/sprites/portraits/portrait_rus_1_talk/portrait_rus_1_talk_1.png"
@@ -39,6 +39,6 @@
       "text":"\"You can find him outside the chapel, he is giving a sermon.\""
    },
    {
-      "text":"\"Press 'E' to address him. Or someone else.\""
+      "text":"\"Press 'E' (or 'A') to address him. Or someone else.\""
    }
 ]

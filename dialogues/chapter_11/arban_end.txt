@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Very well, we shall depart to my home to the mountains.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You can there pay an audience to the shamans ...\""
+   },
+   {
+      "text":"\"... who keep that cloak, if it so interests you.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

@@ -1,0 +1,48 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter12/EnterTempleEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter12/ExitTempleEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/EndEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter12/EventShamansEnter.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter12/StartEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter12/TempleAmbientMusicEvent.tscn" type="PackedScene" id=8]
+
+[node name="Chapter12Events" type="Node2D"]
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 1 )]
+position = Vector2( 8, 72 )
+
+[node name="EnterTempleEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( -8, -696 )
+
+[node name="EnterTemplePos" parent="." groups=["enter_temple_pos"] instance=ExtResource( 3 )]
+position = Vector2( 632, -280 )
+
+[node name="ExitTempleEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 632, -264 )
+
+[node name="ExitTemplePos" parent="." groups=["exit_temple_pos"] instance=ExtResource( 3 )]
+position = Vector2( -8, -680 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 24, -8 )
+
+[node name="EventShamansEnter" parent="." instance=ExtResource( 6 )]
+position = Vector2( 632, -316 )
+
+[node name="ArbanShamansTalkedPos" parent="." groups=["arban_shamans_talked_pos"] instance=ExtResource( 3 )]
+position = Vector2( 8, 280 )
+
+[node name="ArbanShamansAttackedPos" parent="." groups=["arban_shamans_attacked_pos"] instance=ExtResource( 3 )]
+position = Vector2( 168, -488 )
+
+[node name="ArbanKhatunAttackedPos" parent="." groups=["arban_khatun_attacked_pos"] instance=ExtResource( 3 )]
+position = Vector2( -40, -168 )
+
+[node name="StartEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 8, 72 )
+
+[node name="TempleAmbientMusicEvent" parent="." instance=ExtResource( 8 )]
+position = Vector2( 8, 72 )

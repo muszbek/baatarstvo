@@ -1,0 +1,78 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://objects/Pavilion.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/Yurt.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/Bonfire.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/MountainTemple.tscn" type="PackedScene" id=4]
+[ext_resource path="res://objects/Flag.tscn" type="PackedScene" id=5]
+[ext_resource path="res://objects/Owl.tscn" type="PackedScene" id=6]
+[ext_resource path="res://objects/CloakStand.tscn" type="PackedScene" id=7]
+[ext_resource path="res://objects/Brazier.tscn" type="PackedScene" id=8]
+
+[node name="Chapter12Objects" type="Node2D"]
+
+[node name="Pavilion" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 32 )
+
+[node name="Yurt" parent="." instance=ExtResource( 2 )]
+position = Vector2( 64, 80 )
+
+[node name="Yurt2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, 160 )
+
+[node name="Yurt3" parent="." instance=ExtResource( 2 )]
+position = Vector2( -64, 128 )
+
+[node name="Yurt4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -32 )
+
+[node name="Yurt5" parent="." instance=ExtResource( 2 )]
+position = Vector2( -112, -384 )
+
+[node name="Bonfire" parent="." instance=ExtResource( 3 )]
+position = Vector2( -72, -344 )
+
+[node name="MountainTemple" parent="." instance=ExtResource( 4 )]
+position = Vector2( -32, -704 )
+
+[node name="Flag" parent="." instance=ExtResource( 5 )]
+position = Vector2( -40, -696 )
+
+[node name="Flag2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 24, -696 )
+
+[node name="Owl" parent="." instance=ExtResource( 6 )]
+position = Vector2( 8, -600 )
+
+[node name="CloakStand" parent="." instance=ExtResource( 7 )]
+position = Vector2( 632, -360 )
+
+[node name="Brazier" parent="." instance=ExtResource( 8 )]
+position = Vector2( 664, -360 )
+
+[node name="Brazier2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 600, -360 )
+
+[node name="Flag3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 600, -264 )
+
+[node name="Flag4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 664, -264 )
+
+[node name="Brazier3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 568, -296 )
+
+[node name="Brazier4" parent="." instance=ExtResource( 8 )]
+position = Vector2( 696, -296 )
+
+[node name="Brazier5" parent="." instance=ExtResource( 8 )]
+position = Vector2( 568, -360 )
+
+[node name="Brazier6" parent="." instance=ExtResource( 8 )]
+position = Vector2( 696, -360 )
+
+[node name="Yurt6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 176 )
+
+[node name="Yurt7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -32 )

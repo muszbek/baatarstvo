@@ -1,0 +1,44 @@
+[
+   {
+      "target":"arban",
+      "text":"\"We have arived to the foot of the temple mountain.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I present you to the Khatun ...\""
+   },
+   {
+      "text":"\"... you walk on this land under her authority.\""
+   },
+   {
+      "target":"khatun",
+      "text":"\"So you have come for that fabled cloak ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_0.png",
+         "res://assets/sprites/portraits/portrait_khatun_talk/portrait_khatun_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... they keep up in that temple.\""
+   },
+   {
+      "text":"\"Walk up and meet those shamans, if you will.\""
+   },
+   {
+      "text":"\"I care little for what those old fools think ...\""
+   },
+   {
+      "text":"\"... of their own influence.\""
+   },
+   {
+      "text":"\"The soldiers are loyal to me ...\""
+   },
+   {
+      "text":"\"... and I am leaving to join the war effort.\""
+   }
+]

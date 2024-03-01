@@ -1,0 +1,112 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://characters/chapter12/Khatun.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter12/MongolNaginataKhatun.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter12/Arban.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter12/Horse.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter12/Herd.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter12/HorseReined.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter12/MongolNaginataShaman.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter12/Altai.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter12/ShamanWolf.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter12/ShamanEagle.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter12/ShamanGoat.tscn" type="PackedScene" id=11]
+
+[node name="Chapter12Chars" type="Node2D"]
+
+[node name="Khatun" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 41 )
+
+[node name="MongolNaginataKhatun" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, 40 )
+behavior = 0
+
+[node name="MongolNaginataKhatun2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, 40 )
+behavior = 0
+
+[node name="Arban" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 72 )
+
+[node name="MongolNaginataKhatun3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, 119 )
+facing = 1
+behavior = 0
+
+[node name="MongolNaginataKhatun4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, 112 )
+facing = 1
+behavior = 0
+
+[node name="Horse3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 48, 16 )
+
+[node name="Horse4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 72, 32 )
+
+[node name="Herd" parent="." instance=ExtResource( 5 )]
+position = Vector2( -16, 136 )
+
+[node name="Herd2" parent="." instance=ExtResource( 5 )]
+position = Vector2( -40, 144 )
+facing = 3
+
+[node name="Herd3" parent="." instance=ExtResource( 5 )]
+position = Vector2( -80, 104 )
+
+[node name="Horse5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 0, -16 )
+
+[node name="Herd4" parent="." instance=ExtResource( 5 )]
+position = Vector2( -16, -80 )
+facing = 3
+
+[node name="Horse" parent="." instance=ExtResource( 6 )]
+position = Vector2( 40, 120 )
+
+[node name="Horse2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 64, 96 )
+
+[node name="MongolNaginataShaman" parent="." instance=ExtResource( 7 )]
+position = Vector2( -56, -672 )
+facing = 3
+
+[node name="MongolNaginataShaman2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 40, -672 )
+facing = 2
+
+[node name="Herd5" parent="." instance=ExtResource( 5 )]
+position = Vector2( -64, -432 )
+
+[node name="Herd6" parent="." instance=ExtResource( 5 )]
+position = Vector2( -96, -425 )
+facing = 3
+
+[node name="Altai" parent="." instance=ExtResource( 8 )]
+position = Vector2( -64, -368 )
+
+[node name="Altai2" parent="." instance=ExtResource( 8 )]
+position = Vector2( -96, -375 )
+
+[node name="ShamanWolf" parent="." instance=ExtResource( 9 )]
+position = Vector2( 600, -336 )
+
+[node name="ShamanEagle" parent="." instance=ExtResource( 10 )]
+position = Vector2( 632, -336 )
+
+[node name="ShamanGoat" parent="." instance=ExtResource( 11 )]
+position = Vector2( 664, -336 )
+
+[node name="Herd7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 72, 152 )
+
+[node name="Herd8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 112, 112 )
+facing = 3
+
+[node name="Herd9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 120, 56 )
+facing = 3
+
+[node name="Herd10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 32, -56 )

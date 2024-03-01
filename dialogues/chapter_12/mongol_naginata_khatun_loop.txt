@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Speak your business with the Khatun and be brief.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We are preparing to leave for war.\""
+   }
+]
