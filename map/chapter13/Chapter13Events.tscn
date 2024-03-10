@@ -1,0 +1,70 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://events/PlayerStartPos.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/EventPosition.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter13/AlarmEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter13/StartEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter13/FortMusicEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter13/FortClearedEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter13/HuntersKilledEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter13/SlavesFreeEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/EndEvent.tscn" type="PackedScene" id=9]
+
+[node name="Chapter13Events" type="Node2D"]
+
+[node name="PlayerStartPos" parent="." instance=ExtResource( 1 )]
+position = Vector2( 680, 248 )
+
+[node name="AfterAlarmPosArban" parent="." groups=["after_alarm_pos_arban"] instance=ExtResource( 2 )]
+position = Vector2( 904, 168 )
+
+[node name="AfterAlarmPosAltai1" parent="." groups=["after_alarm_pos_altai_1"] instance=ExtResource( 2 )]
+position = Vector2( 904, 136 )
+
+[node name="AfterAlarmPosAltai2" parent="." groups=["after_alarm_pos_altai_2"] instance=ExtResource( 2 )]
+position = Vector2( 904, 104 )
+
+[node name="StartEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 680, 248 )
+
+[node name="AlarmEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 230, 234 )
+
+[node name="FortMusicEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 680, 248 )
+
+[node name="FortClearedEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( 344, -120 )
+
+[node name="HuntersReturnStartPos" parent="." groups=["hunters_return_start_pos"] instance=ExtResource( 2 )]
+position = Vector2( -88, 48 )
+
+[node name="HuntersReturnEndPos" parent="." groups=["hunters_return_end_pos"] instance=ExtResource( 2 )]
+position = Vector2( 216, 40 )
+
+[node name="HuntersKilledEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 344, -104 )
+
+[node name="SlavesFreeEvent" parent="." instance=ExtResource( 8 )]
+position = Vector2( 548, 78 )
+
+[node name="AfterSlaveFreedTargetPosArban" parent="." groups=["after_slave_freed_target_pos_arban"] instance=ExtResource( 2 )]
+position = Vector2( 504, 104 )
+
+[node name="AfterSlaveFreedTargetPosAltai1" parent="." groups=["after_slave_freed_target_pos_altai_1"] instance=ExtResource( 2 )]
+position = Vector2( 504, 80 )
+
+[node name="AfterSlaveFreedTargetPosAltai2" parent="." groups=["after_slave_freed_target_pos_altai_2"] instance=ExtResource( 2 )]
+position = Vector2( 504, 128 )
+
+[node name="AfterSlaveFreedPosArban" parent="." groups=["after_slave_freed_pos_arban"] instance=ExtResource( 2 )]
+position = Vector2( 440, 104 )
+
+[node name="AfterSlaveFreedPosAltai1" parent="." groups=["after_slave_freed_pos_altai_1"] instance=ExtResource( 2 )]
+position = Vector2( 440, 73 )
+
+[node name="AfterSlaveFreedPosAltai2" parent="." groups=["after_slave_freed_pos_altai_2"] instance=ExtResource( 2 )]
+position = Vector2( 440, 135 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( 536, 40 )

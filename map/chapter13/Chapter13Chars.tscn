@@ -1,0 +1,183 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://characters/chapter13/MongolArcherFort.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter13/MongolNaginataFort.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter13/Herd.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter13/Horse.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter13/Arban.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter13/AltaiArcherAlly.tscn" type="PackedScene" id=6]
+[ext_resource path="res://characters/chapter13/HorseObstacle.tscn" type="PackedScene" id=7]
+[ext_resource path="res://characters/chapter13/HuntersReturnGroup.tscn" type="PackedScene" id=8]
+[ext_resource path="res://characters/chapter13/MongolNaginataObstacle.tscn" type="PackedScene" id=9]
+[ext_resource path="res://characters/chapter13/SlaveTalking.tscn" type="PackedScene" id=10]
+[ext_resource path="res://characters/chapter13/Slave.tscn" type="PackedScene" id=11]
+[ext_resource path="res://characters/chapter13/MongolNaginataCompound.tscn" type="PackedScene" id=12]
+[ext_resource path="res://characters/chapter13/MongolMaster.tscn" type="PackedScene" id=13]
+[ext_resource path="res://characters/chapter13/Ox.tscn" type="PackedScene" id=14]
+
+[node name="Chapter13Chars" type="Node2D"]
+
+[node name="MongolArcherFort" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, -32 )
+
+[node name="MongolArcherFort2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, -96 )
+
+[node name="MongolArcherFort3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 104, -96 )
+
+[node name="MongolArcherFort4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, -96 )
+
+[node name="MongolArcherFort5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, -96 )
+
+[node name="MongolArcherFort6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, -96 )
+
+[node name="MongolArcherFort7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 112 )
+
+[node name="MongolArcherFort8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="MongolArcherFort9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 104, 176 )
+
+[node name="MongolArcherFort10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, 176 )
+
+[node name="MongolArcherFort11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 176 )
+
+[node name="MongolArcherFort12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 304, 176 )
+
+[node name="MongolNaginataFort" parent="." instance=ExtResource( 2 )]
+position = Vector2( 136, -24 )
+enemy_group = "fort_northwest"
+
+[node name="MongolNaginataFort2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 8 )
+enemy_group = "fort_northwest"
+
+[node name="MongolNaginataFort3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 8 )
+enemy_group = "fort_northwest"
+
+[node name="MongolNaginataFort4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 104 )
+enemy_group = "fort_southwest"
+
+[node name="MongolNaginataFort5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 119 )
+enemy_group = "fort_southwest"
+
+[node name="MongolNaginataFort6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 256, -16 )
+
+[node name="MongolNaginataFort7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 240, 88 )
+enemy_group = "fort_southeast"
+
+[node name="MongolNaginataFort8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 280, 48 )
+enemy_group = "fort_southeast"
+
+[node name="MongolNaginataFort9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 88 )
+enemy_group = "fort_southeast"
+
+[node name="MongolNaginataFort10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 280, 128 )
+enemy_group = "fort_southeast"
+
+[node name="MongolNaginataFort11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 368, -32 )
+enemy_group = "fort_east"
+
+[node name="MongolNaginataFort12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 368, 48 )
+enemy_group = "fort_east"
+
+[node name="Herd" parent="." instance=ExtResource( 3 )]
+position = Vector2( -16, -24 )
+
+[node name="Herd2" parent="." instance=ExtResource( 3 )]
+position = Vector2( -80, 0 )
+
+[node name="Herd3" parent="." instance=ExtResource( 3 )]
+position = Vector2( -144, -16 )
+
+[node name="Herd4" parent="." instance=ExtResource( 3 )]
+position = Vector2( -192, -56 )
+
+[node name="Herd5" parent="." instance=ExtResource( 3 )]
+position = Vector2( -104, -40 )
+
+[node name="Horse" parent="." instance=ExtResource( 4 )]
+position = Vector2( 704, 184 )
+
+[node name="Arban" parent="." instance=ExtResource( 5 )]
+position = Vector2( 704, 208 )
+after_alarm_pos_group = "after_alarm_pos_arban"
+after_slave_freed_pos_group = "after_slave_freed_pos_arban"
+after_slave_freed_target_pos_group = "after_slave_freed_target_pos_arban"
+
+[node name="Horse2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 752, 249 )
+
+[node name="AltaiArcherAlly" parent="." instance=ExtResource( 6 )]
+position = Vector2( 728, 248 )
+after_alarm_pos_group = "after_alarm_pos_altai_1"
+after_slave_freed_pos_group = "after_slave_freed_pos_altai_1"
+after_slave_freed_target_pos_group = "after_slave_freed_target_pos_altai_1"
+
+[node name="Horse3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 688, 280 )
+facing = 3
+
+[node name="AltaiArcherAlly2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 904, 104 )
+after_alarm_pos_group = "after_alarm_pos_altai_2"
+after_slave_freed_pos_group = "after_slave_freed_pos_altai_2"
+after_slave_freed_target_pos_group = "after_slave_freed_target_pos_altai_2"
+
+[node name="HorseObstacle" parent="." instance=ExtResource( 7 )]
+position = Vector2( 440, 16 )
+
+[node name="HuntersReturnGroup" parent="." instance=ExtResource( 8 )]
+position = Vector2( -56, -184 )
+
+[node name="MongolNaginataObstacle" parent="." instance=ExtResource( 9 )]
+position = Vector2( 464, 16 )
+
+[node name="SlaveTalking" parent="." instance=ExtResource( 10 )]
+position = Vector2( 584, 120 )
+
+[node name="Slave" parent="." instance=ExtResource( 11 )]
+position = Vector2( 600, 104 )
+
+[node name="Slave2" parent="." instance=ExtResource( 11 )]
+position = Vector2( 600, 136 )
+
+[node name="Slave3" parent="." instance=ExtResource( 11 )]
+position = Vector2( 584, 88 )
+
+[node name="Slave4" parent="." instance=ExtResource( 11 )]
+position = Vector2( 600, 72 )
+
+[node name="MongolMaster" parent="." instance=ExtResource( 13 )]
+position = Vector2( 568, 104 )
+
+[node name="MongolNaginataCompound" parent="." instance=ExtResource( 12 )]
+position = Vector2( 568, 128 )
+
+[node name="MongolNaginataCompound2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 568, 80 )
+
+[node name="Ox" parent="." instance=ExtResource( 14 )]
+position = Vector2( 496, -8 )
+
+[node name="Ox2" parent="." instance=ExtResource( 14 )]
+position = Vector2( 544, 208 )

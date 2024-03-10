@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"We have lost control of the fort!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We are under a full scale attack!\""
+   },
+   {
+      "text":"\"All men come down to the compound at once!\""
+   },
+   {
+      "text":"\"We have to round up the slaves!\""
+   }
+]

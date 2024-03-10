@@ -1,0 +1,25 @@
+[
+   {
+      "text":"\"We are inferior to the guards ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_altai_talk/portrait_mongol_altai_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_altai_talk/portrait_mongol_altai_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... in numbers, equipment and skill ...\""
+   },
+   {
+      "text":"\"... thus we shall not engage directly ...\""
+   },
+   {
+      "text":"\"... but we have the element of surprise.\""
+   },
+   {
+      "text":"\"They will be hunting a single slave ...\""
+   },
+   {
+      "text":"\"... they do not expect to fight.\""
+   }
+]

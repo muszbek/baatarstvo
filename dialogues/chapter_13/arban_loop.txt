@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"Proceed Westwards to the fort gate ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and trust in me to divide their forces ...\""
+   },
+   {
+      "text":"\"... with the diversion.\""
+   },
+   {
+      "text":"\"May the heavens watch our bravery today!\""
+   }
+]

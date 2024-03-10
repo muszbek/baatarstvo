@@ -1,0 +1,56 @@
+[
+   {
+      "target":"arban",
+      "text":"\"My liege, we are outside of the Iron Fort.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Everything is prepared to capture the fort ...\""
+   },
+   {
+      "text":"\"... and free your people from slavery.\""
+   },
+   {
+      "text":"\"Here is the plan:\""
+   },
+   {
+      "text":"\"I am going to loiter around the compound riverside ...\""
+   },
+   {
+      "text":"\"... and flee pretending to be an escaping captive.\""
+   },
+   {
+      "text":"\"The garrison is going to raise the alarm ...\""
+   },
+   {
+      "text":"\"... and mount a hunting party.\""
+   },
+   {
+      "text":"\"On my swift horse I lure them to the place ...\""
+   },
+   {
+      "text":"\"... where our fighters wait in ambush.\""
+   },
+   {
+      "text":"\"Meanwhile you enter the fort ...\""
+   },
+   {
+      "text":"\"... and slay the remaining guards.\""
+   },
+   {
+      "text":"\"Proceed Westwards to the fort gate ...\""
+   },
+   {
+      "text":"\"... and trust in me to divide their forces ...\""
+   },
+   {
+      "text":"\"... with the diversion.\""
+   },
+   {
+      "text":"\"May the heavens watch our bravery today!\""
+   }
+]

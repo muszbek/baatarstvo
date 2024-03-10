@@ -1,0 +1,95 @@
+[
+   {
+      "target":"mongol_master",
+      "text":"\"You...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_master_talk/portrait_mongol_master_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It was you behind all this?\""
+   },
+   {
+      "script":"arban_arrive"
+   },
+   {
+      "target":"arban",
+      "text":"\"We have taken control of this entire facility!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Guards, stand down!\""
+   },
+   {
+      "text":"\"My prince here is wielding the Cloak of Conquest!\""
+   },
+   {
+      "text":"\"You are offered to join our ranks ...\""
+   },
+   {
+      "text":"\"... and you get to keep your lives!\""
+   },
+   {
+      "target":"slave_guard",
+      "text":"\"The law of the steppe!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"We are yours to command!\""
+   },
+   {
+      "target":"arban",
+      "text":"\"Master Batbayar ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_arban_talk/portrait_mongol_arban_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... these people are no longer your slaves!\""
+   },
+   {
+      "text":"\"We shall be taking them with us to the West!\""
+   },
+   {
+      "target":"mongol_master",
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_master_silent/portrait_mongol_master_silent_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_master_silent/portrait_mongol_master_silent_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "target":"slave",
+      "text":"\"Lord in the heavens, we have not been forsaken!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_slave_3_talk/portrait_slave_3_talk_0.png",
+         "res://assets/sprites/portraits/portrait_slave_3_talk/portrait_slave_3_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"My prince, we are your soldiers ...\""
+   },
+   {
+      "text":"\"... and we shall ride with you once again!\""
+   },
+   {
+      "text":"\"Sire... lead us home!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

@@ -1,0 +1,24 @@
+[
+   {
+      "text":"\"A slave is escaping! Raise the alarm!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_2_talk/portrait_mongol_2_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Outer garrison, to the horses!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_mongol_1_talk/portrait_mongol_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_mongol_1_talk/portrait_mongol_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Hunt formation! After me!\""
+   },
+   {
+      "script":"alarm_raised"
+   }
+]

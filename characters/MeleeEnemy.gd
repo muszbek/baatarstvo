@@ -17,6 +17,9 @@ func _ready():
 		states.REMOVED: remove()
 
 func _physics_process(_delta):
+	call_physics_process()
+
+func call_physics_process():
 	match state:
 		states.IDLE:
 			idle_animate()

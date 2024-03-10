@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/chapter13/MongolNaginata.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter13/MongolNaginataObstacle.gd" type="Script" id=2]
+
+[node name="MongolNaginataObstacle" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+facing = 2
+behavior = 0

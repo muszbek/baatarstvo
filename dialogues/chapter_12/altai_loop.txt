@@ -1,6 +1,6 @@
 [
    {
-      "text":"\"A true conquerer does not take orders ...\"",
+      "text":"\"A true baatar does not take orders ...\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_mongol_altai_talk/portrait_mongol_altai_talk_0.png",
          "res://assets/sprites/portraits/portrait_mongol_altai_talk/portrait_mongol_altai_talk_1.png"
