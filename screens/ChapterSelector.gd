@@ -38,12 +38,18 @@ func display_chapter():
 	
 	if current_chapter == max_chapter:
 		right_widget.set_deferred("visible", false)
-		locked_widget.set_deferred("visible", true)
+		#locked_widget.set_deferred("visible", true)
 	else:
 		right_widget.set_deferred("visible", true)
-		locked_widget.set_deferred("visible", false)
+		#locked_widget.set_deferred("visible", false)
 	
-	label.text = "Chapter " + str(current_chapter)
+	chapter_label()
+
+func chapter_label():
+	if current_chapter != max_chapter:
+		label.text = "Chapter " + str(current_chapter)
+	else:
+		label.text = "Epilogue"
 
 func enable(): enabled = true
 func disable(): enabled = false

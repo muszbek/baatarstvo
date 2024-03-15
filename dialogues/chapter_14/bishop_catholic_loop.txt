@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"*Adjuctorium nostrum in nomine domini ...*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_catholic_talk/portrait_catholic_talk_0.png",
+         "res://assets/sprites/portraits/portrait_catholic_talk/portrait_catholic_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*... qui fecit caellum et terram.*\""
+   }
+]

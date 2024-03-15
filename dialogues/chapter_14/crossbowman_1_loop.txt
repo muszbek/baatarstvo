@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Good hunting, Captain!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_hungarian_2_talk/portrait_hungarian_2_talk_0.png",
+         "res://assets/sprites/portraits/portrait_hungarian_2_talk/portrait_hungarian_2_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

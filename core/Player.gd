@@ -6,6 +6,7 @@ enum states {MOVE, ATTACK, DIALOGUE, DEAD}
 const DIALOGUE_DEATH = "res://dialogues/player_death.txt"
 
 onready var game = get_tree().get_nodes_in_group("game")[-1]
+onready var dialogue = get_tree().get_nodes_in_group("dialogue")[-1]
 export var speed: int = 24
 export var facing = directions.FRONT
 export var can_be_saved: bool = true
@@ -17,7 +18,6 @@ signal dialogue(json_resource)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var dialogue = get_tree().get_nodes_in_group("dialogue")[-1]
 	var _err = connect("dialogue", dialogue, "do_dialogue")
 	dialogue.connect("dialogue_started", self, "dialogue_started")
 	dialogue.connect("dialogue_finished", self, "dialogue_finished")

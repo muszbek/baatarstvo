@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"We ride with you, Captain!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_hungarian_4_talk/portrait_hungarian_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_hungarian_4_talk/portrait_hungarian_4_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

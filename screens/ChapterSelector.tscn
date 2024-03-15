@@ -79,5 +79,6 @@ align = 1
 valign = 1
 
 [node name="LockedSprite" type="AnimatedSprite" parent="."]
+visible = false
 position = Vector2( 86, 8 )
 frames = SubResource( 9 )

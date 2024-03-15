@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://characters/chapter14/CatholicBishop.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/chapter14/Horse.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/chapter14/HungarianSwordsman.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/chapter14/HungarianCrossbow1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/chapter14/HungarianRiderAlly.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/chapter14/HungarianCrossbow2.tscn" type="PackedScene" id=6]
+
+[node name="Chapter14Chars" type="Node2D"]
+
+[node name="CatholicBishop" parent="." instance=ExtResource( 1 )]
+position = Vector2( 88, -96 )
+
+[node name="Horse" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, -39 )
+
+[node name="HungarianSwordsman" parent="." instance=ExtResource( 3 )]
+position = Vector2( 152, -16 )
+facing = 2
+
+[node name="HungarianSwordsman2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, -96 )
+
+[node name="HungarianSwordsman3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 16, -16 )
+facing = 3
+
+[node name="HungarianRiderAlly" parent="." instance=ExtResource( 5 )]
+position = Vector2( 56, -40 )
+facing = 3
+
+[node name="HungarianRiderAlly2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 120, -40 )
+facing = 2
+
+[node name="HungarianRiderAlly3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 56, -8 )
+facing = 3
+
+[node name="HungarianRiderAlly4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 120, -8 )
+facing = 2
+
+[node name="HungarianCrossbow1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 48, -96 )
+
+[node name="HungarianCrossbow2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 24, -72 )
+
+[node name="HungarianCrossbow3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 8, -104 )
+
+[node name="HungarianSwordsman4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 168, -104 )
+
+[node name="HungarianSwordsman5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 136, -136 )
+
+[node name="Horse2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, -56 )

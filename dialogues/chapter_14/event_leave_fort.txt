@@ -1,0 +1,26 @@
+[
+   {
+      "target":"fort_captain",
+      "text":"\"Alright, boys, we ride out!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_hungarian_1_talk/portrait_hungarian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_hungarian_1_talk/portrait_hungarian_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"We have a savage raiding party out there to beat!\""
+   },
+   {
+      "text":"\"DEUS VULT!\""
+   },
+   {
+      "target":"hungarian_rider",
+      "text":"\"DEUS VULT!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_hungarian_4_talk/portrait_hungarian_4_talk_0.png",
+         "res://assets/sprites/portraits/portrait_hungarian_4_talk/portrait_hungarian_4_talk_1.png"
+      ],
+      "side":"right"
+   }
+]

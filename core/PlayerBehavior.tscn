@@ -672,6 +672,7 @@ script = ExtResource( 16 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 148 )
 animation = "attack_front"
+frame = 1
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite"]

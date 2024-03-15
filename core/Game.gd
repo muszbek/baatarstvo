@@ -1,9 +1,10 @@
 extends Node
 
-const LAST_IMPLEMENTED_CHAPTER = 13
+const LAST_IMPLEMENTED_CHAPTER = 14
 
 const START_SCREEN = "res://screens/StartScreen.tscn"
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"
+const END_SCREEN = "res://screens/TheEnd.tscn"
 
 var current_chapter_index
 var current_chapter
@@ -31,13 +32,18 @@ func load_chapter():
 func on_chapter_finish():
 	current_chapter.queue_free()
 	if current_chapter_index == LAST_IMPLEMENTED_CHAPTER:
-		load_to_be_continued()
+		load_end_screen()
 	else:
 		current_chapter_index += 1
 		load_chapter()
 
 func load_to_be_continued():
 	var screen_loaded = load(TO_BE_CONTINUED_SCREEN)
+	var screen_instance = screen_loaded.instance()
+	add_child(screen_instance)
+
+func load_end_screen():
+	var screen_loaded = load(END_SCREEN)
 	var screen_instance = screen_loaded.instance()
 	add_child(screen_instance)
 

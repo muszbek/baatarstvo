@@ -1,0 +1,62 @@
+[
+   {
+      "target":"fort_captain",
+      "text":"\"Listen up, boys!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_hungarian_1_talk/portrait_hungarian_1_talk_0.png",
+         "res://assets/sprites/portraits/portrait_hungarian_1_talk/portrait_hungarian_1_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"For those of you who have arrived recently ...\""
+   },
+   {
+      "text":"\"... I shall once again explain our strategy ...\""
+   },
+   {
+      "text":"\"... that we learned from ...\""
+   },
+   {
+      "text":"\"... our Eastern brothers in Christ.\""
+   },
+   {
+      "text":"\"The army of the Horde gains its strength ...\""
+   },
+   {
+      "text":"\"... by pillaging the country ...\""
+   },
+   {
+      "text":"\"... and at the same time starving us dry.\""
+   },
+   {
+      "text":"\"Here is how we stop them:\""
+   },
+   {
+      "text":"\"Our forces are scattered over the fort system ...\""
+   },
+   {
+      "text":"\"... which allows us to screen the realm.\""
+   },
+   {
+      "text":"\"We are safe within our walls, but we have to ride out ...\""
+   },
+   {
+      "text":"\"... to protect our people out there.\""
+   },
+   {
+      "text":"\"A band has been scouted within our territory.\""
+   },
+   {
+      "text":"\"We meet their raiding parties ...\""
+   },
+   {
+      "text":"\"... with equal force and mobility ...\""
+   },
+   {
+      "text":"\"... and give them no rest!\""
+   },
+   {
+      "text":"\"Have no fear of them, for God is with us!\""
+   }
+]
