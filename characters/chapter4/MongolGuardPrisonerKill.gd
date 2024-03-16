@@ -12,8 +12,10 @@ func _ready():
 	prisoner_coward.connect("prisoner_death", self, "on_prisoner_death")
 	dialogue.connect("script", self, "handle_script")
 
-func _physics_process(_delta):
+func call_physics_process():
 	match script_state:
+		script_states.IDLE:
+			idle_animate()
 		script_states.KILLING:
 			if not pathfinding: start_pathfinding()
 			
@@ -60,4 +62,4 @@ func arrive_action():
 func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name in ATTACK_ANIMATIONS:
 		if script_state == script_states.KILLED:
-			state = states.IDLE
+			script_state = script_states.IDLE

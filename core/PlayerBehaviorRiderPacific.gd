@@ -1,5 +1,8 @@
 extends "res://core/PlayerBehavior.gd"
 
+func _ready():
+	set_deferred("visible", true)
+
 func shield_from_facing(_facing):
 	pass
 

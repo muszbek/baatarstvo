@@ -11,8 +11,10 @@ func _ready():
 	character_name = "mongol_guard_start_chase"
 	dialogue.connect("script", self, "handle_script")
 
-func _physics_process(_delta):
+func call_physics_process():
 	match script_state:
+		script_states.IDLE:
+			idle_animate()
 		script_states.GO_TO_TARGET:
 			if run_target.global_position.distance_to(global_position) < 1:
 				stop_pathfinding()
