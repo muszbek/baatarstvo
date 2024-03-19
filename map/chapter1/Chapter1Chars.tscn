@@ -34,25 +34,28 @@ can_be_saved = false
 position = Vector2( 568, -312 )
 
 [node name="Peasant2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 584, -328 )
+position = Vector2( 584, -327 )
 
 [node name="PeasantWoman" parent="." instance=ExtResource( 4 )]
-position = Vector2( 552, -328 )
+position = Vector2( 552, -327 )
 
 [node name="KipchakArcher1" parent="." instance=ExtResource( 5 )]
 position = Vector2( 872, -152 )
 facing = 2
 can_be_saved = false
+behavior = 2
 
 [node name="KipchakArcher2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 872, -104 )
 facing = 2
 can_be_saved = false
+behavior = 2
 
 [node name="KipchakArcher3" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1064, -136 )
 facing = 2
 can_be_saved = false
+behavior = 2
 
 [node name="KipchakSpear1" parent="." instance=ExtResource( 6 )]
 position = Vector2( 1000, -136 )
@@ -97,10 +100,14 @@ enemy_group = "bridge_group"
 [node name="RiderScout1" parent="." instance=ExtResource( 7 )]
 position = Vector2( 1560, -120 )
 can_be_saved = false
+distance_to_keep = 24
+max_distance = 96
 
 [node name="RiderScout2" parent="." instance=ExtResource( 7 )]
 position = Vector2( 1592, -120 )
 can_be_saved = false
+distance_to_keep = 24
+max_distance = 96
 
 [node name="RusSwordsmanGuardWest1" parent="." instance=ExtResource( 8 )]
 position = Vector2( 2040, 23 )

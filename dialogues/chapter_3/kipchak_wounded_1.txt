@@ -32,6 +32,9 @@
       "text":"\"... do not cross the river.\""
    },
    {
-      "text":"\"Go back to your liege and prepare for the onslaught.\""
+      "text":"\"Go back to your liege ...\""
+   },
+   {
+      "text":"\"... and prepare for the onslaught.\""
    }
 ]

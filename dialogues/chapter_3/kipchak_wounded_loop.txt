@@ -11,6 +11,10 @@
       "text":"\"... I am wounded, and I lost my horse during the crossing.\""
    },
    {
-      "text":"\"Go back to your liege and prepare for the onslaught.\""
+      "text":"\"Go back to your liege ...\""
+   },
+   {
+      "text":"\"... and prepare for the onslaught.\""
    }
+
 ]

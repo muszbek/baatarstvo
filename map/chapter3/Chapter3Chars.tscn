@@ -23,7 +23,7 @@ position = Vector2( 40, 44 )
 position = Vector2( 152, 40 )
 
 [node name="HorseMount" parent="." instance=ExtResource( 3 )]
-position = Vector2( 184, 56 )
+position = Vector2( 184, 55 )
 
 [node name="RusSwordsmanGuardEast" parent="." instance=ExtResource( 4 )]
 position = Vector2( 264, 39 )
@@ -122,7 +122,7 @@ position = Vector2( -16, 168 )
 position = Vector2( 112, 176 )
 
 [node name="RusSwordsmanSimple14" parent="." instance=ExtResource( 7 )]
-position = Vector2( 94, 212 )
+position = Vector2( 96, 216 )
 facing = 3
 
 [node name="RusSwordsmanSimple15" parent="." instance=ExtResource( 7 )]

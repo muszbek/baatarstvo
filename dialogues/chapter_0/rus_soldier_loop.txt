@@ -8,6 +8,15 @@
       "side":"right"
    },
    {
-      "text":"\"Talk to the corporal, he is standing in the middle.\""
+      "text":"\"Talk to the corporal ...\""
+   },
+   {
+      "text":"\"... he is standing in the middle ...\""
+   },
+   {
+      "text":"\"... next to the training dummy.\""
+   },
+   {
+      "text":"\"He shall show you how to fight.\""
    }
 ]
